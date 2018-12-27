@@ -52,6 +52,11 @@
 						</Picture>
 						<ExtendedTooltip name="СписокКнопкаРасширеннаяПодсказка" id="58"/>
 					</Button>
+					<Button name="СписокКнопка1" id="128">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+						<ExtendedTooltip name="СписокКнопка1РасширеннаяПодсказка" id="129"/>
+					</Button>
 				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
@@ -106,6 +111,11 @@
 					<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="36"/>
 				</LabelField>
+				<LabelField name="НаименованиеEN" id="92">
+					<DataPath>Список.НаименованиеEN</DataPath>
+					<ContextMenu name="НаименованиеENКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="НаименованиеENРасширеннаяПодсказка" id="94"/>
+				</LabelField>
 				<LabelField name="ВидНоменклатуры" id="31">
 					<DataPath>Список.ВидНоменклатуры</DataPath>
 					<ContextMenu name="ВидНоменклатурыКонтекстноеМеню" id="32"/>
@@ -121,6 +131,16 @@
 					<ContextMenu name="ЕдиницаХраненияОстатковКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="ЕдиницаХраненияОстатковРасширеннаяПодсказка" id="42"/>
 				</LabelField>
+				<LabelField name="ЕдиницаДляОтчетов" id="95">
+					<DataPath>Список.ЕдиницаДляОтчетов</DataPath>
+					<ContextMenu name="ЕдиницаДляОтчетовКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ЕдиницаДляОтчетовРасширеннаяПодсказка" id="97"/>
+				</LabelField>
+				<LabelField name="ЕдиницаИзмеренияМест" id="98">
+					<DataPath>Список.ЕдиницаИзмеренияМест</DataPath>
+					<ContextMenu name="ЕдиницаИзмеренияМестКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ЕдиницаИзмеренияМестРасширеннаяПодсказка" id="100"/>
+				</LabelField>
 				<LabelField name="СтранаПроисхождения" id="46">
 					<DataPath>Список.СтранаПроисхождения</DataPath>
 					<ContextMenu name="СтранаПроисхожденияКонтекстноеМеню" id="47"/>
@@ -131,20 +151,30 @@
 					<ContextMenu name="СтавкаНДСКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="СтавкаНДСРасширеннаяПодсказка" id="45"/>
 				</LabelField>
+				<LabelField name="ГруппаОборачиваемости" id="101">
+					<DataPath>Список.ГруппаОборачиваемости</DataPath>
+					<ContextMenu name="ГруппаОборачиваемостиКонтекстноеМеню" id="102"/>
+					<ExtendedTooltip name="ГруппаОборачиваемостиРасширеннаяПодсказка" id="103"/>
+				</LabelField>
+				<LabelField name="ТипПродукции" id="104">
+					<DataPath>Список.ТипПродукции</DataPath>
+					<ContextMenu name="ТипПродукцииКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="ТипПродукцииРасширеннаяПодсказка" id="106"/>
+				</LabelField>
+				<LabelField name="СтатьяЗатрат" id="107">
+					<DataPath>Список.СтатьяЗатрат</DataPath>
+					<ContextMenu name="СтатьяЗатратКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="СтатьяЗатратРасширеннаяПодсказка" id="109"/>
+				</LabelField>
+				<LabelField name="АртикулПлановый" id="110">
+					<DataPath>Список.АртикулПлановый</DataPath>
+					<ContextMenu name="АртикулПлановыйКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="АртикулПлановыйРасширеннаяПодсказка" id="112"/>
+				</LabelField>
 				<LabelField name="Комментарий" id="25">
 					<DataPath>Список.Комментарий</DataPath>
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="27"/>
-				</LabelField>
-				<LabelField name="ТипОтсрочки" id="49">
-					<DataPath>Список.ТипОтсрочки</DataPath>
-					<ContextMenu name="ТипОтсрочкиКонтекстноеМеню" id="50"/>
-					<ExtendedTooltip name="ТипОтсрочкиРасширеннаяПодсказка" id="51"/>
-				</LabelField>
-				<LabelField name="LocalBrand" id="28">
-					<DataPath>Список.LocalBrand</DataPath>
-					<ContextMenu name="LocalBrandКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="LocalBrandРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<CheckBoxField name="ПолнаяСинхронизацияMDM" id="59">
 					<DataPath>Список.ПолнаяСинхронизацияMDM</DataPath>
@@ -152,6 +182,88 @@
 					<ContextMenu name="ПолнаяСинхронизацияMDMКонтекстноеМеню" id="60"/>
 					<ExtendedTooltip name="ПолнаяСинхронизацияMDMРасширеннаяПодсказка" id="61"/>
 				</CheckBoxField>
+				<LabelField name="Status" id="62">
+					<DataPath>Список.Status</DataPath>
+					<ContextMenu name="StatusКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="StatusРасширеннаяПодсказка" id="64"/>
+				</LabelField>
+				<LabelField name="LocalMaterialType" id="65">
+					<DataPath>Список.LocalMaterialType</DataPath>
+					<ContextMenu name="LocalMaterialTypeКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="LocalMaterialTypeРасширеннаяПодсказка" id="67"/>
+				</LabelField>
+				<LabelField name="LocalBrand" id="28">
+					<DataPath>Список.LocalBrand</DataPath>
+					<ContextMenu name="LocalBrandКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="LocalBrandРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="РазновидностьВкус" id="68">
+					<DataPath>Список.РазновидностьВкус</DataPath>
+					<ContextMenu name="РазновидностьВкусКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="РазновидностьВкусРасширеннаяПодсказка" id="70"/>
+				</LabelField>
+				<LabelField name="LocalVersion" id="71">
+					<DataPath>Список.LocalVersion</DataPath>
+					<ContextMenu name="LocalVersionКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="LocalVersionРасширеннаяПодсказка" id="73"/>
+				</LabelField>
+				<LabelField name="LocalAlcoholContent" id="74">
+					<DataPath>Список.LocalAlcoholContent</DataPath>
+					<ContextMenu name="LocalAlcoholContentКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="LocalAlcoholContentРасширеннаяПодсказка" id="76"/>
+				</LabelField>
+				<LabelField name="LocalLabel" id="77">
+					<DataPath>Список.LocalLabel</DataPath>
+					<ContextMenu name="LocalLabelКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="LocalLabelРасширеннаяПодсказка" id="79"/>
+				</LabelField>
+				<LabelField name="LocalVolume" id="80">
+					<DataPath>Список.LocalVolume</DataPath>
+					<ContextMenu name="LocalVolumeКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="LocalVolumeРасширеннаяПодсказка" id="82"/>
+				</LabelField>
+				<LabelField name="LocalFactory" id="83">
+					<DataPath>Список.LocalFactory</DataPath>
+					<ContextMenu name="LocalFactoryКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="LocalFactoryРасширеннаяПодсказка" id="85"/>
+				</LabelField>
+				<LabelField name="LocalPacking" id="86">
+					<DataPath>Список.LocalPacking</DataPath>
+					<ContextMenu name="LocalPackingКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="LocalPackingРасширеннаяПодсказка" id="88"/>
+				</LabelField>
+				<LabelField name="LocalAmount" id="89">
+					<DataPath>Список.LocalAmount</DataPath>
+					<ContextMenu name="LocalAmountКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="LocalAmountРасширеннаяПодсказка" id="91"/>
+				</LabelField>
+				<CheckBoxField name="алкИмпорт" id="113">
+					<DataPath>Список.алкИмпорт</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="алкИмпортКонтекстноеМеню" id="114"/>
+					<ExtendedTooltip name="алкИмпортРасширеннаяПодсказка" id="115"/>
+				</CheckBoxField>
+				<LabelField name="ФактическийПроизводитель" id="116">
+					<DataPath>Список.ФактическийПроизводитель</DataPath>
+					<ContextMenu name="ФактическийПроизводительКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="ФактическийПроизводительРасширеннаяПодсказка" id="118"/>
+				</LabelField>
+				<CheckBoxField name="алкЭкспорт" id="119">
+					<DataPath>Список.алкЭкспорт</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="алкЭкспортКонтекстноеМеню" id="120"/>
+					<ExtendedTooltip name="алкЭкспортРасширеннаяПодсказка" id="121"/>
+				</CheckBoxField>
+				<LabelField name="Дистрибьютор" id="122">
+					<DataPath>Список.Дистрибьютор</DataPath>
+					<ContextMenu name="ДистрибьюторКонтекстноеМеню" id="123"/>
+					<ExtendedTooltip name="ДистрибьюторРасширеннаяПодсказка" id="124"/>
+				</LabelField>
+				<LabelField name="КодТНВЭД" id="125">
+					<DataPath>Список.КодТНВЭД</DataPath>
+					<ContextMenu name="КодТНВЭДКонтекстноеМеню" id="126"/>
+					<ExtendedTooltip name="КодТНВЭДРасширеннаяПодсказка" id="127"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

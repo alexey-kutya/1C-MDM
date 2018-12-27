@@ -2937,8 +2937,8 @@
 		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаДублей" id="1c7d3dfb-52ae-4de2-84bb-e637e26f74cc" configVersion="cf3751c706cfe24da1a93b29bbe3d85b00000000"/>
 		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаДублей.Form" id="1c7d3dfb-52ae-4de2-84bb-e637e26f74cc.0" configVersion="3aac36b8a60d2d45b796b153033df73600000000"/>
 		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаДублей.Help" id="1c7d3dfb-52ae-4de2-84bb-e637e26f74cc.1" configVersion="4af19c26f559614a81d731dfe534ad0100000000"/>
-		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаНовая" id="3f1c1722-8a8a-4afe-9ff8-d47490df1679" configVersion="3367ab8fc3da4c41ac1f42b7c47e3fac00000000"/>
-		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаНовая.Form" id="3f1c1722-8a8a-4afe-9ff8-d47490df1679.0" configVersion="824779e7db31c94aa0f76fd971f1fbce00000000"/>
+		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаНовая" id="3f1c1722-8a8a-4afe-9ff8-d47490df1679" configVersion="cf7567c9844a284597fee98a872d755c00000000"/>
+		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаНовая.Form" id="3f1c1722-8a8a-4afe-9ff8-d47490df1679.0" configVersion="548dfd611056ec4e83c749db4752c8ba00000000"/>
 		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаПростая" id="71fd89b0-93bf-44cf-9497-d6e09fd39c31" configVersion="e96cc32802fb1f49b280ef7bf39c1cb200000000"/>
 		<Metadata name="Catalog.нсиМТР.Form.ФормаСпискаПростая.Form" id="71fd89b0-93bf-44cf-9497-d6e09fd39c31.0" configVersion="2612ac8188762445bf5deff429a6a95800000000"/>
 		<Metadata name="Catalog.нсиМТР.Form.ФормаСписокАвтоматическиСоздаваемыхЕдиниц" id="7cccac5f-6692-492d-b3a7-1264155f2974" configVersion="7dc788b907f7c243b1c7fe7d5fcd928f00000000"/>
