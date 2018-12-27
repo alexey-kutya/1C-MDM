@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="8a75a315-86d3-4f48-b7a7-558f07eed9fb">
+		<Name>ДоходыРасходыПриПродажеПокупкеВалюты</Name>
+		<Code>000000004</Code>
+		<Description>Доходы (расходы), связанные с продажей (покупкой) валюты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a2d2bf5e-2fab-48b2-a011-0ec085a46018">
+		<Name>КурсовыеРазницы</Name>
+		<Code>000000001</Code>
+		<Description>Курсовые разницы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ad8c1a0e-2ebc-43bf-ad50-37cad3a357e9">
+		<Name>КурсовыеРазницыПоРасчетамВУЕ</Name>
+		<Code>000000006</Code>
+		<Description>Курсовые разницы по расчетам в у.е.</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7f30b9f3-29c6-4b55-b8d0-2b11ba05349d">
+		<Name>ОтклонениеКурсаПродажиПокупкиВалюты</Name>
+		<Code>000000005</Code>
+		<Description>Отклонения курса продажи (покупки) иностранной валюты от официального курса</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5a8c6e6b-58ee-4ee9-82c0-fc716be230f8">
+		<Name>СписаниеНДСНаРасходы</Name>
+		<Code>000000003</Code>
+		<Description>Списание НДС на расходы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="45ae210f-16cc-4625-b38a-58e93a763086">
+		<Name>СуммовыеРазницы</Name>
+		<Code>000000002</Code>
+		<Description>Суммовые разницы (до 2007 г.)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

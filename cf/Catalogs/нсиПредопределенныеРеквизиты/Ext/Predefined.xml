@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="522ecc15-92bd-4202-a820-47bfeb42db3d">
+		<Name>Код</Name>
+		<Code/>
+		<Description>Код</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="00408b8f-f5c1-46f6-99b2-1657b70c9537">
+		<Name>Наименование</Name>
+		<Code/>
+		<Description>Наименование</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b8f3e653-a61b-47e4-b500-bdbdaf6df00f">
+		<Name>УдалитьТипПозиции</Name>
+		<Code/>
+		<Description>Тип позиции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fa042363-6363-4629-898a-1998526f3b2d">
+		<Name>УдалитьЭталоннаяПозиция</Name>
+		<Code/>
+		<Description>Эталонная позиция</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="87b429b0-01da-44c7-a320-588766dde708">
+		<Name>УдалитьПризнакИспользования</Name>
+		<Code/>
+		<Description>Признак использования</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bd501673-b86f-4717-8e12-7298f7dfbb6c">
+		<Name>УдалитьЗаписьНеНормализуема</Name>
+		<Code/>
+		<Description>Запись не нормализуема</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ade94fc6-4817-4da2-bd4a-07210bfcd3c2">
+		<Name>УдалитьКласс</Name>
+		<Code/>
+		<Description>Класс</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

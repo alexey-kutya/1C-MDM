@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Мои задачи</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>My tasks</v8:content>
+		</v8:item>
+	</Title>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+		<Event name="BeforeLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<CommandBar name="ОсновнаяКоманднаяПанель" id="1">
+			<ExtendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="78"/>
+			<ChildItems>
+				<Popup name="БизнесПроцесс" id="68">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бизнес-процесс</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Buisness process</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бизнес процесс</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Buisness process</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.BusinessProcess</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="БизнесПроцессРасширеннаяПодсказка" id="79"/>
+					<ChildItems>
+						<Button name="СоздатьЗадание" id="69">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СоздатьЗадание</CommandName>
+							<ExtendedTooltip name="СоздатьЗаданиеРасширеннаяПодсказка" id="80"/>
+						</Button>
+						<ButtonGroup name="ГруппаЭлементовСправочника" id="70">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа элементов справочника</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group directory elements</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа элементов справочника</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group directory elements</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаЭлементовСправочникаРасширеннаяПодсказка" id="81"/>
+							<ChildItems>
+								<Button name="ВводНовогоЭлементаСправочника" id="71">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ВводНовогоЭлементаСправочника</CommandName>
+									<ExtendedTooltip name="ВводНовогоЭлементаСправочникаРасширеннаяПодсказка" id="82"/>
+								</Button>
+								<Button name="ИзменениеЭлементаСправочника" id="72">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ИзменениеЭлементаСправочника</CommandName>
+									<ExtendedTooltip name="ИзменениеЭлементаСправочникаРасширеннаяПодсказка" id="83"/>
+								</Button>
+								<Button name="УдалениеЭлементаСправочника" id="73">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.УдалениеЭлементаСправочника</CommandName>
+									<ExtendedTooltip name="УдалениеЭлементаСправочникаРасширеннаяПодсказка" id="84"/>
+								</Button>
+								<Button name="ПакетныйВводНовыхЭлементовСправочников" id="76">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ПакетныйВводНовыхЭлементовСправочников</CommandName>
+									<ExtendedTooltip name="ПакетныйВводНовыхЭлементовСправочниковРасширеннаяПодсказка" id="85"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+					</ChildItems>
+				</Popup>
+				<ButtonGroup name="КоманднаяПанельСписка" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель списка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command List pane</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель списка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command List pane</v8:content>
+						</v8:item>
+					</ToolTip>
+					<CommandSource>Item.Список</CommandSource>
+					<ExtendedTooltip name="КоманднаяПанельСпискаРасширеннаяПодсказка" id="86"/>
+					<ChildItems>
+						<Button name="СписокОбновитьСписок" id="77">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ОбновитьСписок</CommandName>
+							<ExtendedTooltip name="СписокОбновитьСписокРасширеннаяПодсказка" id="87"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
+				<Popup name="СгруппироватьПо" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сгруппировать по</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Grouped by</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сгруппировать по колонке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Grouped according to the column</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СгруппироватьПоРасширеннаяПодсказка" id="88"/>
+					<ChildItems>
+						<Button name="СписокСгруппироватьПоВажности" id="52">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СгруппироватьПоВажности</CommandName>
+							<ExtendedTooltip name="СписокСгруппироватьПоВажностиРасширеннаяПодсказка" id="89"/>
+						</Button>
+						<Button name="СписокСгруппироватьПоТочкеМаршрута" id="53">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СгруппироватьПоТочкеМаршрута</CommandName>
+							<ExtendedTooltip name="СписокСгруппироватьПоТочкеМаршрутаРасширеннаяПодсказка" id="90"/>
+						</Button>
+						<Button name="СписокСгруппироватьПоАвтору" id="61">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СгруппироватьПоАвтору</CommandName>
+							<ExtendedTooltip name="СписокСгруппироватьПоАвторуРасширеннаяПодсказка" id="91"/>
+						</Button>
+						<Button name="СписокСгруппироватьПоПредмету" id="62">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СгруппироватьПоПредмету</CommandName>
+							<ExtendedTooltip name="СписокСгруппироватьПоПредметуРасширеннаяПодсказка" id="92"/>
+						</Button>
+						<Button name="СгруппироватьПоТипуПредмета" id="74">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.СгруппироватьПоТипуПредмета</CommandName>
+							<ExtendedTooltip name="СгруппироватьПоТипуПредметаРасширеннаяПодсказка" id="93"/>
+						</Button>
+						<Button name="СписокСгруппироватьСгруппироватьПоБезГруппировки" id="54">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СгруппироватьПоБезГруппировки</CommandName>
+							<ExtendedTooltip name="СписокСгруппироватьСгруппироватьПоБезГруппировкиРасширеннаяПодсказка" id="94"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+				<ButtonGroup name="КоманднаяПанельФормы" id="8">
+					<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
+					<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="95"/>
+				</ButtonGroup>
+				<Button name="Справка" id="65">
+					<Type>CommandBarButton</Type>
+					<SkipOnInput>false</SkipOnInput>
+					<CommandName>Form.StandardCommand.Help</CommandName>
+					<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="96"/>
+				</Button>
+				<Button name="ИзменитьФорму" id="56">
+					<Type>CommandBarButton</Type>
+					<SkipOnInput>false</SkipOnInput>
+					<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+					<ExtendedTooltip name="ИзменитьФормуРасширеннаяПодсказка" id="97"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<Table name="Список" id="9">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<SkipOnInput>false</SkipOnInput>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<BorderColor>style:BorderColor</BorderColor>
+			<CommandSet>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>Refresh</ExcludedCommand>
+				<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+			</CommandSet>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>true</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>false</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="СписокКонтекстноеМеню" id="10"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="11"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="98"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="99">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="100"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="102">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="103"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="105">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="106"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокВыбор</Event>
+				<Event name="BeforeAddRow">СписокПередНачаломДобавления</Event>
+			</Events>
+			<ChildItems>
+				<PictureField name="Важность" id="24">
+					<DataPath>Список.ВажностьКартинка</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.КоллекцияВариантыВажности</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ВажностьКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ВажностьРасширеннаяПодсказка" id="108"/>
+				</PictureField>
+				<LabelField name="Номер" id="57">
+					<DataPath>Список.Number</DataPath>
+					<ContextMenu name="НомерКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="109"/>
+				</LabelField>
+				<InputField name="Наименование" id="16">
+					<DataPath>Список.Description</DataPath>
+					<Wrap>false</Wrap>
+					<BorderColor>style:BorderColor</BorderColor>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="110"/>
+				</InputField>
+				<InputField name="ДатаНачала" id="46">
+					<DataPath>Список.ДатаНачала</DataPath>
+					<Width>10</Width>
+					<Wrap>false</Wrap>
+					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="111"/>
+				</InputField>
+				<InputField name="СрокИсполнения" id="36">
+					<DataPath>Список.СрокИсполнения</DataPath>
+					<Wrap>false</Wrap>
+					<BorderColor>style:BorderColor</BorderColor>
+					<ContextMenu name="СрокИсполненияКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="СрокИсполненияРасширеннаяПодсказка" id="112"/>
+				</InputField>
+				<InputField name="Автор" id="40">
+					<DataPath>Список.Автор</DataPath>
+					<Visible>false</Visible>
+					<Wrap>false</Wrap>
+					<ContextMenu name="АвторКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="113"/>
+				</InputField>
+				<LabelField name="Предмет" id="63">
+					<DataPath>Список.ПредметСтрокой</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ПредметКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="ПредметРасширеннаяПодсказка" id="114"/>
+				</LabelField>
+				<LabelField name="Дата" id="66">
+					<DataPath>Список.Date</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Записана</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Recorded</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="115"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+		<CheckBoxField name="ПоказыватьВыполненные" id="38">
+			<DataPath>ПоказыватьВыполненные</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПоказыватьВыполненныеКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="ПоказыватьВыполненныеРасширеннаяПодсказка" id="116"/>
+			<Events>
+				<Event name="OnChange">ПоказыватьВыполненныеПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ЗадачиПоИсполнителю.Ссылка,
+	ЗадачиПоИсполнителю.ПометкаУдаления,
+	ЗадачиПоИсполнителю.Номер,
+	ЗадачиПоИсполнителю.Дата,
+	ЗадачиПоИсполнителю.БизнесПроцесс,
+	ЗадачиПоИсполнителю.ТочкаМаршрута,
+	ЗадачиПоИсполнителю.Наименование,
+	ЗадачиПоИсполнителю.Выполнена,
+	ЗадачиПоИсполнителю.СрокИсполнения,
+	ЗадачиПоИсполнителю.СрокОповещения,
+	ВЫБОР
+		КОГДА ЗадачиПоИсполнителю.ДатаНачала = &amp;НезаполненнаяДата
+			ТОГДА &amp;ТекущаяДата
+		ИНАЧЕ ЗадачиПоИсполнителю.ДатаНачала
+	КОНЕЦ КАК ДатаНачала,
+	ЗадачиПоИсполнителю.ДатаИсполнения,
+	ЗадачиПоИсполнителю.Важность,
+	ЗадачиПоИсполнителю.Описание,
+	ЗадачиПоИсполнителю.РольИсполнителя,
+	ЗадачиПоИсполнителю.Исполнитель,
+	ЗадачиПоИсполнителю.Представление,
+	ЗадачиПоИсполнителю.ПредметСтрокой,
+	ЗадачиПоИсполнителю.Автор,
+	ВЫБОР
+		КОГДА ЗадачиПоИсполнителю.Важность = ЗНАЧЕНИЕ(Перечисление.ВариантыВажностиЗадачи.Низкая)
+			ТОГДА 0
+		КОГДА ЗадачиПоИсполнителю.Важность = ЗНАЧЕНИЕ(Перечисление.ВариантыВажностиЗадачи.Высокая)
+			ТОГДА 2
+		ИНАЧЕ 1
+	КОНЕЦ КАК ВажностьКартинка,
+	ЗадачиПоИсполнителю.ТипПредмета,
+	ЗадачиПоИсполнителю.ПринятаКИсполнению
+ИЗ
+	Задача.ЗадачаИсполнителя КАК ЗадачиПоИсполнителю
+ГДЕ
+	(ЗадачиПоИсполнителю.Исполнитель = &amp;Пользователь
+			ИЛИ ЗадачиПоИсполнителю.СпособРаспределения = ЗНАЧЕНИЕ(Перечисление.нсиСпособыРаспределенияЗадач.ПоРолиИГруппеПользователейБП)
+				И ЗадачиПоИсполнителю.Исполнитель = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+				И (ЗадачиПоИсполнителю.РольИсполнителя, ЗадачиПоИсполнителю.ОсновнойОбъектАдресации) В
+					(ВЫБРАТЬ
+						РегистрСведений.ИсполнителиЗадач.РольИсполнителя,
+						РегистрСведений.ИсполнителиЗадач.ОсновнойОбъектАдресации
+					ИЗ
+						РегистрСведений.ИсполнителиЗадач
+					ГДЕ
+						РегистрСведений.ИсполнителиЗадач.Исполнитель = &amp;Пользователь)
+			ИЛИ ЗадачиПоИсполнителю.СпособРаспределения = ЗНАЧЕНИЕ(Перечисление.нсиСпособыРаспределенияЗадач.ПоРоли)
+				И ЗадачиПоИсполнителю.Исполнитель = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+				И ЗадачиПоИсполнителю.РольИсполнителя В
+					(ВЫБРАТЬ
+						РегистрСведений.ИсполнителиЗадач.РольИсполнителя
+					ИЗ
+						РегистрСведений.ИсполнителиЗадач
+					ГДЕ
+						РегистрСведений.ИсполнителиЗадач.Исполнитель = &amp;Пользователь)
+			ИЛИ ЗадачиПоИсполнителю.СпособРаспределения = ЗНАЧЕНИЕ(Перечисление.нсиСпособыРаспределенияЗадач.ПоГруппеПользователейБП)
+				И ЗадачиПоИсполнителю.Исполнитель = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+				И ЗадачиПоИсполнителю.ОсновнойОбъектАдресации В
+					(ВЫБРАТЬ
+						РегистрСведений.ИсполнителиЗадач.ОсновнойОбъектАдресации
+					ИЗ
+						РегистрСведений.ИсполнителиЗадач
+					ГДЕ
+						РегистрСведений.ИсполнителиЗадач.Исполнитель = &amp;Пользователь))</QueryText>
+				<MainTable>Task.ЗадачаИсполнителя</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">DeletionMark</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>СрокИсполнения</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>Важность</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>СрокНачалаИсполнения</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПоказыватьВыполненные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать выполненные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show progress</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказыватьВыполненные</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="РежимГруппировки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим группировки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group mode</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>РежимГруппировки</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СгруппироватьПоВажности" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Важность</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Importance</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгруппировать по важности</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Grouped according to the importance of</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгруппироватьПоВажности</Action>
+		</Command>
+		<Command name="СгруппироватьПоТочкеМаршрута" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка маршрута</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Waypoint</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгруппировать по точке маршрута</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Grouped according to the waypoint</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгруппироватьПоТочкеМаршрута</Action>
+		</Command>
+		<Command name="СгруппироватьПоБезГруппировки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Без группировки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Without grouping</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать группировку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove group</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгруппироватьПоБезГруппировки</Action>
+		</Command>
+		<Command name="СгруппироватьПоАвтору" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Initiator</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгруппировать по автору</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Grouped by initiator</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгруппироватьПоАвтору</Action>
+		</Command>
+		<Command name="СгруппироватьПоПредмету" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предмет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Subject</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгруппировать по предмету</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Grouped by subject</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгруппироватьПоПредмету</Action>
+		</Command>
+		<Command name="СоздатьЗадание" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Task</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать задание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>New task</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьЗадание</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="УдалениеЭлементаСправочника" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установка пометки на удаление / Снятие пометки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Setting the mark for deletion / unmarking</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление элемента справочника</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Removing directory element</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаявкаНаУдаление</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="16" y="2"/>
+			</Picture>
+			<Action>УдалениеЭлементаСправочника</Action>
+		</Command>
+		<Command name="ВводНовогоЭлементаСправочника" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввод нового элемента справочника</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Entering a new element of the directory</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввод нового элемента справочника</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Entering a new element of the directory</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаявкаНаДобавление</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="127" y="1"/>
+			</Picture>
+			<Action>ВводНовогоЭлементаСправочника</Action>
+		</Command>
+		<Command name="ИзменениеЭлементаСправочника" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменение элемента справочника</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change directory element</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменение элемента справочника</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change directory element</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаявкаНаИзменение</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="16" y="2"/>
+			</Picture>
+			<Action>ИзменениеЭлементаСправочника</Action>
+		</Command>
+		<Command name="СгруппироватьПоТипуПредмета" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип предмета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Type of object</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгруппировать по предмету</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Grouped by subject</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгруппироватьПоТипуПредмета</Action>
+		</Command>
+		<Command name="ПакетныйВводНовыхЭлементовСправочников" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пакетный ввод новых элементов справочников</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Batch input new elements at directory</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пакетный ввод новых элементов справочников</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Batch input new elements at directory</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаявкаНаПакетныйВвод</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>ПакетныйВводНовыхЭлементовСправочников</Action>
+		</Command>
+		<Command name="ОбновитьСписок" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh list</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh list</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьСписок</Action>
+		</Command>
+	</Commands>
+</Form>

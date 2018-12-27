@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<CommandsVisibility>
+		<Command name="Catalog.нсиУниверсальныйФункциональныйСправочник.Command.КомплекснаяРаботаСЗаписями">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУниверсальныйФункциональныйСправочник.Command.ОбработкаБуфераЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУниверсальныйФункциональныйСправочник.Command.ПодборВБуферЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУниверсальныйФункциональныйСправочник.Command.ПредварительнаяКлассификация">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУниверсальныйФункциональныйСправочник.Command.ДублирующиеПозиции">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:e501c530-a0f8-4a57-9a96-b791dba803e9">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУниверсальныйФункциональныйСправочник.Command.ЭталонныеПозиции">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.нсиУправлениеНастройкамиФормУниверсальногоХранилища.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.нсиУниверсальноеХранилище.Subsystem.Метаданные</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

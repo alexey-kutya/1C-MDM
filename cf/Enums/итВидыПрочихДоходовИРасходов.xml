@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Enum uuid="131d189c-50b9-4e75-a0c7-50a8798c8904">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.итВидыПрочихДоходовИРасходов" category="Ref">
+				<xr:TypeId>6dd14854-6d33-4e48-b815-717c2dd4ea6a</xr:TypeId>
+				<xr:ValueId>e86e4217-57a6-40d3-87b8-ad84f04ea958</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.итВидыПрочихДоходовИРасходов" category="Manager">
+				<xr:TypeId>28887b68-7d6f-4dae-9d78-5fc7c6a72701</xr:TypeId>
+				<xr:ValueId>e2220c85-ccba-4387-bc08-3555853b7e73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.итВидыПрочихДоходовИРасходов" category="List">
+				<xr:TypeId>737ed552-696f-4a76-bb80-2d2a9f0e21b7</xr:TypeId>
+				<xr:ValueId>ef0063fe-9db4-4667-a459-c1e3f62adae8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>итВидыПрочихДоходовИРасходов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ит Виды прочих доходов и расходов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>(Общ)</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Order">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="52ce4991-a020-4d3a-a064-beeedcc0026a">
+				<Properties>
+					<Name>ВозмещениеУбытковКПолучениюУплате</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Возмещение убытков к получению (уплате)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5cdcaf5d-c2df-4244-a52d-641b25485a98">
+				<Properties>
+					<Name>ДолевоеУчастиеВИностранныхОрганизациях</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Долевое участие в иностранных организациях</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="329663a3-44ef-413f-bb65-ed35329e94e7">
+				<Properties>
+					<Name>ДолевоеУчастиеВРоссийскихОрганизациях</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Долевое участие в российских организациях</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d7c0d7a7-2817-494d-bef6-f65df7ef553b">
+				<Properties>
+					<Name>ДоходыРасходыПоОперациямСФинансовымиИнструментамиСрочныхСделок</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы) по операциям с финансовыми инструментами срочных сделок, не обращающимися на организованном рынке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba96809a-c33e-459a-bea2-fcc67321cae2">
+				<Properties>
+					<Name>ДоходыРасходыПоОперациямСФинансовымиИнструментамиСрочныхСделокОР</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы) по операциям с финансовыми инструментами срочных сделок, обращающимися на организованном рынке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5be49167-709d-4e53-86e1-f5639a67cfc9">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСБезвозмезднымПолучениемИмущества</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с безвозмездным получением имущества, работ, услуг или имущественных прав</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="48d80280-a745-4ed8-966f-d88ff066faf0">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСЛиквидациейОсновныхСредств</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с ликвидацией основных средств</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="11261f4c-0252-447d-b94a-7755bf532d19">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСоСдачейИмуществаВАренду</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные со сдачей имущества в аренду (субаренду)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c6dd9aff-4526-4d23-b3ba-1903a2abb32d">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейИмущественныхПравКромеПраваТребования</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией имущественных прав, кроме права требования</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="acf5ee40-da8d-45ce-9d3b-7a4e5dca5899">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейИмущественныхПравПоОбъектамОбслуживающихПроизводств</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией имущественных прав по объектам обслуживающих производств и хозяйств</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="51e5e9e3-14c3-4af4-a43d-88000d9b35c7">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейНематериальныхАктивов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией нематериальных активов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4917e3b7-5222-4f79-be8a-fe798c75df75">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейОсновныхСредств</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией основных средств</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="778d867f-4bb2-4808-9fdf-7b726651cd4d">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейПраваТребованияДоНаступленияСрокаПлатежа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией права требования до наступления срока платежа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3e155483-a781-4c6c-9950-97f249c1aa6a">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейПраваТребованияКакОказанияФинансовыхУслуг</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией права требования как оказания финансовых услуг</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1cbecb44-81af-41cc-a196-5332d8722a9f">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейПраваТребованияПослеНаступленияСрокаПлатежа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией права требования после наступления срока платежа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="75d443a1-ed2e-45f3-a7c4-94d4de810017">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейПрочегоИмущества</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией прочего имущества</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="50835f44-01f6-4246-9c3d-35cda4ebf67e">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСРеализациейЦенныхБумаг</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с реализацией ценных бумаг</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="31ddb60a-d9e6-4640-b740-69baf7ec724e">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСУчастиемВДругихОрганизациях</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с участием в других организациях</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4471e35a-5718-4e6f-b0fa-92a0f2b6cc79">
+				<Properties>
+					<Name>КурсовыеРазницы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Курсовые разницы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4cb48d2b-db8a-4445-8ae8-ec0b2851e3c5">
+				<Properties>
+					<Name>КурсовыеРазницыПоРасчетамВУЕ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Курсовые разницы по расчетам в у.е.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Курсовые разницы по расчетам в у.е.</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6e58b424-4e79-4ec5-9ef9-667da04eea51">
+				<Properties>
+					<Name>НДСПоСписаннойКредиторскойЗадолженности</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НДС по списанной кредиторской задолженности</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a6f1824a-c49c-4f5b-9933-2aa09193f18e">
+				<Properties>
+					<Name>ОтчисленияВОценочныеРезервы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчисления в оценочные резервы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e8e089e9-4020-4d70-9f0a-dd7e2f8c2cff">
+				<Properties>
+					<Name>ПремияПокупателю</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Премия, выплаченная покупателю</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Премия, выплаченная покупателю</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c11d06b7-d9a8-4d9a-a727-8495b0133f45">
+				<Properties>
+					<Name>ПрибыльУбытокПрошлыхЛет</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прибыль (убыток) прошлых лет</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="28d2f951-2282-49af-9f41-89d348e863c5">
+				<Properties>
+					<Name>ПроцентыКПолучениюУплате</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проценты к получению (уплате)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6c58b283-1fd8-44cb-9b83-860c93ad6214">
+				<Properties>
+					<Name>ПроцентыНачисленныеПоСт269</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проценты, начисленные в соответствии со статьей 269</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2f82b617-b999-421c-b499-2cc1a5bc762a">
+				<Properties>
+					<Name>ПроцентыПоГосударственнымЦеннымБумагам</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проценты по государственным ценным бумагам</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="00d788db-757b-4000-ad4e-d894f58c73f9">
+				<Properties>
+					<Name>ПроцентыПоГосударственнымЦеннымБумагамПоСтавке0</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проценты по государственным ценным бумагам по ставке 0%</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dded209c-2238-4042-a2d4-366f1f78eaa8">
+				<Properties>
+					<Name>ПрочиеВнереализационныеДоходыРасходы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочие внереализационные доходы (расходы)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="187256ab-676d-48d2-99b4-1dbbffe00c56">
+				<Properties>
+					<Name>ПрочиеКосвенныеРасходы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочие косвенные расходы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8376469a-1618-4b7d-b89c-b5b8669bd679">
+				<Properties>
+					<Name>ПрочиеОперационныеДоходыРасходы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочие операционные доходы (расходы)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9cba046c-9762-4ef2-ab18-e2eeed128472">
+				<Properties>
+					<Name>РазницаМеждуПервоначальнойИНоминальнойСтоимостьюПоДолговымЦеннымБумагам</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разница между первоначальной и номинальной стоимостью по долговым ценным бумагам</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6a62bb3e-5613-4ca2-bc2c-61a6a5ee7789">
+				<Properties>
+					<Name>РасходыНаУслугиБанков</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расходы на услуги банков</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="707b8734-cfd5-444b-8349-15f10cb04f85">
+				<Properties>
+					<Name>РасходыОтСниженияСтоимостиАктивов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расходы от снижения стоимости активов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b32d21b8-1a5d-4a31-96f2-dea8e3be1ad3">
+				<Properties>
+					<Name>СписаниеДебиторскойКредиторскойЗадолженности</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Списание дебиторской (кредиторской) задолженности</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ff31d373-dd26-4976-9819-5ae609b0778d">
+				<Properties>
+					<Name>ШтрафыПениНеустойкиКПолучениюУплате</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрафы, пени и неустойки к получению (уплате)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>(Общ)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="16357c27-1b65-4a8e-ab04-2e88d12eef44">
+				<Properties>
+					<Name>НалогиИСборы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Налоги и сборы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7b2c9bd1-9e47-4328-9969-c602864dd045">
+				<Properties>
+					<Name>ДоходыСвязанныеСВосстановлениемАмортизационнойПремии</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы, связанные с восстановлением амортизационной премии</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="11d0863e-e7ff-4033-a602-7a5d3a578c4d">
+				<Properties>
+					<Name>КорректировкаПрибылиДоРыночныхЦен</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Корректировка прибыли до рыночных цен</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="53de201e-7586-4345-bfdc-55a3cfb173a1">
+				<Properties>
+					<Name>ДоходыРасходыСвязанныеСПереоценкойВнеоборотныхАктивов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы (расходы), связанные с переоценкой внеоборотных активов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4d76967f-463c-4619-8587-1c2a3c5c2f95">
+				<Properties>
+					<Name>РасходыПоПередачеТоваровБезвозмездноИДляСобственныхНужд</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расходы по передаче товаров (работ, услуг) безвозмездно и для собственных нужд</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d3509efc-9770-4f6f-8a66-b703bf0e2188">
+				<Properties>
+					<Name>ПрочиеУбыткиПриравненныеКВнереализационнымРасходам</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочие убытки, приравненные к внереализационным расходам</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

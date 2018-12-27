@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="ВидСправочника" id="1">
+			<DataPath>Запись.ВидСправочника</DataPath>
+			<ContextMenu name="ВидСправочникаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ВидСправочникаРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="Пользователь" id="3">
+			<DataPath>Запись.Пользователь</DataPath>
+			<ContextMenu name="ПользовательКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="20"/>
+			<Events>
+				<Event name="StartChoice">ПользовательНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<CheckBoxField name="Просмотр" id="5">
+			<DataPath>Запись.Просмотр</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПросмотрКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ПросмотрРасширеннаяПодсказка" id="21"/>
+			<Events>
+				<Event name="OnChange">ПросмотрПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<CheckBoxField name="Добавление" id="7">
+			<DataPath>Запись.Добавление</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ДобавлениеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДобавлениеРасширеннаяПодсказка" id="22"/>
+			<Events>
+				<Event name="OnChange">ДобавлениеПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<CheckBoxField name="Редактирование" id="9">
+			<DataPath>Запись.Редактирование</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="РедактированиеКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="РедактированиеРасширеннаяПодсказка" id="23"/>
+			<Events>
+				<Event name="OnChange">РедактированиеПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<CheckBoxField name="ПометкаНаУдаление" id="11">
+			<DataPath>Запись.ПометкаНаУдаление</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПометкаНаУдалениеКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ПометкаНаУдалениеРасширеннаяПодсказка" id="24"/>
+			<Events>
+				<Event name="OnChange">ПометкаНаУдалениеПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<CheckBoxField name="СнятиеПометкиНаУдаление" id="13">
+			<DataPath>Запись.СнятиеПометкиНаУдаление</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="СнятиеПометкиНаУдалениеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СнятиеПометкиНаУдалениеРасширеннаяПодсказка" id="25"/>
+			<Events>
+				<Event name="OnChange">СнятиеПометкиНаУдалениеПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<CheckBoxField name="Удаление" id="15">
+			<DataPath>Запись.Удаление</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="УдалениеКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="УдалениеРасширеннаяПодсказка" id="26"/>
+			<Events>
+				<Event name="OnChange">УдалениеПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<CheckBoxField name="УдалениеПомеченных" id="17">
+			<DataPath>Запись.УдалениеПомеченных</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="УдалениеПомеченныхКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="УдалениеПомеченныхРасширеннаяПодсказка" id="27"/>
+			<Events>
+				<Event name="OnChange">УдалениеПомеченныхПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.нсиПраваДоступаНаВидыСправочников</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

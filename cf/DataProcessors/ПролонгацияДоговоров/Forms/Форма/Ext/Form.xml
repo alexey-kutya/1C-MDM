@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="69">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="70"/>
+			<ChildItems>
+				<CheckBoxField name="РегистрацияИзменений" id="28">
+					<DataPath>РегистрацияИзменений</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РегистрацияИзмененийКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="РегистрацияИзмененийРасширеннаяПодсказка" id="30"/>
+				</CheckBoxField>
+				<PictureDecoration name="Декорация2" id="71">
+					<Width>26</Width>
+					<Height>1</Height>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="73"/>
+				</PictureDecoration>
+				<LabelDecoration name="Декорация1" id="64">
+					<Visible>false</Visible>
+					<TextColor>#003366</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выделить все строки Ctrl+A.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="66"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДоговорыТаблица" id="74">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ДоговорыТаблица</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>CancelSearch</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>Find</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+				<ExcludedCommand>SortListAsc</ExcludedCommand>
+				<ExcludedCommand>SortListDesc</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДоговорыТаблицаКонтекстноеМеню" id="75"/>
+			<AutoCommandBar name="ДоговорыТаблицаКоманднаяПанель" id="76">
+				<ChildItems>
+					<Button name="ДоговорыТаблицаПролонгировать" id="93">
+						<Type>CommandBarButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<CommandName>Form.Command.Пролонгировать</CommandName>
+						<ExtendedTooltip name="ДоговорыТаблицаПролонгироватьРасширеннаяПодсказка" id="94"/>
+					</Button>
+					<Button name="ДоговорыТаблицаОбновить" id="104">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Обновить</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.Refresh</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ДоговорыТаблицаОбновитьРасширеннаяПодсказка" id="105"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДоговорыТаблицаРасширеннаяПодсказка" id="77"/>
+			<SearchStringAddition name="ДоговорыТаблицаСтрокаПоиска" id="78">
+				<AdditionSource>
+					<Item>ДоговорыТаблица</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыТаблицаСтрокаПоискаКонтекстноеМеню" id="79"/>
+				<ExtendedTooltip name="ДоговорыТаблицаСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДоговорыТаблицаСостояниеПросмотра" id="81">
+				<AdditionSource>
+					<Item>ДоговорыТаблица</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыТаблицаСостояниеПросмотраКонтекстноеМеню" id="82"/>
+				<ExtendedTooltip name="ДоговорыТаблицаСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДоговорыТаблицаУправлениеПоиском" id="84">
+				<AdditionSource>
+					<Item>ДоговорыТаблица</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыТаблицаУправлениеПоискомКонтекстноеМеню" id="85"/>
+				<ExtendedTooltip name="ДоговорыТаблицаУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ДоговорыТаблицаВыбор</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="ДоговорыТаблицаДоговор" id="87">
+					<DataPath>ДоговорыТаблица.Договор</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыТаблицаДоговорКонтекстноеМеню" id="88"/>
+					<ExtendedTooltip name="ДоговорыТаблицаДоговорРасширеннаяПодсказка" id="89"/>
+				</InputField>
+				<InputField name="ДоговорыТаблицаПоле1" id="95">
+					<DataPath>ДоговорыТаблица.Договор.Организация</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыТаблицаПоле1КонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ДоговорыТаблицаПоле1РасширеннаяПодсказка" id="97"/>
+				</InputField>
+				<InputField name="ДоговорыТаблицаПоле2" id="98">
+					<DataPath>ДоговорыТаблица.Договор.Owner</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыТаблицаПоле2КонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ДоговорыТаблицаПоле2РасширеннаяПодсказка" id="100"/>
+				</InputField>
+				<InputField name="ДоговорыТаблицаДатаОкончанияДействия" id="106">
+					<DataPath>ДоговорыТаблица.ДатаОкончанияДействия</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыТаблицаДатаОкончанияДействияКонтекстноеМеню" id="107"/>
+					<ExtendedTooltip name="ДоговорыТаблицаДатаОкончанияДействияРасширеннаяПодсказка" id="108"/>
+				</InputField>
+				<InputField name="ДоговорыТаблицаДатаОкончанияНовая" id="90">
+					<DataPath>ДоговорыТаблица.ДатаОкончанияНовая</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<BackColor>style:ДобавленныйРеквизитФон</BackColor>
+					<ContextMenu name="ДоговорыТаблицаДатаОкончанияНоваяКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="ДоговорыТаблицаДатаОкончанияНоваяРасширеннаяПодсказка" id="92"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="Договоры" id="31">
+			<Visible>false</Visible>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Договоры</DataPath>
+			<RowPictureDataPath>Договоры.DefaultPicture</RowPictureDataPath>
+			<CommandSet>
+				<ExcludedCommand>CancelSearch</ExcludedCommand>
+				<ExcludedCommand>Choose</ExcludedCommand>
+				<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+				<ExcludedCommand>Find</ExcludedCommand>
+				<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+				<ExcludedCommand>ListSettings</ExcludedCommand>
+				<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+				<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+				<ExcludedCommand>SearchHistory</ExcludedCommand>
+				<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+			</CommandSet>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="ДоговорыКонтекстноеМеню" id="32"/>
+			<AutoCommandBar name="ДоговорыКоманднаяПанель" id="33">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ДоговорыПролонгировать" id="62">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Пролонгировать</CommandName>
+						<ExtendedTooltip name="ДоговорыПролонгироватьРасширеннаяПодсказка" id="63"/>
+					</Button>
+					<Button name="ДоговорыКнопка1" id="67">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.Договоры.StandardCommand.Refresh</CommandName>
+						<ExtendedTooltip name="ДоговорыКнопка1РасширеннаяПодсказка" id="68"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДоговорыРасширеннаяПодсказка" id="34"/>
+			<SearchStringAddition name="ДоговорыСтрокаПоиска" id="35">
+				<AdditionSource>
+					<Item>Договоры</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыСтрокаПоискаКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="ДоговорыСтрокаПоискаРасширеннаяПодсказка" id="37"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДоговорыСостояниеПросмотра" id="38">
+				<AdditionSource>
+					<Item>Договоры</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыСостояниеПросмотраКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="ДоговорыСостояниеПросмотраРасширеннаяПодсказка" id="40"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДоговорыУправлениеПоиском" id="41">
+				<AdditionSource>
+					<Item>Договоры</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыУправлениеПоискомКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="ДоговорыУправлениеПоискомРасширеннаяПодсказка" id="43"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДоговорыСсылка" id="47">
+					<DataPath>Договоры.Ref</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДоговорыСсылкаКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ДоговорыСсылкаРасширеннаяПодсказка" id="49"/>
+				</LabelField>
+				<LabelField name="ДоговорыОрганизация" id="59">
+					<DataPath>Договоры.Организация</DataPath>
+					<ContextMenu name="ДоговорыОрганизацияКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ДоговорыОрганизацияРасширеннаяПодсказка" id="61"/>
+				</LabelField>
+				<LabelField name="ДоговорыВладелец" id="44">
+					<DataPath>Договоры.Owner</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДоговорыВладелецКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ДоговорыВладелецРасширеннаяПодсказка" id="46"/>
+				</LabelField>
+				<LabelField name="ДоговорыДатаОкончанияТекущая" id="56">
+					<DataPath>Договоры.ДатаОкончанияТекущая</DataPath>
+					<ContextMenu name="ДоговорыДатаОкончанияТекущаяКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДоговорыДатаОкончанияТекущаяРасширеннаяПодсказка" id="58"/>
+				</LabelField>
+				<LabelField name="ДоговорыДатаОкончанияНовая" id="53">
+					<DataPath>Договоры.ДатаОкончанияНовая</DataPath>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</Format>
+					<ContextMenu name="ДоговорыДатаОкончанияНоваяКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ДоговорыДатаОкончанияНоваяРасширеннаяПодсказка" id="55"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПролонгацияДоговоров</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Договоры" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договоры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДоговорыКонтрагентов.Ссылка,
+	ДоговорыКонтрагентов.ДатаОкончанияДействия КАК ДатаОкончанияТекущая,
+	ДоговорыКонтрагентов.Владелец,
+	ДоговорыКонтрагентов.Организация,
+	ДоговорыКонтрагентов.Бессрочный,
+	ДОБАВИТЬКДАТЕ(ДоговорыКонтрагентов.ДатаОкончанияДействия, ДЕНЬ, 365) КАК ДатаОкончанияНовая
+ИЗ
+	Справочник.ДоговорыКонтрагентов КАК ДоговорыКонтрагентов</QueryText>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДатаОкончанияТекущая</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="v8:StandardBeginningDate">
+								<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+							</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Бессрочный</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="РегистрацияИзменений" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация изменений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДоговорыТаблица" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договоры таблица</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Договор" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ДатаОкончанияНовая" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата окончания новая</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДатаОкончанияДействия" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата окончания</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Пролонгировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пролонгировать на 365 дней</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пролонгировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Пролонгировать</Action>
+		</Command>
+		<Command name="Обновить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Обновить</Action>
+		</Command>
+	</Commands>
+</Form>

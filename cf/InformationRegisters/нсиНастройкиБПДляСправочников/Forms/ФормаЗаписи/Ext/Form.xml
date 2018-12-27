@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ИмяСправочника" id="1">
+			<DataPath>Запись.ИмяСправочника</DataPath>
+			<ListChoiceMode>true</ListChoiceMode>
+			<TextEdit>false</TextEdit>
+			<ContextMenu name="ИмяСправочникаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ИмяСправочникаExtendedTooltip" id="13"/>
+		</InputField>
+		<InputField name="НастройкаБП" id="3">
+			<DataPath>Запись.НастройкаБП</DataPath>
+			<ContextMenu name="НастройкаБПКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="НастройкаБПExtendedTooltip" id="14"/>
+			<Events>
+				<Event name="OnChange">НастройкаБППриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ГруппаПользователейБП" id="9">
+			<DataPath>Запись.Заявитель</DataPath>
+			<ContextMenu name="ГруппаПользователейБПКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ГруппаПользователейБПExtendedTooltip" id="15"/>
+		</InputField>
+		<CheckBoxField name="Активность" id="5">
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="АктивностьКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="АктивностьExtendedTooltip" id="16"/>
+		</CheckBoxField>
+		<InputField name="ОтборПредметов" id="11">
+			<DataPath>Запись.ОтборПредметов</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<ClearButton>true</ClearButton>
+			<TextEdit>false</TextEdit>
+			<ContextMenu name="ОтборПредметовКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ОтборПредметовExtendedTooltip" id="17"/>
+		</InputField>
+		<CheckBoxField name="Использовать" id="7">
+			<DataPath>Запись.Использовать</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ИспользоватьКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ИспользоватьExtendedTooltip" id="18"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.нсиНастройкиБПДляСправочников</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

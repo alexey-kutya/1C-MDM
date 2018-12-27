@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="9e6262df-d2d0-43ff-8d9f-eaa46cdf099d">
+		<Properties>
+			<Name>нсиСинхронизацияДанных</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизация данных</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.СинхронизацияДанныхПодсистема</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменСправочнойИнформацией</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.нсиПомощникНастройкиОбменаДаннымиССправочнойИнформацией</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Синхронизировать</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СинхронизацияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РазместитьФайлыНачальногоОбраза</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СинхронизацияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьСинхронизациюДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SettingsStorage.ХранилищеНастроекЗагрузки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиАлгоритмыРазбораДанныхДляЗагрузки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменСправочнойИнформациейЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменСправочнойИнформациейЗарегистрироватьИзменениеКонстанты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменСправочнойИнформациейЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиНеРегистрироватьКОбменуПриЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УниверсальныйОбменДаннымиXML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузкаИзМДМ_УПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.НастройкиТранспортаОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузитьПравила_МДМ_УПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Обмен_МДМ_УПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчастникиОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РегистрацияИзмененийДляОбменаДанными</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Обмен_MDM_AX</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Выгрузка_in_JSON</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обмен_MDM_AX</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>нсиПрефиксацияОбъектов</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="9e932623-4a34-4245-9f9b-cb0e7d66dc7c">
+		<Name>FEFOПоДатеРозлива</Name>
+		<Code>000000001</Code>
+		<Description>FEFO комплектация по самой ранней дате розлива</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8055393-c6ba-4a5d-a14a-59acfb04bb14">
+		<Name>FEFOЕвроподдоны</Name>
+		<Code>000000003</Code>
+		<Description>FEFO комплектация товара на европоддоны</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e61a6ea5-11d2-4176-90f6-8f7b74e25cbf">
+		<Name>ДокументыНаКаждуюПартиюТовараОтдельно</Name>
+		<Code>000000007</Code>
+		<Description>Выпуск документов на каждую партию товара отдельно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d0d7fc10-2f82-400e-bbeb-c0a38f65fa65">
+		<Name>СтараяАкцизнаяМарка</Name>
+		<Code>000000004</Code>
+		<Description>Комплектация заказов только с акцизной маркой старого образца</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9fb2a153-89c9-4029-adc2-3bb332065e56">
+		<Name>ОднаПартия</Name>
+		<Code>000000002</Code>
+		<Description>Комплектация товара только одной партии, самой большой по количеству в рамках заказа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7da8ef5f-c787-4057-9ddb-8f5cd0d08d97">
+		<Name>ОднаПартияОднаДатаРозливаНаЕвроПаллете</Name>
+		<Code>000000006</Code>
+		<Description>Комплектация товара только одной партии, самой большой по количеству в рамках заказа, одна дата розлива на одном европаллете</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a73f0bd9-a13e-4806-ad00-e0dacfbe8bcd">
+		<Name>ОднаПартияОднаДатаРозливаНаПаллете</Name>
+		<Code>000000005</Code>
+		<Description>Комплектация товара только одной партии, самой большой по количеству в рамках заказа, одна дата розлива на одном паллете</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

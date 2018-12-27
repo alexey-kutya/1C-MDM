@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="c0009940-1094-4c65-8a52-850f4dce9e78">
+		<Properties>
+			<Name>нсиМТР</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>PRODUCTS AND MATERIALS (LOCAL)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.ПодсистемаМТР</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="24" y="3"/>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.нсиНаименованияХарактеристикМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиКлассификаторПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalAmount</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиТипыПозицийСправочников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalVersion</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalFactory</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиЧтениеКлассификаторовПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.нсиЦеныПоставщиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиДобавлениеИзменениеМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.нсиХарактеристикиМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиПризнакиИспользованияПозицийМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиЧтениеМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиДобавлениеИзменениеКлассификаторовПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиУчитыватьВРазрезеКлассификатораПродукции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиИспользоватьПодсистемуМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиТипыЭлементовНаименования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеБрэндовИРазновидностейВкусов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиИзменениеДополнительныхРеквизитовМТР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalMaterialType</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalBrand</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalPacking</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalAlcoholContent</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalVolume</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.LocalLabel</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РазновидностиВкусы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.LocalProductsAndMaterialsStatusChanging</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхИзФайла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПоставщикиТМЦ</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>ДополнительныеСправочники</Subsystem>
+			<Subsystem>Спецификации</Subsystem>
+			<Subsystem>СоответствияКлючевыхСправочников</Subsystem>
+			<Subsystem>SAP</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

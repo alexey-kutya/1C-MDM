@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WorkingAreaTemplate>TwoColumnsVariableWidth</WorkingAreaTemplate>
+	<LeftColumn>
+		<Item>
+			<Form>Task.ЗадачаИсполнителя.Form.МоиЗадачиДляРабочегоСтола</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>InformationRegister.ДанныеБизнесПроцессов.Form.МоиБизнесПроцессы</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваВнешнегоПользователя">false</xr:Value>
+				<xr:Value name="Role.ВыводНаПринтерФайлБуферОбмена">false</xr:Value>
+				<xr:Value name="Role.ВыполнениеСинхронизацииДанных">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАдресныхСведений">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеБазовойНСИ">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВариантовОтчетов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВидовКонтактнойИнформации">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеЗаданий">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеКурсовВалют">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРассылокОтчетов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРолейИсполнителей">false</xr:Value>
+				<xr:Value name="Role.ЗапускAutomation">false</xr:Value>
+				<xr:Value name="Role.ЗапускВебКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускВнешнегоСоединения">false</xr:Value>
+				<xr:Value name="Role.ЗапускТолстогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТонкогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ИзменениеВыполнениеЗадач">false</xr:Value>
+				<xr:Value name="Role.ИзменениеДополнительныхСведений">false</xr:Value>
+				<xr:Value name="Role.ИзменениеМакетовПечатныхФорм">false</xr:Value>
+				<xr:Value name="Role.ИзменениеУчастниковГруппДоступа">false</xr:Value>
+				<xr:Value name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеВариантовОтчетов">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеДополнительныхОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеСтруктурыПодчиненности">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеУниверсальногоОтчета">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеУчетныхЗаписейЭлектроннойПочты">false</xr:Value>
+				<xr:Value name="Role.НастройкаИОценкаПроизводительности">false</xr:Value>
+				<xr:Value name="Role.НастройкаСинхронизацииФайлов">false</xr:Value>
+				<xr:Value name="Role.нсиАдминистрированиеУниверсальногоХранилища">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеБанков">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеБезЗаявок">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеВалют">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеЕдиницИзмерения">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеЗаявок">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеКлассификаторовДополнительных">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеКлассификаторовПродукции">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеКлассификаторовУслуг">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеКонтрагентов">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеМестХранения">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеМТР">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеНастроекПоиска">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеНормативныхДокументов">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеОПФ">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеПредприятия">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеПрисоединенныхФайлов">false</xr:Value>
+				<xr:Value name="Role.нсиДобавлениеИзменениеУслуг">false</xr:Value>
+				<xr:Value name="Role.нсиЗагрузкаДанныхИзВнешнихИсточников">false</xr:Value>
+				<xr:Value name="Role.нсиИзменениеДополнительныхРеквизитовМТР">false</xr:Value>
+				<xr:Value name="Role.нсиИспользованиеУниверсальногоХранилища">false</xr:Value>
+				<xr:Value name="Role.нсиМетодолог">false</xr:Value>
+				<xr:Value name="Role.нсиПеренаправлениеСтаршемуЭксперту">false</xr:Value>
+				<xr:Value name="Role.нсиПользователь">true</xr:Value>
+				<xr:Value name="Role.нсиСтаршийЭксперт">false</xr:Value>
+				<xr:Value name="Role.нсиУстановкаПометкиНаУдаление">false</xr:Value>
+				<xr:Value name="Role.нсиУстановкаПометкиНаУдалениеБизнесПроцессов">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеВерсийОбъектов">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеЗаявок">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеКлассификаторов">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеКлассификаторовДополнительных">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеКлассификаторовПродукции">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеКлассификаторовУслуг">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеКонтрагентов">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеМТР">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеНастроекПоиска">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеПредприятия">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеПрисоединенныхФайлов">false</xr:Value>
+				<xr:Value name="Role.нсиЧтениеУслуг">false</xr:Value>
+				<xr:Value name="Role.нсиЭксперт">true</xr:Value>
+				<xr:Value name="Role.ОбновлениеКонфигурацииБазыДанных">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">false</xr:Value>
+				<xr:Value name="Role.ПроверкаДоступныхОбновленийКонфигурации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрЖурналаРегистрации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОписанияИзмененийПрограммы">false</xr:Value>
+				<xr:Value name="Role.РаботаСПапкамиФайлов">false</xr:Value>
+				<xr:Value name="Role.РедактированиеРеквизитовОбъектов">false</xr:Value>
+				<xr:Value name="Role.РежимВсеФункции">false</xr:Value>
+				<xr:Value name="Role.СохранениеДанныхПользователя">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступБазоваяФункциональность">false</xr:Value>
+				<xr:Value name="Role.ЧтениеБазовойНСИ">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДополнительныхСведений">false</xr:Value>
+				<xr:Value name="Role.ЧтениеЗаданий">false</xr:Value>
+				<xr:Value name="Role.ЧтениеЗадач">false</xr:Value>
+				<xr:Value name="Role.ЧтениеИнформацииОВерсияхОбъектов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеКурсовВалют">false</xr:Value>
+				<xr:Value name="Role.itУнифицированныеСправочники">false</xr:Value>
+				<xr:Value name="Role.GlobalExpert">false</xr:Value>
+				<xr:Value name="Role.LocalExpert">true</xr:Value>
+				<xr:Value name="Role.ReadGlobalSKU">false</xr:Value>
+				<xr:Value name="Role.WriteGlobalSKU">false</xr:Value>
+				<xr:Value name="Role.ReadGlobalPartners">false</xr:Value>
+				<xr:Value name="Role.WriteGlobalPartners">false</xr:Value>
+				<xr:Value name="Role.ReadLocalSKU">false</xr:Value>
+				<xr:Value name="Role.WriteLocalSKU">false</xr:Value>
+				<xr:Value name="Role.ReadLocalPartners">false</xr:Value>
+				<xr:Value name="Role.WriteLocalPartners">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>InformationRegister.ЖурналОбменаMDM.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>InformationRegister.БуферОбмена.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Item>
+	</LeftColumn>
+	<RightColumn>
+		<Item>
+			<Form>CommonForm.ФормаСозданияЗапросов</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.LocalExpert">true</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>DataProcessor.LocalProductsAndMaterialsStatusChanging.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.GlobalExpert">false</xr:Value>
+				<xr:Value name="Role.LocalExpert">true</xr:Value>
+				<xr:Value name="Role.ReadGlobalSKU">false</xr:Value>
+				<xr:Value name="Role.WriteGlobalSKU">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>DataProcessor.LocalPartnersStatusChanging.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>DataProcessor.РегистрацияИзмененийДляОбменаДаннымиUserVersion.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>DataProcessor.ПролонгацияДоговоров.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
+	</RightColumn>
+	<MACommandInterfaceDisplays>Top</MACommandInterfaceDisplays>
+</HomePageWorkArea>

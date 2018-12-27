@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>НаборДанных3</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеОбработано</dataPath>
+			<field>НеОбработано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Исполнитель</dataPath>
+			<field>Исполнитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВОбработке</dataPath>
+			<field>ВОбработке</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Обработано</dataPath>
+			<field>Обработано</field>
+		</field>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Исполнитель</dataPath>
+				<field>Исполнитель</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Обработано</dataPath>
+				<field>Обработано</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ВЫБОР
+		КОГДА ЗадачаИсполнителя.Исполнитель &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.Исполнитель
+		КОГДА ЗадачаИсполнителя.РольИсполнителя &lt;&gt; ЗНАЧЕНИЕ(СПравочник.РолиИсполнителей.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.РольИсполнителя
+		ИНАЧЕ ЗадачаИсполнителя.ОсновнойОбъектАдресации
+	КОНЕЦ КАК Исполнитель,
+	СУММА(1) КАК Обработано
+ИЗ
+	Задача.ЗадачаИсполнителя КАК ЗадачаИсполнителя
+ГДЕ
+	НЕ ЗадачаИсполнителя.ПометкаУдаления
+	И ЗадачаИсполнителя.Выполнена
+	И ЗадачаИсполнителя.ТочкаМаршрута В (
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.НазначениеОтветственного),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.КонтрольИсполнения),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.НазначениеОтветственного),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.ОбработкаИнформации),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.КонтрольИсполнения),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.НазначениеОтветственного),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.КонтрольИсполнения),
+		ЗНАЧЕНИЕ(БизнесПроцесс.нсиУдалениеЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации)
+  	)
+	И ЗадачаИсполнителя.ДатаНачала МЕЖДУ &amp;НачалоПериода И &amp;ОкончаниеПериода
+СГРУППИРОВАТЬ ПО
+	ВЫБОР
+		КОГДА ЗадачаИсполнителя.Исполнитель &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.Исполнитель
+		КОГДА ЗадачаИсполнителя.РольИсполнителя &lt;&gt; ЗНАЧЕНИЕ(СПравочник.РолиИсполнителей.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.РольИсполнителя
+		ИНАЧЕ ЗадачаИсполнителя.ОсновнойОбъектАдресации
+	КОНЕЦ
+
+</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных2</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НеОбработано</dataPath>
+				<field>НеОбработано</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Исполнитель</dataPath>
+				<field>Исполнитель</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ВЫБОР
+		КОГДА ЗадачаИсполнителя.Исполнитель &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+			ТОГДА ЗадачаИсполнителя.Исполнитель
+		КОГДА ЗадачаИсполнителя.РольИсполнителя &lt;&gt; ЗНАЧЕНИЕ(СПравочник.РолиИсполнителей.ПустаяСсылка)
+			ТОГДА ЗадачаИсполнителя.РольИсполнителя
+		ИНАЧЕ ЗадачаИсполнителя.ОсновнойОбъектАдресации
+	КОНЕЦ КАК Исполнитель,
+	СУММА(1) КАК НеОбработано
+ИЗ
+	Задача.ЗадачаИсполнителя КАК ЗадачаИсполнителя
+ГДЕ
+	НЕ ЗадачаИсполнителя.ПометкаУдаления
+	И НЕ ЗадачаИсполнителя.Выполнена
+	И ЗадачаИсполнителя.ТочкаМаршрута В (ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.НазначениеОтветственного), ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации), ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.КонтрольИсполнения), ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.НазначениеОтветственного), ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.ОбработкаИнформации), ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.КонтрольИсполнения), ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.НазначениеОтветственного), ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации), ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.КонтрольИсполнения), ЗНАЧЕНИЕ(БизнесПроцесс.нсиУдалениеЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации))
+	И ЗадачаИсполнителя.ДатаНачала МЕЖДУ &amp;НачалоПериода И &amp;ОкончаниеПериода
+	И ЗадачаИсполнителя.СрокИсполнения &lt; &amp;ОкончаниеПериода
+
+СГРУППИРОВАТЬ ПО
+	ВЫБОР
+		КОГДА ЗадачаИсполнителя.Исполнитель &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.Исполнитель
+		КОГДА ЗадачаИсполнителя.РольИсполнителя &lt;&gt; ЗНАЧЕНИЕ(СПравочник.РолиИсполнителей.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.РольИсполнителя
+		ИНАЧЕ ЗадачаИсполнителя.ОсновнойОбъектАдресации
+	КОНЕЦ
+</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных3</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВОбработке</dataPath>
+				<field>ВОбработке</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Исполнитель</dataPath>
+				<field>Исполнитель</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ВЫБОР
+		КОГДА ЗадачаИсполнителя.Исполнитель &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+			ТОГДА ЗадачаИсполнителя.Исполнитель
+		КОГДА ЗадачаИсполнителя.РольИсполнителя &lt;&gt; ЗНАЧЕНИЕ(СПравочник.РолиИсполнителей.ПустаяСсылка)
+			ТОГДА ЗадачаИсполнителя.РольИсполнителя
+		ИНАЧЕ ЗадачаИсполнителя.ОсновнойОбъектАдресации
+	КОНЕЦ КАК Исполнитель,
+	СУММА(1) КАК ВОбработке
+ИЗ
+	Задача.ЗадачаИсполнителя КАК ЗадачаИсполнителя
+ГДЕ
+	НЕ ЗадачаИсполнителя.ПометкаУдаления
+	И НЕ ЗадачаИсполнителя.Выполнена
+	И ЗадачаИсполнителя.СрокИсполнения &gt;= &amp;ОкончаниеПериода
+	И ЗадачаИсполнителя.ТочкаМаршрута В (ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.НазначениеОтветственного), ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации), ЗНАЧЕНИЕ(БизнесПроцесс.нсиВводНовогоЭлементаСправочника.ТочкаМаршрута.КонтрольИсполнения), ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.НазначениеОтветственного), ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.ОбработкаИнформации), ЗНАЧЕНИЕ(БизнесПроцесс.нсиПакетныйВводЭлементовСправочника.ТочкаМаршрута.КонтрольИсполнения), ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.НазначениеОтветственного), ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации), ЗНАЧЕНИЕ(БизнесПроцесс.нсиИзменениеЭлементаСправочника.ТочкаМаршрута.КонтрольИсполнения), ЗНАЧЕНИЕ(БизнесПроцесс.нсиУдалениеЭлементаСправочника.ТочкаМаршрута.ОбработкаИнформации))
+	И ЗадачаИсполнителя.ДатаНачала МЕЖДУ &amp;НачалоПериода И &amp;ОкончаниеПериода
+
+СГРУППИРОВАТЬ ПО
+	ВЫБОР
+		КОГДА ЗадачаИсполнителя.Исполнитель &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.Исполнитель
+		КОГДА ЗадачаИсполнителя.РольИсполнителя &lt;&gt; ЗНАЧЕНИЕ(СПравочник.РолиИсполнителей.ПустаяСсылка) ТОГДА ЗадачаИсполнителя.РольИсполнителя
+		ИНАЧЕ ЗадачаИсполнителя.ОсновнойОбъектАдресации
+	КОНЕЦ
+</query>
+		</item>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Всего</dataPath>
+		<expression>ЕСТЬNULL(Обработано,0) + ЕСТЬNULL(НеОбработано,0)+ЕСТЬNULL(ВОбработке,0)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Всего</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>ВОбработке</dataPath>
+		<expression>Сумма(ВОбработке)</expression>
+		<group>Исполнитель</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>НеОбработано</dataPath>
+		<expression>Сумма(НеОбработано)</expression>
+		<group>Исполнитель</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>Обработано</dataPath>
+		<expression>Сумма(Обработано)</expression>
+		<group>Исполнитель</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>Всего</dataPath>
+		<expression>Сумма(Всего)</expression>
+		<group>Исполнитель</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ОкончаниеПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Окончание периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Исполнитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВОбработке</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Обработано</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НеОбработано</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Всего</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Исполнитель</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Пользователи.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>4eca9394-5715-434a-af65-414904a59f88</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>cb8a399e-a1b5-4dee-b54c-d56d252bbe75</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ОкончаниеПериода</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcscor:value>
+					<dcsset:userSettingID>684f00f3-5a45-4ae7-832d-98c1aa961240</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет о работе исполнителей</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Исполнитель</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupPlacement">Begin</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

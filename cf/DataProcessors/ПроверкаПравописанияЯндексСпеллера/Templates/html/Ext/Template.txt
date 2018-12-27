@@ -1,0 +1,136 @@
+﻿<HTML>
+<HEAD>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <script src="http://yandex.st/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+        }
+
+        .error {
+            border-bottom: 2px dotted red;
+        }
+
+        span:hover {
+            cursor: pointer;
+        }
+
+        button {
+            width: 90%;
+            color: #fff;
+            margin: auto;
+            margin-bottom: 10px;
+            background: rgb(212, 75, 56);
+            padding: .3em 0;
+            border: none;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        #hint {
+            display: none;
+            position: absolute;
+            opacity: 0.95;
+            width: 200px;
+            padding-left: 15px;
+            background: rgb(255, 250, 217);
+        }
+
+        #hint p:hover {
+            color: green;
+            cursor: pointer;
+        }
+
+    </style>
+
+    <script>
+
+        var indent = 10;
+        var currentWord;
+
+        function hint(text) {
+            var that = this;
+            var currentWord = this;
+            if ($('#hint').is(':visible')) {
+                $("#hint").css("display", "none");
+            } else {
+                $("#hint").css({
+                    "display": "block",
+                    "left": event.clientX + indent,
+                    "top": event.clientY + indent
+                }).html(text);
+                $("#hint p").click(function (event) {
+                    $(that).replaceWith($(this).text());
+                    $("#hint").css("display", "none");
+                    event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+                    event.stopPropagation ? event.stopPropagation() : (event.cancelBubble = true);
+                });
+            }
+            $("#hint button").click(function (event) {
+                if (currentWord) {
+                    $(currentWord).replaceWith($(currentWord).text());
+                    $("#hint").css("display", "none");
+                    currentWord = undefined;
+                }
+                event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+                event.stopPropagation ? event.stopPropagation() : (event.cancelBubble = true);
+            });
+            event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+            event.stopPropagation ? event.stopPropagation() : (event.cancelBubble = true);
+        }
+        ;
+
+        function removeError() {
+            var errors = $(".error");
+            for (i=0; i<errors.length; i++) {
+            	$(errors[i]).replaceWith($(errors[i]).text());	
+            }
+            
+            $("#hint").remove()
+
+        }
+        ;
+        
+        function hintBlock(text) {
+            $("#hint").css({
+                "display": "block",
+                "left": event.clientX + indent,
+                "top": event.clientY + indent
+            }).html(text);
+        }
+        ;
+
+        function hintNone() {
+            $("#hint").css("display", "none");
+        }
+        ;
+
+        function hintMove() {
+            if ($('#hint').is(':visible')) {
+                $("#hint").css({"left": event.clientX + indent, "top": event.clientY + indent});
+            }
+        }
+        ;
+
+        window.onload = function () {
+            $("body").click(function () {
+                $("#hint").css("display", "none");
+            });
+        }
+
+    </script>
+
+</head>
+<body>
+
+&text
+    
+<div id="hint">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<CommandsVisibility>
+		<Command name="0:371a48cc-c128-4be2-a612-ef9c122f6a92">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ПредварительнаяКлассификация">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.КомплекснаяРаботаСЗаписями">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ПодборВБуферЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ОбработкаБуфераЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Constant.нсиИспользоватьПодсистемуБанковскихСчетов.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="0:371a48cc-c128-4be2-a612-ef9c122f6a92">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="0:371a48cc-c128-4be2-a612-ef9c122f6a92">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Enum.нсиПризнакиИспользованияПозицийБанковскиеСчета.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ПредварительнаяКлассификация">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.КомплекснаяРаботаСЗаписями">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ПодборВБуферЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ОбработкаБуфераЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ЭталонныеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="0:94987f5c-9da4-4bd9-94bb-f63c994672ac">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиБанковскиеСчета.Command.ДублирующиеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>CommandGroup.ПервичнаяОбработка</Group>
+		<Group>CommandGroup.ТипыПозиций</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+	</GroupsOrder>
+</CommandInterface>

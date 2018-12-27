@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="937cec71-747a-4339-aed1-1caca60df984">
+		<Properties>
+			<Name>нсиКонтрагенты</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагенты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>PARTNERS (LOCAL)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.ПодсистемаКонтрагенты</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="4" y="2"/>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиЧтениеКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиКонтрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиДобавлениеИзменениеКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиПризнакиИспользованияПозицийКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиПризнакиИспользованияПозицийДоговоровКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиЮрФизЛицо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиТипыПозицийСправочников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиИспользоватьПодсистемуКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.нсиПолучениеДанныхПоИНН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.нсиИспользоватьПодсистемуКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиЛогинГосРеестра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиПарольГосРеестра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиПроверятьИННнаКонтрольноеЧисло</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиПроверятьОГРНнаКонтрольноеЧисло</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.LocalPartnersStatusChanging</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхИзФайла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиВидыДополнительныхКлассификаторов</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>БанковскиеСчета</Subsystem>
+			<Subsystem>Договоры</Subsystem>
+			<Subsystem>ПунктыРазгрузки</Subsystem>
+			<Subsystem>Лицензии</Subsystem>
+			<Subsystem>ДополнительныеСправочники</Subsystem>
+			<Subsystem>SAP</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

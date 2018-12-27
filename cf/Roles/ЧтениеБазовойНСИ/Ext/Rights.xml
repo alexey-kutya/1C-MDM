@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.5">
+	<setForNewObjects>false</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
+	<object>
+		<name>InformationRegister.КурсыВалют</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.нсиПанельСправочников</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьАдресныйКлассификатор</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.нсиПанельСправочников</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтраныМира</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СоставыГруппПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ГруппыПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ГруппыДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ГруппыДоступа
+ГДЕ
+	ГруппыДоступа.ЭтоГруппа
+	ИЛИ ИСТИНА В
+		(ВЫБРАТЬ ПЕРВЫЕ 1
+			ИСТИНА
+		ИЗ
+			РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователей
+				ГДЕ
+					  СоставыГруппПользователей.ГруппаПользователей = ГруппыДоступа.Ответственный
+				#Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+					И СоставыГруппПользователей.Пользователь        = &amp;ТекущийПользователь
+				#Иначе
+					И СоставыГруппПользователей.Пользователь        = &amp;ТекущийВнешнийПользователь
+				#КонецЕсли
+		 )
+	И Выбор
+		Когда ГруппыДоступа.Ссылка  =  Значение(Справочник.ГруппыДоступа.Администраторы)
+		Тогда ГруппыДоступа.Профиль =  Значение(Справочник.ПрофилиГруппДоступа.Администратор)
+		Иначе ГруппыДоступа.Профиль &lt;&gt; Значение(Справочник.ПрофилиГруппДоступа.Администратор)
+	Конец
+</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>ChartOfCharacteristicTypes.УдалитьВидыДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ПрофилиГруппДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ПрофилиГруппДоступа
+ГДЕ
+    ПрофилиГруппДоступа.ЭтоГруппа
+    ИЛИ ИСТИНА В
+        (ВЫБРАТЬ ПЕРВЫЕ 1
+            ИСТИНА
+        ИЗ
+            РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователей
+                ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ГруппыДоступа КАК ГруппыДоступа
+                ПО
+                      ГруппыДоступа.Профиль = ПрофилиГруппДоступа.Ссылка
+                    И СоставыГруппПользователей.ГруппаПользователей = ГруппыДоступа.Ответственный
+                #Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+                    И СоставыГруппПользователей.Пользователь        = &amp;ТекущийПользователь
+                #Иначе
+                    И СоставыГруппПользователей.Пользователь        = &amp;ТекущийВнешнийПользователь
+                #КонецЕсли
+                    И Выбор
+                        Когда ГруппыДоступа.Ссылка  =  Значение(Справочник.ГруппыДоступа.Администраторы)
+                        Тогда ГруппыДоступа.Профиль =  Значение(Справочник.ПрофилиГруппДоступа.Администратор)
+                        Иначе ГруппыДоступа.Профиль &lt;&gt; Значение(Справочник.ПрофилиГруппДоступа.Администратор)
+                      Конец
+         )
+</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+</Rights>

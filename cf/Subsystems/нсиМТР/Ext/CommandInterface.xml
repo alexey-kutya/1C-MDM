@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<CommandsVisibility>
+		<Command name="Catalog.нсиМТР.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиХарактеристикиМТР.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:d2bda4a3-ab1f-447a-be7c-2c17dd686a96">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ПредварительнаяКлассификация">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.КомплекснаяРаботаСЗаписями">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ПодборВБуферЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ОбработкаБуфераЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиКлассификаторПродукции.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиНаименованияХарактеристикМТР.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.нсиИспользоватьПодсистемуМТР.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.нсиУчитыватьВРазрезеКлассификатораПродукции.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.нсиМТР.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.нсиКлассификаторПродукции.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиНаименованияХарактеристикМТР.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Catalog.нсиМТР.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Enum.нсиПризнакиИспользованияПозицийМТР.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Enum.нсиТипыПозицийСправочников.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиХарактеристикиМТР.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="0:d2bda4a3-ab1f-447a-be7c-2c17dd686a96">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalBrand.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalAlcoholContent.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalPacking.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalVersion.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalVolume.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalFactory.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.РазновидностиВкусы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalLabel.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalMaterialType.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.LocalAmount.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ПредварительнаяКлассификация">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.КомплекснаяРаботаСЗаписями">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ПодборВБуферЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ОбработкаБуфераЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ЭталонныеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиМТР.Command.ДублирующиеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиКлассификаторПродукции.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиНаименованияХарактеристикМТР.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.LocalProductsAndMaterialsStatusChanging.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.нсиИспользоватьПодсистемуМТР.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.нсиУчитыватьВРазрезеКлассификатораПродукции.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>CommandGroup.ПервичнаяОбработка</Group>
+		<Group>CommandGroup.ТипыПозиций</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
+</CommandInterface>

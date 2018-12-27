@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="Перейти" id="124">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перейти</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перейти</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Catalog</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПерейтиРасширеннаяПодсказка" id="125"/>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаПредопределенныеРеквизиты" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа предопределенные реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПредопределенныеРеквизитыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНаименованиеКод" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа наименование код</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа наименование код</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНаименование" id="83">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="84"/>
+						</UsualGroup>
+						<InputField name="Код" id="9">
+							<DataPath>Объект.Code</DataPath>
+							<Width>10</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="КодКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="11"/>
+						</InputField>
+						<InputField name="КодОригинала" id="121">
+							<DataPath>КодОригинала</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="КодОригиналаКонтекстноеМеню" id="122"/>
+							<ExtendedTooltip name="КодОригиналаРасширеннаяПодсказка" id="123"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПолноеНаименование" id="126">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа полное наименование</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа полное наименование</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПолноеНаименованиеРасширеннаяПодсказка" id="127"/>
+				</UsualGroup>
+				<InputField name="Родитель" id="17">
+					<DataPath>Объект.Parent</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="РодительКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="19"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="ГруппаСтраницы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<Page name="ГруппаРеквизиты" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<ExtendedTooltip name="ГруппаРеквизитыРасширеннаяПодсказка" id="6"/>
+				</Page>
+				<Page name="СтраницаНастройкиШаблоновНаименований" id="85">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки шаблонов наименований</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница настройки шаблонов наименований</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаНастройкиШаблоновНаименованийРасширеннаяПодсказка" id="86"/>
+					<ChildItems>
+						<InputField name="ШаблонНаименования" id="131">
+							<DataPath>ШаблонНаименования</DataPath>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ШаблонНаименованияКонтекстноеМеню" id="132"/>
+							<ExtendedTooltip name="ШаблонНаименованияРасширеннаяПодсказка" id="133"/>
+						</InputField>
+						<UsualGroup name="ГруппаШаблонНаименования" id="134">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настроить шаблон наименования</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шаблон наименования</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаШаблонНаименованияРасширеннаяПодсказка" id="135"/>
+							<ChildItems>
+								<Table name="НастройкиШаблоновНаименований" id="87">
+									<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.НастройкиШаблоновНаименований</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="НастройкиШаблоновНаименованийКонтекстноеМеню" id="88"/>
+									<AutoCommandBar name="НастройкиШаблоновНаименованийКоманднаяПанель" id="89"/>
+									<ExtendedTooltip name="НастройкиШаблоновНаименованийРасширеннаяПодсказка" id="90"/>
+									<SearchStringAddition name="НастройкиШаблоновНаименованийСтрокаПоиска" id="91">
+										<AdditionSource>
+											<Item>НастройкиШаблоновНаименований</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НастройкиШаблоновНаименованийСтрокаПоискаКонтекстноеМеню" id="92"/>
+										<ExtendedTooltip name="НастройкиШаблоновНаименованийСтрокаПоискаРасширеннаяПодсказка" id="93"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="НастройкиШаблоновНаименованийСостояниеПросмотра" id="94">
+										<AdditionSource>
+											<Item>НастройкиШаблоновНаименований</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НастройкиШаблоновНаименованийСостояниеПросмотраКонтекстноеМеню" id="95"/>
+										<ExtendedTooltip name="НастройкиШаблоновНаименованийСостояниеПросмотраРасширеннаяПодсказка" id="96"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="НастройкиШаблоновНаименованийУправлениеПоиском" id="97">
+										<AdditionSource>
+											<Item>НастройкиШаблоновНаименований</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="НастройкиШаблоновНаименованийУправлениеПоискомКонтекстноеМеню" id="98"/>
+										<ExtendedTooltip name="НастройкиШаблоновНаименованийУправлениеПоискомРасширеннаяПодсказка" id="99"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnStartEdit">НастройкиШаблоновНаименованийПриНачалеРедактирования</Event>
+										<Event name="OnChange">НастройкиШаблоновНаименованийПриИзменении</Event>
+									</Events>
+									<ChildItems>
+										<LabelField name="НастройкиШаблоновНаименованийНомерСтроки" id="100">
+											<DataPath>Объект.НастройкиШаблоновНаименований.LineNumber</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновНаименованийНомерСтрокиКонтекстноеМеню" id="101"/>
+											<ExtendedTooltip name="НастройкиШаблоновНаименованийНомерСтрокиРасширеннаяПодсказка" id="102"/>
+										</LabelField>
+										<InputField name="НастройкиШаблоновНаименованийТипЭлемента" id="103">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ТипЭлемента</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ListChoiceMode>true</ListChoiceMode>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xr:DesignTimeRef">Enum.нсиТипыЭлементовНаименования.EnumValue.Реквизит</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xr:DesignTimeRef">Enum.нсиТипыЭлементовНаименования.EnumValue.Характеристика</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xr:DesignTimeRef">Enum.нсиТипыЭлементовНаименования.EnumValue.ПредопределенноеНаименование</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="НастройкиШаблоновНаименованийТипЭлементаКонтекстноеМеню" id="104"/>
+											<ExtendedTooltip name="НастройкиШаблоновНаименованийТипЭлементаРасширеннаяПодсказка" id="105"/>
+											<Events>
+												<Event name="OnChange">НастройкиШаблоновНаименованийТипЭлементаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="НастройкиШаблоновНаименованийЭлементНаименования" id="106">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ЭлементНаименования</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ChooseType>false</ChooseType>
+											<ContextMenu name="НастройкиШаблоновНаименованийЭлементНаименованияКонтекстноеМеню" id="107"/>
+											<ExtendedTooltip name="НастройкиШаблоновНаименованийЭлементНаименованияРасширеннаяПодсказка" id="108"/>
+										</InputField>
+										<InputField name="НастройкиШаблоновНаименованийПрефиксЗначения" id="115">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ПрефиксЗначения</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновНаименованийПрефиксЗначенияКонтекстноеМеню" id="116"/>
+											<ExtendedTooltip name="НастройкиШаблоновНаименованийПрефиксЗначенияРасширеннаяПодсказка" id="117"/>
+										</InputField>
+										<InputField name="НастройкиШаблоновНаименованийПостфиксЗначения" id="118">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ПостфиксЗначения</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновНаименованийПостфиксЗначенияКонтекстноеМеню" id="119"/>
+											<ExtendedTooltip name="НастройкиШаблоновНаименованийПостфиксЗначенияРасширеннаяПодсказка" id="120"/>
+										</InputField>
+										<InputField name="НастройкиШаблоновНаименованийИспользование" id="128">
+											<DataPath>Объект.НастройкиШаблоновНаименований.Использование</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновНаименованийИспользованиеКонтекстноеМеню" id="129"/>
+											<ExtendedTooltip name="НастройкиШаблоновНаименованийИспользованиеРасширеннаяПодсказка" id="130"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="ШаблонПолногоНаименования" id="138">
+							<DataPath>ШаблонПолногоНаименования</DataPath>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ШаблонПолногоНаименованияКонтекстноеМеню" id="139"/>
+							<ExtendedTooltip name="ШаблонПолногоНаименованияРасширеннаяПодсказка" id="140"/>
+						</InputField>
+						<UsualGroup name="ГруппаШаблонПолногоНаименования" id="136">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настроить шаблон полного наименования</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шаблон полного наименования</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаШаблонПолногоНаименованияРасширеннаяПодсказка" id="137"/>
+							<ChildItems>
+								<Table name="НастройкиШаблоновПолногоНаименования" id="141">
+									<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.НастройкиШаблоновНаименований</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="НастройкиШаблоновПолногоНаименованияКонтекстноеМеню" id="142"/>
+									<AutoCommandBar name="НастройкиШаблоновПолногоНаименованияКоманднаяПанель" id="143"/>
+									<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияРасширеннаяПодсказка" id="144"/>
+									<SearchStringAddition name="НастройкиШаблоновПолногоНаименованияСтрокаПоиска" id="145">
+										<AdditionSource>
+											<Item>НастройкиШаблоновПолногоНаименования</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НастройкиШаблоновПолногоНаименованияСтрокаПоискаКонтекстноеМеню" id="146"/>
+										<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияСтрокаПоискаРасширеннаяПодсказка" id="147"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="НастройкиШаблоновПолногоНаименованияСостояниеПросмотра" id="148">
+										<AdditionSource>
+											<Item>НастройкиШаблоновПолногоНаименования</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НастройкиШаблоновПолногоНаименованияСостояниеПросмотраКонтекстноеМеню" id="149"/>
+										<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияСостояниеПросмотраРасширеннаяПодсказка" id="150"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="НастройкиШаблоновПолногоНаименованияУправлениеПоиском" id="151">
+										<AdditionSource>
+											<Item>НастройкиШаблоновПолногоНаименования</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="НастройкиШаблоновПолногоНаименованияУправлениеПоискомКонтекстноеМеню" id="152"/>
+										<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияУправлениеПоискомРасширеннаяПодсказка" id="153"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnStartEdit">НастройкиШаблоновПолногоНаименованияПриНачалеРедактирования</Event>
+										<Event name="OnChange">НастройкиШаблоновПолногоНаименованияПриИзменении</Event>
+									</Events>
+									<ChildItems>
+										<LabelField name="НастройкиШаблоновПолногоНаименованияНомерСтроки" id="154">
+											<DataPath>Объект.НастройкиШаблоновНаименований.LineNumber</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновПолногоНаименованияНомерСтрокиКонтекстноеМеню" id="155"/>
+											<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияНомерСтрокиРасширеннаяПодсказка" id="156"/>
+										</LabelField>
+										<InputField name="НастройкиШаблоновПолногоНаименованияТипЭлемента" id="157">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ТипЭлемента</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновПолногоНаименованияТипЭлементаКонтекстноеМеню" id="158"/>
+											<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияТипЭлементаРасширеннаяПодсказка" id="159"/>
+											<Events>
+												<Event name="OnChange">НастройкаШаблоновПолногоНаименованияТипЭлементаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="НастройкиШаблоновПолногоНаименованияЭлементНаименования" id="160">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ЭлементНаименования</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновПолногоНаименованияЭлементНаименованияКонтекстноеМеню" id="161"/>
+											<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияЭлементНаименованияРасширеннаяПодсказка" id="162"/>
+										</InputField>
+										<InputField name="НастройкиШаблоновПолногоНаименованияПрефиксЗначения" id="163">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ПрефиксЗначения</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновПолногоНаименованияПрефиксЗначенияКонтекстноеМеню" id="164"/>
+											<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияПрефиксЗначенияРасширеннаяПодсказка" id="165"/>
+										</InputField>
+										<InputField name="НастройкиШаблоновПолногоНаименованияПостфиксЗначения" id="166">
+											<DataPath>Объект.НастройкиШаблоновНаименований.ПостфиксЗначения</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновПолногоНаименованияПостфиксЗначенияКонтекстноеМеню" id="167"/>
+											<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияПостфиксЗначенияРасширеннаяПодсказка" id="168"/>
+										</InputField>
+										<InputField name="НастройкиШаблоновПолногоНаименованияИспользование" id="169">
+											<DataPath>Объект.НастройкиШаблоновНаименований.Использование</DataPath>
+											<Visible>false</Visible>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НастройкиШаблоновПолногоНаименованияИспользованиеКонтекстноеМеню" id="170"/>
+											<ExtendedTooltip name="НастройкиШаблоновПолногоНаименованияИспользованиеРасширеннаяПодсказка" id="171"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="ВидСправочникаПримера" id="184">
+							<DataPath>ВидСправочникаПримера</DataPath>
+							<ChoiceParameters>
+								<app:item name="Отбор.ВидСправочника">
+									<app:value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.нсиВидыСправочников.EnumValue.ФункциональныйСправочник</Value>
+									</app:value>
+								</app:item>
+							</ChoiceParameters>
+							<ContextMenu name="ВидСправочникаПримераКонтекстноеМеню" id="185"/>
+							<ExtendedTooltip name="ВидСправочникаПримераРасширеннаяПодсказка" id="186"/>
+						</InputField>
+						<UsualGroup name="ГруппаПример" id="187">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа пример</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа пример</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПримерРасширеннаяПодсказка" id="188"/>
+							<ChildItems>
+								<InputField name="Пример" id="172">
+									<DataPath>Пример</DataPath>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Владелец</xr:Name>
+											<xr:DataPath xsi:type="xs:string">ВидСправочникаПримера</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="ПримерКонтекстноеМеню" id="173"/>
+									<ExtendedTooltip name="ПримерРасширеннаяПодсказка" id="174"/>
+									<Events>
+										<Event name="OnChange">ПримерПриИзменении</Event>
+										<Event name="StartChoice">ПримерНачалоВыбора</Event>
+									</Events>
+								</InputField>
+								<Button name="КомандаОбновитьПримеры" id="189">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.КомандаОбновитьПримеры</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.СинхронизацияДанных</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="КомандаОбновитьПримерыРасширеннаяПодсказка" id="190"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="ПримерНаименования" id="175">
+							<DataPath>ПримерНаименования</DataPath>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ПримерНаименованияКонтекстноеМеню" id="176"/>
+							<ExtendedTooltip name="ПримерНаименованияРасширеннаяПодсказка" id="177"/>
+						</InputField>
+						<InputField name="ПримерПолногоНаименования" id="178">
+							<DataPath>ПримерПолногоНаименования</DataPath>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ПримерПолногоНаименованияКонтекстноеМеню" id="179"/>
+							<ExtendedTooltip name="ПримерПолногоНаименованияРасширеннаяПодсказка" id="180"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.нсиУниверсальныйКлассификатор</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.НастройкиШаблоновНаименований">
+					<Column name="ЭлементПредствалениеНаименования" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Элемент предстваление наименования</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<Attribute name="пМетаданные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Метаданные</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ПредставлениеЭлемента" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление элемента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КодОригинала" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>9</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СсылкаНаОригинал" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на оригинал</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.нсиУниверсальныйКлассификатор</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Пример" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пример</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.нсиУниверсальныйФункциональныйСправочник</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПримерНаименования" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пример наименования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПримерПолногоНаименования" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пример полного наименования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ШаблонНаименования" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблон наименования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ШаблонПолногоНаименования" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблон полного наименования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВидСправочникаПримера" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид справочника (примера)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.нсиВидыСправочников</v8:Type>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновНаименованийНомерСтроки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновНаименованийТипЭлемента</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновНаименованийЭлементНаименования</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновНаименованийПрефиксЗначения</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновНаименованийПостфиксЗначения</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновНаименованийИспользование</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.НастройкиШаблоновНаименований.Использование</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">Наименование</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.НастройкиШаблоновНаименований.Использование</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string"/>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновПолногоНаименованияНомерСтроки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновПолногоНаименованияТипЭлемента</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновПолногоНаименованияЭлементНаименования</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновПолногоНаименованияПрефиксЗначения</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновПолногоНаименованияПостфиксЗначения</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НастройкиШаблоновПолногоНаименованияИспользование</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.НастройкиШаблоновНаименований.Использование</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">ПолноеНаименование</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.НастройкиШаблоновНаименований.Использование</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string"/>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаОбновитьПримеры" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить примеры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда обновить примеры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаОбновитьПримеры</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ВидСправочника">
+			<Type>
+				<v8:Type>cfg:CatalogRef.нсиВидыСправочников</v8:Type>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ВладелецНового">
+			<Type>
+				<v8:Type>v8:UUID</v8:Type>
+				<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+			</Type>
+		</Parameter>
+		<Parameter name="НоваяГруппа">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="Элемент">
+			<Type>
+				<v8:Type>v8:UUID</v8:Type>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ЭлементКопирования">
+			<Type>
+				<v8:Type>v8:UUID</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+	<CommandInterface>
+		<CommandBar>
+			<Item>
+				<Command>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ЗахватитьВБуфер</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ОтменитьОбработку</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ОтпуститьИзБуфера</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ПодтвердитьОбработку</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
+</Form>

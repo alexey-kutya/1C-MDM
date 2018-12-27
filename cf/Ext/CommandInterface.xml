@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.GlobalSKU</Subsystem>
+		<Subsystem>Subsystem.нсиМТР</Subsystem>
+		<Subsystem>Subsystem.GlobalPartners</Subsystem>
+		<Subsystem>Subsystem.нсиУслуги</Subsystem>
+		<Subsystem>Subsystem.нсиКонтрагенты</Subsystem>
+		<Subsystem>Subsystem.БанковскиеСчета</Subsystem>
+		<Subsystem>Subsystem.ДоговорыСКонтрагентами</Subsystem>
+		<Subsystem>Subsystem.нсиПредприятие</Subsystem>
+		<Subsystem>Subsystem.нсиКлассификаторы</Subsystem>
+		<Subsystem>Subsystem.Органайзер</Subsystem>
+		<Subsystem>Subsystem.нсиУниверсальноеХранилище</Subsystem>
+		<Subsystem>Subsystem.Администрирование</Subsystem>
+		<Subsystem>Subsystem.итДоработки</Subsystem>
+		<Subsystem>Subsystem.нсиСинхронизацияДанных</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

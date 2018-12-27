@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="16">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<Button name="Кнопка1" id="18">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.StandardCommand.WriteAndClose</CommandName>
+					<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="19"/>
+				</Button>
+				<Button name="Кнопка2" id="20">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.StandardCommand.Write</CommandName>
+					<ExtendedTooltip name="Кнопка2РасширеннаяПодсказка" id="21"/>
+				</Button>
+				<Button name="Кнопка3" id="22">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.StandardCommand.Close</CommandName>
+					<ExtendedTooltip name="Кнопка3РасширеннаяПодсказка" id="23"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа6" id="108">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="109"/>
+			<ChildItems>
+				<InputField name="Код" id="51">
+					<DataPath>Объект.Code</DataPath>
+					<Visible>false</Visible>
+					<Width>11</Width>
+					<ContextMenu name="КодКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="53"/>
+				</InputField>
+				<InputField name="Наименование" id="1">
+					<DataPath>Объект.Description</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="LocalID" id="7">
+					<DataPath>Объект.LocalID</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>8</Width>
+					<ContextMenu name="LocalIDКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="LocalIDРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа7" id="110">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>#CCFFCC</BackColor>
+			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="111"/>
+			<ChildItems>
+				<InputField name="СтранаОрганизации" id="13">
+					<DataPath>1/0:b7c1dcf0-9582-4719-bba5-bc3d71c72060</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>15</MaxWidth>
+					<ContextMenu name="СтранаОрганизацииКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="СтранаОрганизацииРасширеннаяПодсказка" id="15"/>
+					<Events>
+						<Event name="OnChange">СтранаОрганизацииПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="СтранаОрганизацииРазделительДанных" id="112">
+					<DataPath>1/0:b6de4dbf-6a15-4dee-ba40-59e7320462a9</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="СтранаОрганизацииРазделительДанныхКонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="СтранаОрганизацииРазделительДанныхРасширеннаяПодсказка" id="114"/>
+				</InputField>
+				<InputField name="LocalSKUStatus" id="4">
+					<DataPath>Объект.Status</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>16</MaxWidth>
+					<ContextMenu name="LocalSKUStatusКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="LocalSKUStatusРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.нсиМТР</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

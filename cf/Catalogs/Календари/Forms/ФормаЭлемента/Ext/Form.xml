@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Изменить" id="155">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<CommandName>Form.Command.Изменить</CommandName>
+				<ExtendedTooltip name="ИзменитьРасширеннаяПодсказка" id="189"/>
+			</Button>
+			<Button name="ЗаполнитьПоКалендарю" id="158">
+				<Type>CommandBarButton</Type>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<CommandName>Form.Command.ЗаполнитьПоКалендарю</CommandName>
+				<ExtendedTooltip name="ЗаполнитьПоКалендарюРасширеннаяПодсказка" id="190"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа" id="75">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="191"/>
+			<ChildItems>
+				<InputField name="Наименование" id="1">
+					<DataPath>Объект.Description</DataPath>
+					<Width>42</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Wrap>false</Wrap>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="192"/>
+				</InputField>
+				<InputField name="НомерТекущегоГода" id="73">
+					<DataPath>НомерТекущегоГода</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Wrap>false</Wrap>
+					<SpinButton>true</SpinButton>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧГ=</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="НомерТекущегоГодаКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="НомерТекущегоГодаРасширеннаяПодсказка" id="193"/>
+					<Events>
+						<Event name="OnChange">НомерТекущегоГодаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ТипГрафика" id="161">
+			<DataPath>Объект.ТипГрафика</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ListChoiceMode>true</ListChoiceMode>
+			<TextEdit>false</TextEdit>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.нсиТипыРабочихГрафиков.EnumValue.РабочийГрафикПользователя</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ТипГрафикаКонтекстноеМеню" id="162"/>
+			<ExtendedTooltip name="ТипГрафикаРасширеннаяПодсказка" id="194"/>
+			<Events>
+				<Event name="OnChange">ТипГрафикаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Владелец" id="159">
+			<DataPath>Объект.ВладелецКалендаря</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ChooseType>false</ChooseType>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="160"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="195"/>
+		</InputField>
+		<InputField name="Родитель" id="187">
+			<DataPath>Объект.Parent</DataPath>
+			<SkipOnInput>true</SkipOnInput>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="РодительКонтекстноеМеню" id="188"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="196"/>
+		</InputField>
+		<Pages name="ГруппаСтраницы" id="176">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="197"/>
+			<ChildItems>
+				<Page name="ГруппаКалендарь" id="177">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Календарь</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа календарь</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаКалендарьРасширеннаяПодсказка" id="198"/>
+					<ChildItems>
+						<CalendarField name="Календарь" id="148">
+							<DataPath>Календарь</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<Width>70</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>21</Height>
+							<ShowCurrentDate>false</ShowCurrentDate>
+							<WidthInMonths>4</WidthInMonths>
+							<HeightInMonths>3</HeightInMonths>
+							<ContextMenu name="КалендарьКонтекстноеМеню" id="149"/>
+							<ExtendedTooltip name="КалендарьРасширеннаяПодсказка" id="199"/>
+							<Events>
+								<Event name="OnPeriodOutput">КалендарьПриВыводеПериода</Event>
+								<Event name="Selection">КалендарьВыбор</Event>
+							</Events>
+						</CalendarField>
+						<LabelField name="ТекстРучногоИзменения" id="153">
+							<DataPath>ТекстРучногоИзменения</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<ContextMenu name="ТекстРучногоИзмененияКонтекстноеМеню" id="154"/>
+							<ExtendedTooltip name="ТекстРучногоИзмененияРасширеннаяПодсказка" id="200"/>
+						</LabelField>
+						<LabelField name="СпособРедактированияПоясняющийТекст" id="156">
+							<DataPath>СпособРедактированияПоясняющийТекст</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<ContextMenu name="СпособРедактированияПоясняющийТекстКонтекстноеМеню" id="157"/>
+							<ExtendedTooltip name="СпособРедактированияПоясняющийТекстРасширеннаяПодсказка" id="201"/>
+						</LabelField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПериодыГрафика" id="178">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Периоды графика</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа периоды графика</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="ГруппаПериодыГрафикаРасширеннаяПодсказка" id="202"/>
+					<ChildItems>
+						<Table name="ПериодыДействияГрафика" id="179">
+							<Width>25</Width>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПериодыДействияГрафика</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПериодыДействияГрафикаКонтекстноеМеню" id="180"/>
+							<AutoCommandBar name="ПериодыДействияГрафикаКоманднаяПанель" id="181"/>
+							<ExtendedTooltip name="ПериодыДействияГрафикаРасширеннаяПодсказка" id="203"/>
+							<SearchStringAddition name="ПериодыДействияГрафикаСтрокаПоиска" id="204">
+								<AdditionSource>
+									<Item>ПериодыДействияГрафика</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПериодыДействияГрафикаСтрокаПоискаКонтекстноеМеню" id="205"/>
+								<ExtendedTooltip name="ПериодыДействияГрафикаСтрокаПоискаРасширеннаяПодсказка" id="206"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПериодыДействияГрафикаСостояниеПросмотра" id="207">
+								<AdditionSource>
+									<Item>ПериодыДействияГрафика</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПериодыДействияГрафикаСостояниеПросмотраКонтекстноеМеню" id="208"/>
+								<ExtendedTooltip name="ПериодыДействияГрафикаСостояниеПросмотраРасширеннаяПодсказка" id="209"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПериодыДействияГрафикаУправлениеПоиском" id="210">
+								<AdditionSource>
+									<Item>ПериодыДействияГрафика</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПериодыДействияГрафикаУправлениеПоискомКонтекстноеМеню" id="211"/>
+								<ExtendedTooltip name="ПериодыДействияГрафикаУправлениеПоискомРасширеннаяПодсказка" id="212"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnEditEnd">ПериодыДействияГрафикаПриОкончанииРедактирования</Event>
+								<Event name="BeforeDeleteRow">ПериодыДействияГрафикаПередУдалением</Event>
+								<Event name="BeforeEditEnd">ПериодыДействияГрафикаПередОкончаниемРедактирования</Event>
+								<Event name="OnActivateRow">ПериодыДействияГрафикаПриАктивизацииСтроки</Event>
+								<Event name="OnStartEdit">ПериодыДействияГрафикаПриНачалеРедактирования</Event>
+								<Event name="OnChange">ПериодыДействияГрафикаПриИзменении</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ПериодыДействияГрафикаНомерСтроки" id="182">
+									<DataPath>Объект.ПериодыДействияГрафика.LineNumber</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПериодыДействияГрафикаНомерСтрокиКонтекстноеМеню" id="183"/>
+									<ExtendedTooltip name="ПериодыДействияГрафикаНомерСтрокиРасширеннаяПодсказка" id="213"/>
+								</LabelField>
+								<InputField name="ПериодыДействияГрафикаНачало" id="184">
+									<DataPath>Объект.ПериодыДействияГрафика.ДатаИзмененияРасписания</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата изменения расписания</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПериодыДействияГрафикаНачалоКонтекстноеМеню" id="185"/>
+									<ExtendedTooltip name="ПериодыДействияГрафикаНачалоРасширеннаяПодсказка" id="214"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="ПериодыГрафика" id="165">
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Width>60</Width>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПериодыГрафика</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПериодыГрафикаКонтекстноеМеню" id="166"/>
+							<AutoCommandBar name="ПериодыГрафикаКоманднаяПанель" id="167">
+								<ChildItems>
+									<Button name="ПериодыГрафикаЗаполнитьВремя" id="186">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьВремя</CommandName>
+										<ExtendedTooltip name="ПериодыГрафикаЗаполнитьВремяРасширеннаяПодсказка" id="215"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПериодыГрафикаРасширеннаяПодсказка" id="216"/>
+							<SearchStringAddition name="ПериодыГрафикаСтрокаПоиска" id="217">
+								<AdditionSource>
+									<Item>ПериодыГрафика</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПериодыГрафикаСтрокаПоискаКонтекстноеМеню" id="218"/>
+								<ExtendedTooltip name="ПериодыГрафикаСтрокаПоискаРасширеннаяПодсказка" id="219"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПериодыГрафикаСостояниеПросмотра" id="220">
+								<AdditionSource>
+									<Item>ПериодыГрафика</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПериодыГрафикаСостояниеПросмотраКонтекстноеМеню" id="221"/>
+								<ExtendedTooltip name="ПериодыГрафикаСостояниеПросмотраРасширеннаяПодсказка" id="222"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПериодыГрафикаУправлениеПоиском" id="223">
+								<AdditionSource>
+									<Item>ПериодыГрафика</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПериодыГрафикаУправлениеПоискомКонтекстноеМеню" id="224"/>
+								<ExtendedTooltip name="ПериодыГрафикаУправлениеПоискомРасширеннаяПодсказка" id="225"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnEditEnd">ПериодыГрафикаПриОкончанииРедактирования</Event>
+								<Event name="BeforeAddRow">ПериодыГрафикаПередНачаломДобавления</Event>
+								<Event name="BeforeEditEnd">ПериодыГрафикаПередОкончаниемРедактирования</Event>
+								<Event name="OnStartEdit">ПериодыГрафикаПриНачалеРедактирования</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ПериодыГрафикаНомерСтроки" id="168">
+									<DataPath>Объект.ПериодыГрафика.LineNumber</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПериодыГрафикаНомерСтрокиКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="ПериодыГрафикаНомерСтрокиРасширеннаяПодсказка" id="226"/>
+								</LabelField>
+								<InputField name="ПериодыГрафикаДеньНедели" id="170">
+									<DataPath>Объект.ПериодыГрафика.ДеньНедели</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПериодыГрафикаДеньНеделиКонтекстноеМеню" id="171"/>
+									<ExtendedTooltip name="ПериодыГрафикаДеньНеделиРасширеннаяПодсказка" id="227"/>
+								</InputField>
+								<InputField name="ПериодыГрафикаВремяНачала" id="172">
+									<DataPath>Объект.ПериодыГрафика.ВремяНачала</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПериодыГрафикаВремяНачалаКонтекстноеМеню" id="173"/>
+									<ExtendedTooltip name="ПериодыГрафикаВремяНачалаРасширеннаяПодсказка" id="228"/>
+								</InputField>
+								<InputField name="ПериодыГрафикаВремяОкончания" id="174">
+									<DataPath>Объект.ПериодыГрафика.ВремяОкончания</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПериодыГрафикаВремяОкончанияКонтекстноеМеню" id="175"/>
+									<ExtendedTooltip name="ПериодыГрафикаВремяОкончанияРасширеннаяПодсказка" id="229"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Календари</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.ПериодыГрафика">
+					<Column name="НомерДН" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Номер ДН</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>10</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<Attribute name="НомерТекущегоГода" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Год</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="Календарь" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Календарь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаблицаРегистра" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица регистра</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НомерПредыдущегоГода" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер предыдущего года</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РучноеИзменение" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ручное изменение</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ТекстРучногоИзменения" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст ручного изменения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item/>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="СпособРедактированияПоясняющийТекст" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способ редактирования поясняющий текст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Изменить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Изменить</Action>
+			<FunctionalOptions>
+				<Item/>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ЗаполнитьПоКалендарю" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по календарю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить календарь по данным производственного календаря на год</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПоКалендарю</Action>
+			<Representation>TextPicture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="ЗаполнитьВремя" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить время</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить время</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьВремя</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ЗначениеКопирования">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Календари</v8:Type>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+	</Parameters>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

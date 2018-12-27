@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<CommandsVisibility>
+		<Command name="Catalog.нсиУслуги.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиХарактеристикиУслуг.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ПредварительнаяКлассификация">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.КомплекснаяРаботаСЗаписями">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ПодборВБуферЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ОбработкаБуфераЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиКлассификаторУслуг.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиНаименованияХарактеристикУслуг.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.нсиУчитыватьВРазрезеКлассификатораУслуг.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.нсиИспользоватьПодсистемуУслуг.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.нсиУслуги.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.нсиКлассификаторУслуг.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиНаименованияХарактеристикУслуг.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Catalog.нсиУслуги.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Enum.нсиПризнакиИспользованияПозицийУслуг.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиХарактеристикиУслуг.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Enum.нсиТипыПозицийСправочников.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ПредварительнаяКлассификация">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.КомплекснаяРаботаСЗаписями">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ПодборВБуферЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ОбработкаБуфераЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="0:2001396f-b1ba-4bb9-8b8e-3872a0958cbc">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ЭталонныеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="0:54614218-08d3-4903-92a4-531729213e69">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиУслуги.Command.ДублирующиеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиКлассификаторУслуг.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.нсиНаименованияХарактеристикУслуг.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Constant.нсиУчитыватьВРазрезеКлассификатораУслуг.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.нсиИспользоватьПодсистемуУслуг.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>CommandGroup.ПервичнаяОбработка</Group>
+		<Group>CommandGroup.ТипыПозиций</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
+</CommandInterface>

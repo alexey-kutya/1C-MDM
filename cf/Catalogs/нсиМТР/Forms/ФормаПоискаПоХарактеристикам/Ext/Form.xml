@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаНайти" id="12">
+				<Type>CommandBarButton</Type>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<CommandName>Form.Command.НайтиАналоги</CommandName>
+				<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+				<ExtendedTooltip name="ФормаНайтиРасширеннаяПодсказка" id="44"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка поиска</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<InputField name="Класс" id="2">
+					<DataPath>Класс</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="КлассКонтекстноеМеню" id="3"/>
+					<ExtendedTooltip name="КлассРасширеннаяПодсказка" id="46"/>
+					<Events>
+						<Event name="OnChange">КлассПриИзменении</Event>
+					</Events>
+				</InputField>
+				<Table name="СписокХарактеристик" id="4">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>СписокХарактеристик</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+					</CommandSet>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СписокХарактеристикКонтекстноеМеню" id="5"/>
+					<AutoCommandBar name="СписокХарактеристикКоманднаяПанель" id="6"/>
+					<ExtendedTooltip name="СписокХарактеристикРасширеннаяПодсказка" id="47"/>
+					<SearchStringAddition name="СписокХарактеристикСтрокаПоиска" id="48">
+						<AdditionSource>
+							<Item>СписокХарактеристик</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокХарактеристикСтрокаПоискаКонтекстноеМеню" id="49"/>
+						<ExtendedTooltip name="СписокХарактеристикСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокХарактеристикСостояниеПросмотра" id="51">
+						<AdditionSource>
+							<Item>СписокХарактеристик</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокХарактеристикСостояниеПросмотраКонтекстноеМеню" id="52"/>
+						<ExtendedTooltip name="СписокХарактеристикСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокХарактеристикУправлениеПоиском" id="54">
+						<AdditionSource>
+							<Item>СписокХарактеристик</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокХарактеристикУправлениеПоискомКонтекстноеМеню" id="55"/>
+						<ExtendedTooltip name="СписокХарактеристикУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<CheckBoxField name="СписокХарактеристикИспользовать" id="7">
+							<DataPath>СписокХарактеристик.Использовать</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СписокХарактеристикИспользоватьКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="СписокХарактеристикИспользоватьРасширеннаяПодсказка" id="57"/>
+						</CheckBoxField>
+						<InputField name="СписокХарактеристикХарактеристика" id="9">
+							<DataPath>СписокХарактеристик.Характеристика</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокХарактеристикХарактеристикаКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="СписокХарактеристикХарактеристикаРасширеннаяПодсказка" id="58"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат поиска</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="35">
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="60"/>
+					<ChildItems>
+						<Table name="СоответствиеНаборов" id="28">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ReadOnly>true</ReadOnly>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СоответствиеНаборов</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СоответствиеНаборовКонтекстноеМеню" id="29"/>
+							<AutoCommandBar name="СоответствиеНаборовКоманднаяПанель" id="30"/>
+							<ExtendedTooltip name="СоответствиеНаборовРасширеннаяПодсказка" id="61"/>
+							<SearchStringAddition name="СоответствиеНаборовСтрокаПоиска" id="62">
+								<AdditionSource>
+									<Item>СоответствиеНаборов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоответствиеНаборовСтрокаПоискаКонтекстноеМеню" id="63"/>
+								<ExtendedTooltip name="СоответствиеНаборовСтрокаПоискаРасширеннаяПодсказка" id="64"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СоответствиеНаборовСостояниеПросмотра" id="65">
+								<AdditionSource>
+									<Item>СоответствиеНаборов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоответствиеНаборовСостояниеПросмотраКонтекстноеМеню" id="66"/>
+								<ExtendedTooltip name="СоответствиеНаборовСостояниеПросмотраРасширеннаяПодсказка" id="67"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СоответствиеНаборовУправлениеПоиском" id="68">
+								<AdditionSource>
+									<Item>СоответствиеНаборов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СоответствиеНаборовУправлениеПоискомКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="СоответствиеНаборовУправлениеПоискомРасширеннаяПодсказка" id="70"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnActivateRow">СоответствиеНаборовПриАктивизацииСтроки</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="СоответствиеНаборовПредставление" id="33">
+									<DataPath>СоответствиеНаборов.Представление</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СоответствиеНаборовПредставлениеКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="СоответствиеНаборовПредставлениеРасширеннаяПодсказка" id="71"/>
+								</InputField>
+								<InputField name="СоответствиеНаборовКоличество" id="36">
+									<DataPath>СоответствиеНаборов.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СоответствиеНаборовКоличествоКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="СоответствиеНаборовКоличествоРасширеннаяПодсказка" id="72"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="СписокНоменклатуры" id="13">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>СписокНоменклатуры</DataPath>
+							<RowPictureDataPath>СписокНоменклатуры.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Choose</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="СписокНоменклатурыКонтекстноеМеню" id="14"/>
+							<AutoCommandBar name="СписокНоменклатурыКоманднаяПанель" id="15">
+								<ChildItems>
+									<Button name="РегистрСведенийнсиСтатусыОбработкиСправочниковЗахватитьВБуфер" id="40">
+										<Type>CommandBarButton</Type>
+										<CommandName>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ЗахватитьВБуфер</CommandName>
+										<DataPath>Items.СписокНоменклатуры.CurrentData.Ref</DataPath>
+										<ExtendedTooltip name="РегистрСведенийнсиСтатусыОбработкиСправочниковЗахватитьВБуферРасширеннаяПодсказка" id="73"/>
+									</Button>
+									<Button name="СписокНоменклатурыРегистрСведенийнсиСтатусыОбработкиСправочниковОтпуститьИзБуфера" id="41">
+										<Type>CommandBarButton</Type>
+										<CommandName>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ОтпуститьИзБуфера</CommandName>
+										<DataPath>Items.СписокНоменклатуры.CurrentData.Ref</DataPath>
+										<ExtendedTooltip name="СписокНоменклатурыРегистрСведенийнсиСтатусыОбработкиСправочниковОтпуститьИзБуфераРасширеннаяПодсказка" id="74"/>
+									</Button>
+									<Button name="СписокНоменклатурыРегистрСведенийнсиСтатусыОбработкиСправочниковПодтвердитьОбработку" id="42">
+										<Type>CommandBarButton</Type>
+										<CommandName>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ПодтвердитьОбработку</CommandName>
+										<DataPath>Items.СписокНоменклатуры.CurrentData.Ref</DataPath>
+										<ExtendedTooltip name="СписокНоменклатурыРегистрСведенийнсиСтатусыОбработкиСправочниковПодтвердитьОбработкуРасширеннаяПодсказка" id="75"/>
+									</Button>
+									<Button name="СписокНоменклатурыРегистрСведенийнсиСтатусыОбработкиСправочниковОтменитьОбработку" id="43">
+										<Type>CommandBarButton</Type>
+										<CommandName>InformationRegister.нсиСтатусыОбработкиСправочников.Command.ОтменитьОбработку</CommandName>
+										<DataPath>Items.СписокНоменклатуры.CurrentData.Ref</DataPath>
+										<ExtendedTooltip name="СписокНоменклатурыРегистрСведенийнсиСтатусыОбработкиСправочниковОтменитьОбработкуРасширеннаяПодсказка" id="76"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокНоменклатурыРасширеннаяПодсказка" id="77"/>
+							<SearchStringAddition name="СписокНоменклатурыСтрокаПоиска" id="78">
+								<AdditionSource>
+									<Item>СписокНоменклатуры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНоменклатурыСтрокаПоискаКонтекстноеМеню" id="79"/>
+								<ExtendedTooltip name="СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокНоменклатурыСостояниеПросмотра" id="81">
+								<AdditionSource>
+									<Item>СписокНоменклатуры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="82"/>
+								<ExtendedTooltip name="СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокНоменклатурыУправлениеПоиском" id="84">
+								<AdditionSource>
+									<Item>СписокНоменклатуры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНоменклатурыУправлениеПоискомКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокНоменклатурыНаименование" id="24">
+									<DataPath>СписокНоменклатуры.Description</DataPath>
+									<ContextMenu name="СписокНоменклатурыНаименованиеКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="СписокНоменклатурыНаименованиеРасширеннаяПодсказка" id="87"/>
+								</LabelField>
+								<LabelField name="СписокНоменклатурыТипПозиции" id="26">
+									<DataPath>СписокНоменклатуры.ТипПозиции</DataPath>
+									<ContextMenu name="СписокНоменклатурыТипПозицииКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="СписокНоменклатурыТипПозицииРасширеннаяПодсказка" id="88"/>
+								</LabelField>
+								<InputField name="СписокНоменклатурыЭталоннаяПозиция" id="22">
+									<DataPath>СписокНоменклатуры.ЭталоннаяПозиция</DataPath>
+									<ContextMenu name="СписокНоменклатурыЭталоннаяПозицияКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="СписокНоменклатурыЭталоннаяПозицияРасширеннаяПодсказка" id="89"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Класс" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Класс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.нсиКлассификаторПродукции</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокХарактеристик" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список характеристик</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Использовать" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Характеристика" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.нсиХарактеристикиМТР</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СписокНоменклатуры" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	нсиМТР.Ссылка,
+	нсиМТР.Наименование,
+	нсиМТР.ТипПозиции,
+	СтатусыОбработки.Пользователь КАК Пользователь,
+	СтатусыОбработки.ВременныйЭлемент КАК ВременныйЭлемент,
+	СтатусыОбработки.СозданаЗаявка КАК СозданаЗаявка,
+	СтатусыОбработки.ОбработкаНачата КАК ОбработкаНачата,
+	СтатусыОбработки.Обработано КАК Обработано,
+	нсиМТР.ЭталоннаяПозиция
+ИЗ
+	Справочник.нсиМТР КАК нсиМТР
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.нсиСтатусыОбработкиСправочников КАК СтатусыОбработки
+		ПО (СтатусыОбработки.Объект = нсиМТР.Ссылка)
+			И (ВЫБОР
+				КОГДА &amp;СсылкаНеОпределена
+					ТОГДА ИСТИНА
+				ИНАЧЕ нсиМТР.Ссылка В (&amp;Ссылка)
+			КОНЕЦ)
+			И (ВЫБОР
+				КОГДА &amp;СсылкаНеОпределена
+					ТОГДА ИСТИНА
+				ИНАЧЕ СтатусыОбработки.Объект В (&amp;Ссылка)
+			КОНЕЦ)
+ГДЕ
+	нсиМТР.Класс = &amp;Класс
+	И нсиМТР.Ссылка В(&amp;СписокСсылок)</QueryText>
+				<MainTable>Catalog.нсиМТР</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СозданаЗаявка</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:СозданаЗаявка</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:presentation xsi:type="xs:string">Создана заявка</dcsset:presentation>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ОбработкаНачата</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ОбработкаНачата</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:presentation xsi:type="xs:string">В обработке</dcsset:presentation>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Пользователь</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Пользователи.ПустаяСсылка</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ОбрабатываетсяПользователем</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:presentation xsi:type="xs:string">Пользователь</dcsset:presentation>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ВременныйЭлемент</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ВременныйЭлемент</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:presentation xsi:type="xs:string">Временный элемент</dcsset:presentation>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СоответствиеНаборов" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соответствие наборов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="СписокСсылок" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список ссылок</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Представление" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Количество" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НайтиАналоги" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти аналоги</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти аналоги</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Поиск</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>НайтиАналоги</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

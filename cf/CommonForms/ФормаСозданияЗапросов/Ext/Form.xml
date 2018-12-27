@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Создание заявок</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Request creation</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<Button name="ЗапросНаВводНовогоSKU" id="4">
+			<Type>Hyperlink</Type>
+			<CommandName>Catalog.GlobalSKU.Command.ВводНовогоЭлементаСправочника</CommandName>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СОЗДАНИЕ НОВОЙ ЗАЯВКИ (Global Product and Material ID)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>CREATE A NEW REQUEST (Global Product and Material ID)</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ЗапросНаВводНовогоSKUРасширеннаяПодсказка" id="5"/>
+		</Button>
+		<Button name="ЗапросНаВводНовогоGlobalPatrner" id="6">
+			<Type>Hyperlink</Type>
+			<CommandName>Catalog.GlobalPartners.Command.ВводНовогоЭлементаСправочника</CommandName>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СОЗДАНИЕ НОВОЙ ЗАЯВКИ (Global Partner ID)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>CREATE A NEW REQUEST (Global Partner ID)</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ЗапросНаВводНовогоGlobalPatrnerРасширеннаяПодсказка" id="7"/>
+		</Button>
+		<UsualGroup name="Группа1" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Главные списки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main lists</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<Button name="SKU" id="8">
+					<Type>Hyperlink</Type>
+					<CommandName>0:94e976a8-8930-4ea0-a033-cf301cf78f1e</CommandName>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура (Global)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Products and Materials</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="SKUРасширеннаяПодсказка" id="9"/>
+				</Button>
+				<Button name="Patrner" id="12">
+					<Type>Hyperlink</Type>
+					<CommandName>InformationRegister.MappingGlobalAndLocalPartners.StandardCommand.OpenList</CommandName>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагенты (Global)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Partners</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="PatrnerРасширеннаяПодсказка" id="13"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+</Form>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Production" id="10">
+			<DataPath>Объект.Production</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ProductionКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ProductionРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="NameDetailed" id="13">
+			<DataPath>Объект.NameDetailed</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="NameDetailedКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="NameDetailedРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="30">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<InputField name="MainBrand" id="16">
+					<DataPath>Объект.MainBrand</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="MainBrandКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="MainBrandРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<LabelField name="MainBrandID" id="32">
+					<DataPath>Объект.MainBrand.Code</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<TextColor>web:CornFlowerBlue</TextColor>
+					<ContextMenu name="MainBrandIDКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="MainBrandIDРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="NonProduct" id="19">
+			<DataPath>Объект.NonProduct</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="NonProductКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="NonProductРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="28">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<InputField name="ParentBrand" id="22">
+					<DataPath>Объект.ParentBrand</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ParentBrandКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ParentBrandРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<LabelField name="ParentBrandID" id="35">
+					<DataPath>Объект.ParentBrand.Code</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<TextColor>web:CornFlowerBlue</TextColor>
+					<ContextMenu name="ParentBrandIDКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ParentBrandIDРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Remarks" id="25">
+			<DataPath>Объект.Remarks</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="RemarksКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="RemarksРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="AdditionalInformation" id="38">
+			<DataPath>Объект.AdditionalInformation</DataPath>
+			<ContextMenu name="AdditionalInformationКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="AdditionalInformationРасширеннаяПодсказка" id="40"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.GlobalBrand</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

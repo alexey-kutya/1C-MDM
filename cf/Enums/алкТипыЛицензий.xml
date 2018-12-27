@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Enum uuid="df37d0c0-b609-452b-ba44-3af881ca7b5c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.алкТипыЛицензий" category="Ref">
+				<xr:TypeId>2b6a0dc1-1077-4664-8204-326ff2e4eb36</xr:TypeId>
+				<xr:ValueId>554d46ce-ab9e-41dd-b674-a727ca82de6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.алкТипыЛицензий" category="Manager">
+				<xr:TypeId>33e77956-b1cb-4fb5-92e0-211bf0eeedbf</xr:TypeId>
+				<xr:ValueId>f1f0e3ea-6008-4514-9025-59b6b5cd6f82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.алкТипыЛицензий" category="List">
+				<xr:TypeId>e9010fbb-0a17-47a5-8030-4d67a402b835</xr:TypeId>
+				<xr:ValueId>abe53bc9-8616-436d-9c30-cae5da1638bc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>алкТипыЛицензий</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы лицензий</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Типы лицензий организаций и контрагентов</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Order">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm>Enum.алкТипыЛицензий.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Enum.алкТипыЛицензий.Form.ФормаСписка</DefaultChoiceForm>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b391e7af-8b2f-486c-9cd5-29ef89062ef9">
+				<Properties>
+					<Name>Производство</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Производство</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Производство алкоголя</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b2942ee0-bbd5-4839-b9fd-667216729376">
+				<Properties>
+					<Name>Оптовая</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оптовая</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Оптовая продажа</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d6bad073-ed6a-4b88-a25e-6dc3d8d0e209">
+				<Properties>
+					<Name>Розничная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Розничная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Розничная продажа</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f611d564-a58a-4332-88fd-af127a8a5129">
+				<Properties>
+					<Name>Импорт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Импорт</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Лицензия на импорт</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="180a8be4-64aa-41e7-a63f-9cef2268607d">
+				<Properties>
+					<Name>Экспорт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Экспорт</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Лицензия на экспорт алкоголя</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="65668b78-298a-475e-87b1-3da51b21c5f7">
+				<Properties>
+					<Name>Хранение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Хранение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Лицензия на хранение алкоголя</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ed73d757-1617-42fe-8fda-b247e2f75588">
+				<Properties>
+					<Name>ПеревозокЭтиловогоСпирта</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перевозок этилового спирта ( в том числе денатурата)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Лицензия на осуществление перевозок этилового спирта ( в том числе денатурата)</Comment>
+				</Properties>
+			</EnumValue>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

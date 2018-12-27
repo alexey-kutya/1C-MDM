@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="121fc728-dcf7-4270-b54e-20afb7aaa047">
+		<Properties>
+			<Name>БизнесПроцессыИЗадачи</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бизнес-процессы и задачи</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БизнесПроцессыИЗадачиКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БизнесПроцессыИЗадачиПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БизнесПроцессыИЗадачиСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ЗаписатьВСписокБизнесПроцессов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.МониторингЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.УведомлениеИсполнителейОНовыхЗадачах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьБизнесПроцессыИЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РолиИсполнителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВариантыВажностиЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗадачиИстекающиеНаДату</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПросроченныеЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Задачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗависшиеЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КартаМаршрутаБизнесПроцесса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсполнителиЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеБизнесПроцессов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ЗадачиПоПредмету</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РолиИИсполнителиЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Subsystem.Органайзер.Subsystem.БизнесПроцессыИЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БизнесПроцессыИЗадачиСобытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ВыполненнаяЗадача</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ПросроченныеДанныеЦвет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ЗадачиПоБизнесПроцессу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.КартаМаршрутаБизнесПроцесса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияВариантыВажности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеРолейИсполнителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИзменениеВыполнениеЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.нсиВводНовогоЭлементаСправочника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.нсиИзменениеЭлементаСправочника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.нсиУдалениеЭлементаСправочника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиДобавлениеИзменениеЗаявок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиЧтениеЗаявок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ЗадачаИсполнителя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.Задание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.нсиОтчетПоРаботеЭкспертов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.нсиПакетныйВводЭлементовСправочника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыИсполнителейЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДатаУведомленияОНовыхЗадачах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.нсиБизнесПроцессы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.нсиБизнесПроцессыИЗадачиКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.нсиБизнесПроцессыРаботаСоСправочниками</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.нсиДобавлениеИзменениеБезЗаявок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.нсиСправочникиВедущиесяПоЗаявкам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ПросроченнаяЗадачаФон</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ПросроченнаяЗадачаФонОповещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.СозданаЗаявка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиРезультатыВыполненияЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиСпособыРаспределенияЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиСтатусыОбработкиЗаявок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиТипыБизнесПроцессов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.нсиШагиБП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.нсиСтатусыОбработкиСправочников</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

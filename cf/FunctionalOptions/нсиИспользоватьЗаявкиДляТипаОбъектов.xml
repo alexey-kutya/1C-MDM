@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<FunctionalOption uuid="1bfabebf-4b8f-436e-97dd-d70b06a761f9">
+		<Properties>
+			<Name>нсиИспользоватьЗаявкиДляТипаОбъектов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать заявки для типа объектов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Location>InformationRegister.нсиДоступностьОперацийПоТипамОбъектов.Resource.ИспользоватьЗаявки</Location>
+			<PrivilegedGetMode>true</PrivilegedGetMode>
+			<Content>
+				<xr:Object>BusinessProcess.Задание</xr:Object>
+				<xr:Object>BusinessProcess.нсиИзменениеЭлементаСправочника</xr:Object>
+				<xr:Object>BusinessProcess.нсиВводНовогоЭлементаСправочника</xr:Object>
+				<xr:Object>BusinessProcess.нсиПакетныйВводЭлементовСправочника</xr:Object>
+				<xr:Object>BusinessProcess.нсиУдалениеЭлементаСправочника</xr:Object>
+				<xr:Object>Task.ЗадачаИсполнителя</xr:Object>
+				<xr:Object>BusinessProcess.нсиВводНовогоЭлементаСправочника.Command.ЗаявкиНаСоздание</xr:Object>
+				<xr:Object>BusinessProcess.нсиВводНовогоЭлементаСправочника.Command.ФормаПоискаДублей</xr:Object>
+				<xr:Object>BusinessProcess.нсиВводНовогоЭлементаСправочника.Command.ЗаявкиПользователяНаСоздание</xr:Object>
+				<xr:Object>BusinessProcess.нсиИзменениеЭлементаСправочника.Command.ЗаявкиНаИзменение</xr:Object>
+				<xr:Object>BusinessProcess.нсиИзменениеЭлементаСправочника.Command.ЗаявкиПользователяНаИзменение</xr:Object>
+				<xr:Object>BusinessProcess.нсиПакетныйВводЭлементовСправочника.Command.ЗаявкиНаПакетноеСоздание</xr:Object>
+				<xr:Object>BusinessProcess.нсиПакетныйВводЭлементовСправочника.Command.ЗаявкиПользователяНаПакетноеСоздание</xr:Object>
+				<xr:Object>BusinessProcess.нсиУдалениеЭлементаСправочника.Command.ЗаявкиНаУдаление</xr:Object>
+				<xr:Object>BusinessProcess.нсиУдалениеЭлементаСправочника.Command.ЗаявкиПользователяНаУдаление</xr:Object>
+			</Content>
+		</Properties>
+	</FunctionalOption>
+</MetaDataObject>

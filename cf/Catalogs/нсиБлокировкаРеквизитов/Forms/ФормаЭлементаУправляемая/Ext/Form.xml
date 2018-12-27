@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа2" id="33">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2ExtendedTooltip" id="35"/>
+			<ChildItems>
+				<InputField name="Наименование" id="3">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="36"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодExtendedTooltip" id="37"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="32">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1ExtendedTooltip" id="38"/>
+			<ChildItems>
+				<Table name="Справочники" id="7">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Справочники</DataPath>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СправочникиКонтекстноеМеню" id="8"/>
+					<AutoCommandBar name="СправочникиКоманднаяПанель" id="9"/>
+					<ExtendedTooltip name="СправочникиExtendedTooltip" id="39"/>
+					<SearchStringAddition name="СправочникиSearchString" id="40">
+						<AdditionSource>
+							<Item>Справочники</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СправочникиSearchStringContextMenu" id="41"/>
+						<ExtendedTooltip name="СправочникиSearchStringExtendedTooltip" id="42"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СправочникиViewStatus" id="43">
+						<AdditionSource>
+							<Item>Справочники</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СправочникиViewStatusContextMenu" id="44"/>
+						<ExtendedTooltip name="СправочникиViewStatusExtendedTooltip" id="45"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СправочникиSearchControl" id="46">
+						<AdditionSource>
+							<Item>Справочники</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СправочникиSearchControlContextMenu" id="47"/>
+						<ExtendedTooltip name="СправочникиSearchControlExtendedTooltip" id="48"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnEditEnd">СправочникиПриОкончанииРедактирования</Event>
+						<Event name="BeforeDeleteRow">СправочникиПередУдалением</Event>
+						<Event name="BeforeEditEnd">СправочникиПередОкончаниемРедактирования</Event>
+						<Event name="OnActivateRow">СправочникиПриАктивизацииСтроки</Event>
+						<Event name="OnStartEdit">СправочникиПриНачалеРедактирования</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="СправочникиНомерСтроки" id="10">
+							<DataPath>Объект.Справочники.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СправочникиНомерСтрокиКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="СправочникиНомерСтрокиExtendedTooltip" id="49"/>
+						</LabelField>
+						<InputField name="СправочникиНаименование" id="12">
+							<DataPath>Объект.Справочники.Наименование</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="СправочникиНаименованиеКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="СправочникиНаименованиеExtendedTooltip" id="50"/>
+							<Events>
+								<Event name="StartChoice">СправочникиНаименованиеНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<LabelField name="СправочникиИД" id="16">
+							<DataPath>Объект.Справочники.ИД</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СправочникиИДКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="СправочникиИДExtendedTooltip" id="51"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+				<Table name="Реквизиты" id="19">
+					<Representation>List</Representation>
+					<TitleLocation>Top</TitleLocation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Реквизиты</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступные элементы формы</v8:content>
+						</v8:item>
+					</Title>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="РеквизитыКонтекстноеМеню" id="20"/>
+					<AutoCommandBar name="РеквизитыКоманднаяПанель" id="21">
+						<ChildItems>
+							<Button name="РеквизитыПодбор" id="34">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.Подбор</CommandName>
+								<ExtendedTooltip name="РеквизитыПодборExtendedTooltip" id="52"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="РеквизитыExtendedTooltip" id="53"/>
+					<SearchStringAddition name="РеквизитыSearchString" id="54">
+						<AdditionSource>
+							<Item>Реквизиты</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитыSearchStringContextMenu" id="55"/>
+						<ExtendedTooltip name="РеквизитыSearchStringExtendedTooltip" id="56"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="РеквизитыViewStatus" id="57">
+						<AdditionSource>
+							<Item>Реквизиты</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитыViewStatusContextMenu" id="58"/>
+						<ExtendedTooltip name="РеквизитыViewStatusExtendedTooltip" id="59"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="РеквизитыSearchControl" id="60">
+						<AdditionSource>
+							<Item>Реквизиты</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитыSearchControlContextMenu" id="61"/>
+						<ExtendedTooltip name="РеквизитыSearchControlExtendedTooltip" id="62"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="BeforeAddRow">РеквизитыПередНачаломДобавления</Event>
+						<Event name="BeforeEditEnd">РеквизитыПередОкончаниемРедактирования</Event>
+						<Event name="OnStartEdit">РеквизитыПриНачалеРедактирования</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="РеквизитыИмяРеквизита" id="24">
+							<DataPath>Объект.Реквизиты.ИмяРеквизита</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РеквизитыИмяРеквизитаКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="РеквизитыИмяРеквизитаExtendedTooltip" id="63"/>
+						</InputField>
+						<LabelField name="РеквизитыИДРек" id="30">
+							<DataPath>Объект.Реквизиты.ИДРек</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РеквизитыИДРекКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="РеквизитыИДРекExtendedTooltip" id="64"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.нсиБлокировкаРеквизитов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Подбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подбор</Action>
+		</Command>
+	</Commands>
+</Form>

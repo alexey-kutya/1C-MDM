@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Родитель" id="5">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="86"/>
+		</InputField>
+		<InputField name="Наименование" id="3">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="87"/>
+		</InputField>
+		<UsualGroup name="ГруппаКод" id="55">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодРасширеннаяПодсказка" id="88"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Wrap>false</Wrap>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="89"/>
+				</InputField>
+				<CheckBoxField name="НеРезидент" id="77">
+					<DataPath>Объект.Нерезидент</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="НеРезидентКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="НеРезидентРасширеннаяПодсказка" id="90"/>
+				</CheckBoxField>
+				<InputField name="SWIFT" id="84">
+					<DataPath>Объект.SWIFT</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="SWIFTКонтекстноеМеню" id="85"/>
+					<ExtendedTooltip name="SWIFTРасширеннаяПодсказка" id="91"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ГоловноеОтделение" id="81">
+			<DataPath>Объект.ГоловноеОтделение</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ГоловноеОтделениеКонтекстноеМеню" id="82"/>
+			<ExtendedTooltip name="ГоловноеОтделениеРасширеннаяПодсказка" id="92"/>
+		</InputField>
+		<InputField name="КоррСчет" id="67">
+			<DataPath>Объект.КоррСчет</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="КоррСчетКонтекстноеМеню" id="68"/>
+			<ExtendedTooltip name="КоррСчетРасширеннаяПодсказка" id="93"/>
+		</InputField>
+		<InputField name="Город" id="69">
+			<DataPath>Объект.Город</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ГородКонтекстноеМеню" id="70"/>
+			<ExtendedTooltip name="ГородРасширеннаяПодсказка" id="94"/>
+		</InputField>
+		<InputField name="Адрес" id="71">
+			<DataPath>Объект.Адрес</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>2</Height>
+			<ContextMenu name="АдресКонтекстноеМеню" id="72"/>
+			<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="95"/>
+		</InputField>
+		<InputField name="Телефоны" id="73">
+			<DataPath>Объект.Телефоны</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ТелефоныКонтекстноеМеню" id="74"/>
+			<ExtendedTooltip name="ТелефоныРасширеннаяПодсказка" id="96"/>
+		</InputField>
+		<Pages name="ГруппаДополнительныеСвойства" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доп. свойства</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дополнительные свойства</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаДополнительныеСвойстваРасширеннаяПодсказка" id="97"/>
+			<Events>
+				<Event name="OnCurrentPageChange">ГруппаДополнительныеСвойстваПриСменеСтраницы</Event>
+			</Events>
+		</Pages>
+		<InputField name="Комментарий" id="75">
+			<DataPath>Объект.Комментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="76"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="98"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.нсиБанки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<CommandsVisibility>
+		<Command name="0:0265ed20-ccf6-47c3-9031-edd8409574d4">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ПредварительнаяКлассификация">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.КомплекснаяРаботаСЗаписями">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ПодборВБуферЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ОбработкаБуфераЗаписей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.нсиПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ЭталонныеПозиции">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ДублирующиеПозиции">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.нсиИспользоватьПодсистемуДоговоровСПокупателями.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="0:0265ed20-ccf6-47c3-9031-edd8409574d4">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="0:0265ed20-ccf6-47c3-9031-edd8409574d4">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ПредварительнаяКлассификация">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.КомплекснаяРаботаСЗаписями">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ПодборВБуферЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ОбработкаБуфераЗаписей">
+			<CommandGroup>CommandGroup.ПервичнаяОбработка</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ЭталонныеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+		<Command name="Catalog.нсиДоговорыСПокупателями.Command.ДублирующиеПозиции">
+			<CommandGroup>CommandGroup.ТипыПозиций</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>CommandGroup.ПервичнаяОбработка</Group>
+		<Group>CommandGroup.ТипыПозиций</Group>
+	</GroupsOrder>
+</CommandInterface>

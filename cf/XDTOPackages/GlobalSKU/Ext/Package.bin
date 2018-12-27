@@ -1,0 +1,94 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.roust.com/GlobalSKU">
+	<property xmlns:d2p1="http://www.roust.com/GlobalSKU" name="ProductsAndMaterials" type="d2p1:ProductsAndMaterials"/>
+	<objectType name="ProductsAndMaterials">
+		<property xmlns:d3p1="http://www.roust.com/GlobalSKU" name="SKU" type="d3p1:SKU" upperBound="-1"/>
+	</objectType>
+	<objectType name="SKU">
+		<property name="GUID">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="36"/>
+		</property>
+		<property name="GlobalID" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="30" maxLength="32"/>
+		</property>
+		<property name="GlobalName" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="150"/>
+		</property>
+		<property name="LocalID">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="7"/>
+		</property>
+		<property name="LocalName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="150"/>
+		</property>
+		<property name="AlcoholContentCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="3"/>
+		</property>
+		<property name="AlcoholContentValue">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="4" fractionDigits="1"/>
+		</property>
+		<property name="AmountCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="5"/>
+		</property>
+		<property name="AmountName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="BrandCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="5"/>
+		</property>
+		<property name="BrandName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="FactoryCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="2"/>
+		</property>
+		<property name="FactoryName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="LabelDescription" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="150"/>
+		</property>
+		<property name="LabelCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="2"/>
+		</property>
+		<property name="LabelVersion" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1" fractionDigits="0"/>
+		</property>
+		<property name="MaterialGroupCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="2"/>
+		</property>
+		<property name="MaterialGroupName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="150"/>
+		</property>
+		<property name="MaterialTypeCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="4"/>
+		</property>
+		<property name="MaterialTypeName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="150"/>
+		</property>
+		<property name="PackingCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="2"/>
+		</property>
+		<property name="PackingName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="Version" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="2" fractionDigits="0"/>
+		</property>
+		<property name="VersionDescription" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</property>
+		<property name="VolumeCode" nillable="true">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="4"/>
+		</property>
+		<property name="VolumeValue">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="8" fractionDigits="3"/>
+		</property>
+		<property name="Status">
+			<typeDef xsi:type="ValueType" base="xs:string" minLength="3" maxLength="8">
+				<enumeration xsi:type="xs:string">ACTIVE</enumeration>
+				<enumeration xsi:type="xs:string">INACTIVE</enumeration>
+				<enumeration xsi:type="xs:string">DELISTED</enumeration>
+				<enumeration xsi:type="xs:string">NPD</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+</package>
