@@ -1102,7 +1102,15 @@
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<ContextMenu name="ЕдиницыИзмеренияКонтекстноеМеню" id="669"/>
-							<AutoCommandBar name="ЕдиницыИзмеренияКоманднаяПанель" id="670"/>
+							<AutoCommandBar name="ЕдиницыИзмеренияКоманднаяПанель" id="670">
+								<ChildItems>
+									<Button name="ЕдиницыИзмеренияСоздатьЕдиницыИзмерения" id="1081">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СоздатьЕдиницыИзмерения</CommandName>
+										<ExtendedTooltip name="ЕдиницыИзмеренияСоздатьЕдиницыИзмеренияРасширеннаяПодсказка" id="1082"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="ЕдиницыИзмеренияРасширеннаяПодсказка" id="671"/>
 							<SearchStringAddition name="ЕдиницыИзмеренияСтрокаПоиска" id="672">
 								<AdditionSource>
@@ -3505,6 +3513,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиПоСсылкеСЭД</Action>
+		</Command>
+		<Command name="СоздатьЕдиницыИзмерения" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать единицы измерения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать единицы измерения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьЕдиницыИзмерения</Action>
 		</Command>
 	</Commands>
 	<Parameters>
