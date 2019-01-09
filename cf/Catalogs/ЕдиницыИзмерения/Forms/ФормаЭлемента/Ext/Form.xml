@@ -359,6 +359,9 @@
 							<MaxWidth>8</MaxWidth>
 							<ContextMenu name="ЕдиницыПроизводителейКоэффициентКонтекстноеМеню" id="88"/>
 							<ExtendedTooltip name="ЕдиницыПроизводителейКоэффициентРасширеннаяПодсказка" id="89"/>
+							<Events>
+								<Event name="OnChange">ЕдиницыПроизводителейКоэффициентПриИзменении</Event>
+							</Events>
 						</InputField>
 						<ColumnGroup name="ЕдиницыПроизводителейГруппа1" id="111">
 							<Title>

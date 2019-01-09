@@ -862,6 +862,11 @@
 											<ContextMenu name="ЕдиницаИзмеренияМестКонтекстноеМеню" id="329"/>
 											<ExtendedTooltip name="ЕдиницаИзмеренияМестРасширеннаяПодсказка" id="330"/>
 										</InputField>
+										<Button name="ЗаполнитьЕдиницыПоНазначению" id="1083">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ЗаполнитьЕдиницыПоНазначению</CommandName>
+											<ExtendedTooltip name="ЗаполнитьЕдиницыПоНазначениюРасширеннаяПодсказка" id="1084"/>
+										</Button>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа35" id="1034">
@@ -3528,6 +3533,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьЕдиницыИзмерения</Action>
+		</Command>
+		<Command name="ЗаполнитьЕдиницыПоНазначению" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить единицы по назначению</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить единицы по назначению</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьЕдиницыПоНазначению</Action>
 		</Command>
 	</Commands>
 	<Parameters>
