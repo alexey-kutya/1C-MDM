@@ -4954,8 +4954,8 @@
 		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводАдреса" id="86b5303b-d967-4bc6-b2da-066c5a58613f" configVersion="bbec519f2628324cac619cef1c26a5c400000000"/>
 		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводАдреса.Form" id="86b5303b-d967-4bc6-b2da-066c5a58613f.0" configVersion="99f3f6f7447fae4fb46fa90d09b1125e00000000"/>
 		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводАдреса.Help" id="86b5303b-d967-4bc6-b2da-066c5a58613f.1" configVersion="d62c7f88d24c8c4d87b4814214e459e200000000"/>
-		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводТелефона" id="853b824d-9377-475f-913e-d02bd60f5f64" configVersion="0ac1ec9d8942074a848e89e2d8e9b29f00000000"/>
-		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводТелефона.Form" id="853b824d-9377-475f-913e-d02bd60f5f64.0" configVersion="4bff4ce3b903924eb1c678de3f3551c300000000"/>
+		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводТелефона" id="853b824d-9377-475f-913e-d02bd60f5f64" configVersion="17c0d1564275854db7e932f7757ccaed00000000"/>
+		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводТелефона.Form" id="853b824d-9377-475f-913e-d02bd60f5f64.0" configVersion="b8ed89229c642642acf8f76612f70bcc00000000"/>
 		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВводТелефона.Help" id="853b824d-9377-475f-913e-d02bd60f5f64.1" configVersion="54c2fcdf839dfd46b73bf56757cfd9bc00000000"/>
 		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВыборАдресаПоПочтовомуИндексу" id="ee1f8545-ea64-41de-a29a-2d40e15d4f16" configVersion="c3e1c1bced8b5f4b891bae8b29dba91600000000"/>
 		<Metadata name="DataProcessor.ВводКонтактнойИнформации.Form.ВыборАдресаПоПочтовомуИндексу.Form" id="ee1f8545-ea64-41de-a29a-2d40e15d4f16.0" configVersion="cd2a5d1501085a4dad7d94fb34f49ab900000000"/>
