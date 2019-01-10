@@ -6836,14 +6836,14 @@
 		<Metadata name="ExchangePlan.Обмен_MDM_AX" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa" configVersion="9d3f60666a682d4dbba8312a21470e6e00000000"/>
 		<Metadata name="ExchangePlan.Обмен_MDM_AX.Content" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa.1" configVersion="51f0c339361df2439eb8ebcfd628579b00000000"/>
 		<Metadata name="ExchangePlan.Обмен_MDM_AX.ManagerModule" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa.3" configVersion="a974a16d82c6f34a9941060f372164f400000000"/>
-		<Metadata name="ExchangePlan.Обмен_МДМ_УПП" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83" configVersion="b529ee4a479f4a4782e73f17eeaf0a2a00000000">
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83" configVersion="d6d4215c5e1b414e944906e96394a55f00000000">
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Attribute.SAP" id="4fc77644-3d2f-42b5-b15b-e8aa7159cc04"/>
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Attribute.Организация" id="768dc8d5-198e-4f7d-8ca5-6aa2b8706605"/>
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация" id="b22a2058-1784-4c4c-a905-ea955c8bcbcf"/>
 		</Metadata>
 		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация.CommandModule" id="b22a2058-1784-4c4c-a905-ea955c8bcbcf.2" configVersion="d2a6dddb50fd80488bd5d58e6de9963900000000"/>
 		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Content" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.1" configVersion="001401ba8c3ba94d8bb1abdad167de9f00000000"/>
-		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.ManagerModule" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.3" configVersion="93337bac5e447648959c756a8fa592c900000000"/>
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.ManagerModule" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.3" configVersion="fe23498cd8cad24f9a704c427922ef7900000000"/>
 		<Metadata name="ExchangePlan.ОбменСправочнойИнформацией" id="6a85d5f5-c143-491e-862f-f364c3daa4c4" configVersion="ddf9d5e15f18074bacccdea7ca3d06a800000000">
 			<Metadata name="ExchangePlan.ОбменСправочнойИнформацией.Attribute.Организация" id="9096180c-5c8d-4925-af32-f9276fe5ca17"/>
 		</Metadata>
