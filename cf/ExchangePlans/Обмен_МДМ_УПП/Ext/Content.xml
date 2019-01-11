@@ -61,6 +61,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.БлокировкаДанныхMDM</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.КонтактнаяИнформация</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>

@@ -1275,6 +1275,7 @@
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
 			<Constant>ИспользоватьГлобальныеСправочники</Constant>
 			<Constant>ВалютаРегламентированногоУчета</Constant>
+			<Constant>БлокировкаДанныхMDM</Constant>
 			<CommonForm>АвторизацияНаСайтеПоддержкиПользователей</CommonForm>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
@@ -1341,6 +1342,7 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ФормаСозданияЗапросов</CommonForm>
+			<CommonForm>ФормаБлокировкиДанныхMDM</CommonForm>
 			<Catalog>GlobalAlcoholContent</Catalog>
 			<Catalog>GlobalAmount</Catalog>
 			<Catalog>GlobalBrand</Catalog>
