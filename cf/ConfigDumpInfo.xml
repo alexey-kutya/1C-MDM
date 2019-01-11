@@ -876,8 +876,8 @@
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаГруппы.Form" id="af2b3b31-6b9a-4114-8fba-839df8df08f3.0" configVersion="7dd5430737c7a44aaec3c0c85f070bdd00000000"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСписка" id="93283636-a760-4e8b-8b99-d81d2ef41334" configVersion="772f90b524f3a045a6787dfeaf2d752900000000"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСписка.Form" id="93283636-a760-4e8b-8b99-d81d2ef41334.0" configVersion="b660c6e12ff4024292a0c251e27f4eb100000000"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента" id="59dc6d30-4224-427c-ace0-f21a5c02c110" configVersion="8536ced159b4b346aebfd7dfbda9f17a00000000"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="59dc6d30-4224-427c-ace0-f21a5c02c110.0" configVersion="7ac4d71fbad96147b8a4d1083ab2500700000000"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента" id="59dc6d30-4224-427c-ace0-f21a5c02c110" configVersion="ea6d7192ab850140bebe65d8faf7d4cc00000000"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="59dc6d30-4224-427c-ace0-f21a5c02c110.0" configVersion="7e44b2f3bed7e647a770f13b9234c3af00000000"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="92707138-5004-4378-8477-f909166d319d" configVersion="e56450758dacfc44968df50b9639641500000000">
 			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды.Attribute.ПоказыватьОповещение" id="0006b44a-3a0c-4be4-8dd0-bd0db9ddcc4d"/>
 			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды" id="0481bc65-6a32-46b9-ae87-993ba52a29a5"/>
@@ -6840,7 +6840,7 @@
 		<Metadata name="ExchangePlan.Обмен_MDM_AX" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa" configVersion="9d3f60666a682d4dbba8312a21470e6e00000000"/>
 		<Metadata name="ExchangePlan.Обмен_MDM_AX.Content" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa.1" configVersion="51f0c339361df2439eb8ebcfd628579b00000000"/>
 		<Metadata name="ExchangePlan.Обмен_MDM_AX.ManagerModule" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa.3" configVersion="a974a16d82c6f34a9941060f372164f400000000"/>
-		<Metadata name="ExchangePlan.Обмен_МДМ_УПП" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83" configVersion="9aafbd22eae53b4cb4523ee8e6779a0d00000000">
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83" configVersion="e7ebdf027c068245bf755f0022128b2600000000">
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Attribute.SAP" id="4fc77644-3d2f-42b5-b15b-e8aa7159cc04"/>
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияИзФормыОбъекта" id="61d37499-817f-4a80-94e7-11087b3e9bdf"/>
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Attribute.Организация" id="768dc8d5-198e-4f7d-8ca5-6aa2b8706605"/>
@@ -6849,7 +6849,7 @@
 		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке.CommandModule" id="b22a2058-1784-4c4c-a905-ea955c8bcbcf.2" configVersion="17567bafa86c544ea3a02a250120490100000000"/>
 		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияИзФормыОбъекта.CommandModule" id="61d37499-817f-4a80-94e7-11087b3e9bdf.2" configVersion="3f7276b3f5ac244c95441761e2e8446500000000"/>
 		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Content" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.1" configVersion="4e36bc2323bf3b4d98c34b6327e65c2e00000000"/>
-		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.ManagerModule" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.3" configVersion="a91c3997fe3a904d9f3fe18a30cabc7300000000"/>
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.ManagerModule" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.3" configVersion="b14b230f4d798c4aa7c8e50a15d087fb00000000"/>
 		<Metadata name="ExchangePlan.ОбменСправочнойИнформацией" id="6a85d5f5-c143-491e-862f-f364c3daa4c4" configVersion="ddf9d5e15f18074bacccdea7ca3d06a800000000">
 			<Metadata name="ExchangePlan.ОбменСправочнойИнформацией.Attribute.Организация" id="9096180c-5c8d-4925-af32-f9276fe5ca17"/>
 		</Metadata>
