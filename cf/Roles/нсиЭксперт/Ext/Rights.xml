@@ -18056,6 +18056,13 @@
 		</right>
 	</object>
 	<object>
+		<name>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияИзФормыОбъекта</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.нсиДоступностьОперацийПоТипамОбъектов.Dimension.ТипОбъекта</name>
 		<right>
 			<name>View</name>

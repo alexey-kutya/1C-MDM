@@ -8609,8 +8609,8 @@
 		<Metadata name="Role.нсиЧтениеПрисоединенныхФайлов.Rights" id="1ecef4c2-8eac-47ff-b5d6-d32cb9ca3a03.0" configVersion="e8b45f90c65b944ea531023a9270c08500000000"/>
 		<Metadata name="Role.нсиЧтениеУслуг" id="22fede6b-6cbd-4187-ba3b-ed2fd854a7b9" configVersion="655e9811de13254095fe030e90ed40f800000000"/>
 		<Metadata name="Role.нсиЧтениеУслуг.Rights" id="22fede6b-6cbd-4187-ba3b-ed2fd854a7b9.0" configVersion="c78150397410ec429c004c2f302bc8da00000000"/>
-		<Metadata name="Role.нсиЭксперт" id="386b3086-c762-48eb-9758-8384eef8c57c" configVersion="abafe9154832874398966126cf7e4da000000000"/>
-		<Metadata name="Role.нсиЭксперт.Rights" id="386b3086-c762-48eb-9758-8384eef8c57c.0" configVersion="400a09f3a403af44bb41eed786c4c5ea00000000"/>
+		<Metadata name="Role.нсиЭксперт" id="386b3086-c762-48eb-9758-8384eef8c57c" configVersion="83d15a2f4badab45985c3f8d6a1342dc00000000"/>
+		<Metadata name="Role.нсиЭксперт.Rights" id="386b3086-c762-48eb-9758-8384eef8c57c.0" configVersion="70d078eef86bf843bdca74d45bc96b3b00000000"/>
 		<Metadata name="ScheduledJob.Exchange_MDM_to_1C" id="8378c755-b737-494f-a6d6-ce2b3e2eb455" configVersion="ecba438678e7864890fce71d179a226600000000"/>
 		<Metadata name="ScheduledJob.ЗагрузкаКлассификатораБанковРФССайтаРБК" id="4d6683a3-1edd-4d04-8e02-0be002e4e5a4" configVersion="008f2b17e291474684c6418feca14bd700000000"/>
 		<Metadata name="ScheduledJob.ЗагрузкаКлассификатораБанковРФССайтаРБК.Schedule" id="4d6683a3-1edd-4d04-8e02-0be002e4e5a4.0" configVersion="3d1e70afdce3cd4f8f8a2888dd92b73900000000"/>
