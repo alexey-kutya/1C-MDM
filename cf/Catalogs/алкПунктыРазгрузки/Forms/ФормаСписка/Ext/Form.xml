@@ -5,7 +5,7 @@
 			<Button name="СписокКнопка" id="49">
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
-				<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация</CommandName>
+				<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке</CommandName>
 				<Picture>
 					<xr:Ref>CommonPicture.Успешно32</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>

@@ -2762,8 +2762,8 @@
 		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаСпискаНовая.Form" id="533715e1-8b99-4cb9-bceb-96fdb0f9f1d4.0" configVersion="f9c4fa1d255eb94aa5e45bec1d695a7600000000"/>
 		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаСпискаУпрощенная" id="4bb4adfb-f454-42c2-8a3c-ff189efb476a" configVersion="a1bd4bde43e4824abbf426fe0a5e264f00000000"/>
 		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаСпискаУпрощенная.Form" id="4bb4adfb-f454-42c2-8a3c-ff189efb476a.0" configVersion="022f5a40dbab894b8802366d1ba1423100000000"/>
-		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлемента" id="762e2c22-70e3-4f1f-b4af-8995c592073a" configVersion="1cc6e75490ddef47a5a97b753d9f4f7600000000"/>
-		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлемента.Form" id="762e2c22-70e3-4f1f-b4af-8995c592073a.0" configVersion="464548d1fd646c4792864a3d67064f5700000000"/>
+		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлемента" id="762e2c22-70e3-4f1f-b4af-8995c592073a" configVersion="2b6c8df5b6c8cf4ab9e6e00e7f20c55800000000"/>
+		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлемента.Form" id="762e2c22-70e3-4f1f-b4af-8995c592073a.0" configVersion="d0cb26789ad308498fa92f6b775d61e300000000"/>
 		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлемента.Help" id="762e2c22-70e3-4f1f-b4af-8995c592073a.1" configVersion="bcd5bffc30ae2041812a07df2cd7607500000000"/>
 		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлементаУпрощенная" id="33da181f-190f-47c2-958a-94c2b1f2cfb5" configVersion="112d7cdae9989b4a9eb957ce23bd18f400000000"/>
 		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлементаУпрощенная.Form" id="33da181f-190f-47c2-958a-94c2b1f2cfb5.0" configVersion="73f59829391f1246b1eddcf4ddfcb95800000000"/>
@@ -6840,14 +6840,16 @@
 		<Metadata name="ExchangePlan.Обмен_MDM_AX" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa" configVersion="9d3f60666a682d4dbba8312a21470e6e00000000"/>
 		<Metadata name="ExchangePlan.Обмен_MDM_AX.Content" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa.1" configVersion="51f0c339361df2439eb8ebcfd628579b00000000"/>
 		<Metadata name="ExchangePlan.Обмен_MDM_AX.ManagerModule" id="8169e015-13fe-4aff-b9ab-3b4e9e6a75fa.3" configVersion="a974a16d82c6f34a9941060f372164f400000000"/>
-		<Metadata name="ExchangePlan.Обмен_МДМ_УПП" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83" configVersion="4d5163c85ec40641a7a26fad1463078300000000">
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83" configVersion="9aafbd22eae53b4cb4523ee8e6779a0d00000000">
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Attribute.SAP" id="4fc77644-3d2f-42b5-b15b-e8aa7159cc04"/>
+			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияИзФормыОбъекта" id="61d37499-817f-4a80-94e7-11087b3e9bdf"/>
 			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Attribute.Организация" id="768dc8d5-198e-4f7d-8ca5-6aa2b8706605"/>
-			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация" id="b22a2058-1784-4c4c-a905-ea955c8bcbcf"/>
+			<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке" id="b22a2058-1784-4c4c-a905-ea955c8bcbcf"/>
 		</Metadata>
-		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация.CommandModule" id="b22a2058-1784-4c4c-a905-ea955c8bcbcf.2" configVersion="d2a6dddb50fd80488bd5d58e6de9963900000000"/>
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке.CommandModule" id="b22a2058-1784-4c4c-a905-ea955c8bcbcf.2" configVersion="17567bafa86c544ea3a02a250120490100000000"/>
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияИзФормыОбъекта.CommandModule" id="61d37499-817f-4a80-94e7-11087b3e9bdf.2" configVersion="3f7276b3f5ac244c95441761e2e8446500000000"/>
 		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.Content" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.1" configVersion="4e36bc2323bf3b4d98c34b6327e65c2e00000000"/>
-		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.ManagerModule" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.3" configVersion="fe23498cd8cad24f9a704c427922ef7900000000"/>
+		<Metadata name="ExchangePlan.Обмен_МДМ_УПП.ManagerModule" id="0b4506b0-ab1d-4b26-9d51-1a5fb63aea83.3" configVersion="a91c3997fe3a904d9f3fe18a30cabc7300000000"/>
 		<Metadata name="ExchangePlan.ОбменСправочнойИнформацией" id="6a85d5f5-c143-491e-862f-f364c3daa4c4" configVersion="ddf9d5e15f18074bacccdea7ca3d06a800000000">
 			<Metadata name="ExchangePlan.ОбменСправочнойИнформацией.Attribute.Организация" id="9096180c-5c8d-4925-af32-f9276fe5ca17"/>
 		</Metadata>

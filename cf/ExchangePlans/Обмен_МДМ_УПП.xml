@@ -148,7 +148,27 @@
 			</Attribute>
 			<Command uuid="b22a2058-1784-4c4c-a905-ea955c8bcbcf">
 				<Properties>
-					<Name>Регистрация</Name>
+					<Name>РегистрацияВСписке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>ActionsPanelTools</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="61d37499-817f-4a80-94e7-11087b3e9bdf">
+				<Properties>
+					<Name>РегистрацияИзФормыОбъекта</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

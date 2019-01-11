@@ -10,6 +10,17 @@
 				<CommandName>Form.Command.ОбновитьДанныеЕГРН</CommandName>
 				<ExtendedTooltip name="ОбновитьДанныеЕГРНРасширеннаяПодсказка" id="182"/>
 			</Button>
+			<Button name="СписокКнопка4" id="1009">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<OnlyInAllActions>true</OnlyInAllActions>
+				<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияИзФормыОбъекта</CommandName>
+				<Picture>
+					<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="СписокКнопка4РасширеннаяПодсказка" id="1010"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -900,7 +911,7 @@
 													<Button name="СписокКнопка1" id="1003">
 														<Type>CommandBarButton</Type>
 														<Representation>PictureAndText</Representation>
-														<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация</CommandName>
+														<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке</CommandName>
 														<Picture>
 															<xr:Ref>CommonPicture.Успешно32</xr:Ref>
 															<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -1338,7 +1349,7 @@
 																	<Button name="СписокКнопка2" id="1005">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация</CommandName>
+																		<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке</CommandName>
 																		<Picture>
 																			<xr:Ref>CommonPicture.Успешно32</xr:Ref>
 																			<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -1497,7 +1508,7 @@
 																	<Button name="СписокКнопка3" id="1007">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация</CommandName>
+																		<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке</CommandName>
 																		<Picture>
 																			<xr:Ref>CommonPicture.Успешно32</xr:Ref>
 																			<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -2703,7 +2714,7 @@
 											<Button name="СписокКнопка" id="1001">
 												<Type>CommandBarButton</Type>
 												<Representation>PictureAndText</Representation>
-												<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.Регистрация</CommandName>
+												<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке</CommandName>
 												<Picture>
 													<xr:Ref>CommonPicture.Успешно32</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
