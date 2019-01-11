@@ -2617,7 +2617,7 @@
 		<Metadata name="Catalog.нсиКлассификаторУслуг.Help" id="f4d7f368-fb41-4196-9743-434cc1debd3a.1" configVersion="03e0f33c626a9949b2bb9bc307b549bd00000000"/>
 		<Metadata name="Catalog.нсиКлассификаторУслуг.ManagerModule" id="f4d7f368-fb41-4196-9743-434cc1debd3a.3" configVersion="d26a77180cd17545b21e486d6a7d81ed00000000"/>
 		<Metadata name="Catalog.нсиКлассификаторУслуг.ObjectModule" id="f4d7f368-fb41-4196-9743-434cc1debd3a.0" configVersion="afea9c6d68fe004092bb778a80a7915000000000"/>
-		<Metadata name="Catalog.нсиКонтрагенты" id="9693c892-9f70-4416-bb95-d403be64c14f" configVersion="97fe62bd60291e4b962926431584019200000000">
+		<Metadata name="Catalog.нсиКонтрагенты" id="9693c892-9f70-4416-bb95-d403be64c14f" configVersion="f7452af31d065d4da7a4a4e0d82681a800000000">
 			<Metadata name="Catalog.нсиКонтрагенты.Attribute.КонтрольныйСчетДебитор" id="009536fc-63af-45f5-9708-1815d0686c27"/>
 			<Metadata name="Catalog.нсиКонтрагенты.TabularSection.КонтактнаяИнформация.Attribute.Регион" id="00bd780f-51af-4eb0-9f33-e43183808242"/>
 			<Metadata name="Catalog.нсиКонтрагенты.Command.ПредварительнаяКлассификация" id="0422b51c-8164-4e0e-92df-c04c0877700f"/>
@@ -2769,7 +2769,7 @@
 		<Metadata name="Catalog.нсиКонтрагенты.Form.ФормаЭлементаУпрощенная.Form" id="33da181f-190f-47c2-958a-94c2b1f2cfb5.0" configVersion="73f59829391f1246b1eddcf4ddfcb95800000000"/>
 		<Metadata name="Catalog.нсиКонтрагенты.Help" id="9693c892-9f70-4416-bb95-d403be64c14f.1" configVersion="ef59e8f7aa687941b44f5689da2f0f1000000000"/>
 		<Metadata name="Catalog.нсиКонтрагенты.ManagerModule" id="9693c892-9f70-4416-bb95-d403be64c14f.3" configVersion="4e5496525bd88844958936bb68231b9400000000"/>
-		<Metadata name="Catalog.нсиКонтрагенты.ObjectModule" id="9693c892-9f70-4416-bb95-d403be64c14f.0" configVersion="3f3541fe2679b14a9a011cc903eb2ab800000000"/>
+		<Metadata name="Catalog.нсиКонтрагенты.ObjectModule" id="9693c892-9f70-4416-bb95-d403be64c14f.0" configVersion="c3592fc5b4acb74faa23ebd3285b60ab00000000"/>
 		<Metadata name="Catalog.нсиМТР" id="834624ee-0c9b-4e98-adde-8438cb5eccc1" configVersion="ed43fbc177ab254180925d8c414d40ad00000000">
 			<Metadata name="Catalog.нсиМТР.TabularSection.GlobalID.Attribute.ПроизводительИмпортерАтрибут" id="006dde3e-d052-46c1-8151-1bfd35532d69"/>
 			<Metadata name="Catalog.нсиМТР.Attribute.ОбязательноВедениеПоПартиямСАП" id="03c9325a-a65e-426b-b1d7-ec552a263ec3"/>
