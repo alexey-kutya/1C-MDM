@@ -899,6 +899,16 @@
 											<ContextMenu name="СтатьяЗатратКонтекстноеМеню" id="721"/>
 											<ExtendedTooltip name="СтатьяЗатратРасширеннаяПодсказка" id="722"/>
 										</InputField>
+										<InputField name="СтатьяОборотовПоБюджетам" id="1085">
+											<DataPath>Объект.СтатьяОборотовПоБюджетам</DataPath>
+											<ContextMenu name="СтатьяОборотовПоБюджетамКонтекстноеМеню" id="1086"/>
+											<ExtendedTooltip name="СтатьяОборотовПоБюджетамРасширеннаяПодсказка" id="1087"/>
+										</InputField>
+										<InputField name="СтатьяОборотовПоБюджетуПЛ" id="1088">
+											<DataPath>Объект.СтатьяОборотовПоБюджетуПЛ</DataPath>
+											<ContextMenu name="СтатьяОборотовПоБюджетуПЛКонтекстноеМеню" id="1089"/>
+											<ExtendedTooltip name="СтатьяОборотовПоБюджетуПЛРасширеннаяПодсказка" id="1090"/>
+										</InputField>
 										<InputField name="АртикулПлановый" id="337">
 											<DataPath>Объект.АртикулПлановый</DataPath>
 											<ContextMenu name="АртикулПлановыйКонтекстноеМеню" id="338"/>
@@ -2608,6 +2618,7 @@
 			<ExtendedTooltip name="Комментарий1РасширеннаяПодсказка" id="931"/>
 		</InputField>
 		<UsualGroup name="ГруппаНСИ" id="112">
+			<Visible>false</Visible>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

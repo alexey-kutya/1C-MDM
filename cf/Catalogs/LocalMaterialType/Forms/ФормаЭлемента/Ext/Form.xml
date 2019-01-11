@@ -8,70 +8,183 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="Код" id="1">
-			<DataPath>Объект.Code</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-		</InputField>
-		<InputField name="СтранаОрганизации" id="7">
-			<DataPath>1/0:b7c1dcf0-9582-4719-bba5-bc3d71c72060</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СтранаОрганизацииКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="СтранаОрганизацииРасширеннаяПодсказка" id="9"/>
-		</InputField>
-		<InputField name="Родитель" id="10">
-			<DataPath>Объект.Parent</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="РодительКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="12"/>
-		</InputField>
-		<InputField name="СтатусДопСправочниковSKU" id="13">
-			<DataPath>Объект.СтатусДопСправочниковSKU</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СтатусДопСправочниковSKUКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="СтатусДопСправочниковSKUРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="НаименованиеEN" id="16">
-			<DataPath>Объект.НаименованиеEN</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="НаименованиеENКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="НаименованиеENРасширеннаяПодсказка" id="18"/>
-		</InputField>
-		<InputField name="НаименованиеПолное" id="19">
-			<DataPath>Объект.НаименованиеПолное</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="21"/>
-		</InputField>
-		<InputField name="ВидМатериалаSAP" id="22">
-			<DataPath>Объект.ВидМатериалаSAP</DataPath>
-			<ContextMenu name="ВидМатериалаSAPКонтекстноеМеню" id="23"/>
-			<ExtendedTooltip name="ВидМатериалаSAPРасширеннаяПодсказка" id="24"/>
-		</InputField>
-		<InputField name="ГруппаДляПланирования" id="25">
-			<DataPath>Объект.ГруппаДляПланирования</DataPath>
-			<ContextMenu name="ГруппаДляПланированияКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="ГруппаДляПланированияРасширеннаяПодсказка" id="27"/>
-		</InputField>
-		<CheckBoxField name="ГотоваяПродукция" id="28">
-			<DataPath>Объект.ГотоваяПродукция</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ГотоваяПродукцияКонтекстноеМеню" id="29"/>
-			<ExtendedTooltip name="ГотоваяПродукцияРасширеннаяПодсказка" id="30"/>
-		</CheckBoxField>
-		<CheckBoxField name="СухиеКомпоненты" id="31">
-			<DataPath>Объект.СухиеКомпоненты</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="СухиеКомпонентыКонтекстноеМеню" id="32"/>
-			<ExtendedTooltip name="СухиеКомпонентыРасширеннаяПодсказка" id="33"/>
-		</CheckBoxField>
+		<UsualGroup name="Группа3" id="60">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="61"/>
+			<ChildItems>
+				<UsualGroup name="Группа1" id="34">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<InputField name="Код" id="1">
+							<DataPath>Объект.Code</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="СтранаОрганизации" id="7">
+							<DataPath>1/0:b7c1dcf0-9582-4719-bba5-bc3d71c72060</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СтранаОрганизацииКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="СтранаОрганизацииРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Родитель" id="10">
+							<DataPath>Объект.Parent</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РодительКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="СтатусДопСправочниковSKU" id="13">
+							<DataPath>Объект.СтатусДопСправочниковSKU</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СтатусДопСправочниковSKUКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="СтатусДопСправочниковSKUРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="НаименованиеEN" id="16">
+							<DataPath>Объект.НаименованиеEN</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеENКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="НаименованиеENРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="НаименованиеПолное" id="19">
+							<DataPath>Объект.НаименованиеПолное</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="ВидМатериалаSAP" id="22">
+							<DataPath>Объект.ВидМатериалаSAP</DataPath>
+							<ContextMenu name="ВидМатериалаSAPКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ВидМатериалаSAPРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="ГруппаДляПланирования" id="25">
+							<DataPath>Объект.ГруппаДляПланирования</DataPath>
+							<ContextMenu name="ГруппаДляПланированияКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ГруппаДляПланированияРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<CheckBoxField name="ГотоваяПродукция" id="28">
+							<DataPath>Объект.ГотоваяПродукция</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ГотоваяПродукцияКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ГотоваяПродукцияРасширеннаяПодсказка" id="30"/>
+						</CheckBoxField>
+						<CheckBoxField name="СухиеКомпоненты" id="31">
+							<DataPath>Объект.СухиеКомпоненты</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СухиеКомпонентыКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="СухиеКомпонентыРасширеннаяПодсказка" id="33"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа2" id="36">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<Table name="РеквизитыНоменклатуры" id="38">
+							<TitleLocation>Top</TitleLocation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.РеквизитыНоменклатуры</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РеквизитыНоменклатурыКонтекстноеМеню" id="39"/>
+							<AutoCommandBar name="РеквизитыНоменклатурыКоманднаяПанель" id="40"/>
+							<ExtendedTooltip name="РеквизитыНоменклатурыРасширеннаяПодсказка" id="41"/>
+							<SearchStringAddition name="РеквизитыНоменклатурыСтрокаПоиска" id="42">
+								<AdditionSource>
+									<Item>РеквизитыНоменклатуры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеквизитыНоменклатурыСтрокаПоискаКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="РеквизитыНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РеквизитыНоменклатурыСостояниеПросмотра" id="45">
+								<AdditionSource>
+									<Item>РеквизитыНоменклатуры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеквизитыНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="РеквизитыНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РеквизитыНоменклатурыУправлениеПоиском" id="48">
+								<AdditionSource>
+									<Item>РеквизитыНоменклатуры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РеквизитыНоменклатурыУправлениеПоискомКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="РеквизитыНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="РеквизитыНоменклатурыРеквизит" id="54">
+									<DataPath>Объект.РеквизитыНоменклатуры.Реквизит</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Статья затрат</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">СтатьяЗатрат</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Статья оборотов (ДДС)</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">СтатьяОборотовПоБюджетам</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Статья оборотов (P/L)</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">СтатьяОборотовПоБюджетуПЛ</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="РеквизитыНоменклатурыРеквизитКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="РеквизитыНоменклатурыРеквизитРасширеннаяПодсказка" id="56"/>
+								</InputField>
+								<InputField name="РеквизитыНоменклатурыЗначение" id="57">
+									<DataPath>Объект.РеквизитыНоменклатуры.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеквизитыНоменклатурыЗначениеКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="РеквизитыНоменклатурыЗначениеРасширеннаяПодсказка" id="59"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

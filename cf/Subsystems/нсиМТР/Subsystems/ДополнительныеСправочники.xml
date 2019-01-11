@@ -35,6 +35,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Штрихкоды</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ГруппыОборачиваемости</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыДляПланирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьиОборотовПоБюджетам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
