@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -163,7 +163,7 @@
 							<v8:content>Buisness process</v8:content>
 						</v8:item>
 					</Title>
-					<TextColor>style:ПоясняющийТекст</TextColor>
+					<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 					<ContextMenu name="СтрокаБизнесПроцессаКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="СтрокаБизнесПроцессаРасширеннаяПодсказка" id="90"/>
 				</LabelField>
@@ -179,7 +179,7 @@
 							<v8:content>Waypoint</v8:content>
 						</v8:item>
 					</Title>
-					<TextColor>style:ПоясняющийТекст</TextColor>
+					<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 					<ContextMenu name="СтрокаЗадачиКонтекстноеМеню" id="58"/>
 					<ExtendedTooltip name="СтрокаЗадачиРасширеннаяПодсказка" id="91"/>
 				</LabelField>
@@ -335,6 +335,7 @@
 			<ChangeRowOrder>false</ChangeRowOrder>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<EnableStartDrag>true</EnableStartDrag>
+			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<BorderColor>style:BorderColor</BorderColor>
@@ -736,6 +737,7 @@
 				<xr:TransparentPixel x="127" y="1"/>
 			</Picture>
 			<Action>ВводНовогоЭлементаСправочника</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменениеЭлементаСправочника" id="2">
 			<Title>
@@ -764,6 +766,7 @@
 				<xr:TransparentPixel x="16" y="2"/>
 			</Picture>
 			<Action>ИзменениеЭлементаСправочника</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЗадание" id="3">
 			<Title>
@@ -792,6 +795,7 @@
 			</Picture>
 			<Action>СоздатьЗадание</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УдалениеЭлементаСправочника" id="4">
 			<Title>
@@ -820,6 +824,7 @@
 				<xr:TransparentPixel x="16" y="2"/>
 			</Picture>
 			<Action>УдалениеЭлементаСправочника</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПакетныйВводЭлементовСправочника" id="5">
 			<Title>
@@ -847,6 +852,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>ПакетныйВводЭлементовСправочника</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОбновитьСписок" id="6">
 			<Title>
@@ -874,6 +880,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОбновитьСписок</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

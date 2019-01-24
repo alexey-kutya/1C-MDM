@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Width>85</Width>
 	<AutoTitle>false</AutoTitle>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -263,6 +263,7 @@
 					<InitialTreeView>ExpandTopLevel</InitialTreeView>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>КомпоновщикНастроекОбработанные.Settings.Filter.FilterAvailableFields</DataPath>
 					<SearchStringLocation>None</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
@@ -337,6 +338,7 @@
 					<InitialTreeView>ExpandAllLevels</InitialTreeView>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>КомпоновщикНастроекОбработанные.Settings.Filter</DataPath>
 					<SearchStringLocation>None</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
@@ -406,6 +408,7 @@
 					<InitialTreeView>ExpandTopLevel</InitialTreeView>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>КомпоновщикНастроекЗагруженные.Settings.Filter.FilterAvailableFields</DataPath>
 					<SearchStringLocation>None</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
@@ -480,6 +483,7 @@
 					<InitialTreeView>ExpandAllLevels</InitialTreeView>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>КомпоновщикНастроекЗагруженные.Settings.Filter</DataPath>
 					<SearchStringLocation>None</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
@@ -562,6 +566,7 @@
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>КлассификаторУслуг</DataPath>
 							<RowPictureDataPath>КлассификаторУслуг.DefaultPicture</RowPictureDataPath>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -627,6 +632,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ДеревоСвойств</DataPath>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
@@ -715,6 +721,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ДополнительныеКлассификаторы</DataPath>
 							<RowPictureDataPath>ДополнительныеКлассификаторы.Owner.ТипИспользования</RowPictureDataPath>
 							<RowsPicture>
@@ -832,6 +839,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокЗагруженных</DataPath>
 							<RowPictureDataPath>СписокЗагруженных.DefaultPicture</RowPictureDataPath>
 							<Title>
@@ -985,6 +993,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокБуфера</DataPath>
 							<RowPictureDataPath>СписокБуфера.DefaultPicture</RowPictureDataPath>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -1149,6 +1158,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокОбработанных</DataPath>
 							<RowPictureDataPath>СписокОбработанных.DefaultPicture</RowPictureDataPath>
 							<Title>
@@ -2052,6 +2062,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыбратьНастройку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НайтиДанныеОбработанные" id="2">
 			<Title>
@@ -2072,6 +2083,7 @@
 			</Picture>
 			<Action>НайтиДанные</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаПоискаОбработанные" id="3">
 			<Title>
@@ -2091,6 +2103,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>НастройкаПоиска</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтменитьПоискОбработанные" id="4">
 			<Title>
@@ -2110,6 +2123,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОтменитьПоиск</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьГруппуРасширенногоПоискаОбработанные" id="5">
 			<Title>
@@ -2130,6 +2144,7 @@
 				<xr:TransparentPixel x="11" y="1"/>
 			</Picture>
 			<Action>ПоказатьГруппуРасширенногоПоиска</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыбратьЭталонной" id="6">
 			<Title>
@@ -2149,6 +2164,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыбратьЭталонной</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаПоискаЗагруженные" id="7">
 			<Title>
@@ -2168,6 +2184,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>НастройкаПоиска</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыбратьНастройкуЗагруженные" id="8">
 			<Title>
@@ -2187,6 +2204,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыбратьНастройку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтменитьПоискЗагруженные" id="9">
 			<Title>
@@ -2206,6 +2224,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОтменитьПоиск</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НайтиДанныеЗагруженные" id="10">
 			<Title>
@@ -2226,6 +2245,7 @@
 			</Picture>
 			<Action>НайтиДанные</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьГруппуРасширенногоПоискаЗагруженные" id="11">
 			<Title>
@@ -2246,6 +2266,7 @@
 				<xr:TransparentPixel x="11" y="1"/>
 			</Picture>
 			<Action>ПоказатьГруппуРасширенногоПоиска</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЭталон" id="12">
 			<Title>
@@ -2265,6 +2286,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьЭталон</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПривязатьДубль" id="13">
 			<Title>
@@ -2284,6 +2306,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПодтвердитьЭталон</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьГруппуПоискаПоКлассу" id="15">
 			<Title>
@@ -2308,6 +2331,7 @@
 				<Item>FunctionalOption.нсиУчитыватьВРазрезеКлассификатораПродукции</Item>
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьГруппуПоискаПоДопКлассу" id="16">
 			<Title>
@@ -2332,6 +2356,7 @@
 				<Item>FunctionalOption.нсиУчитыватьВРазрезеДопКлассификаторов</Item>
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьГруппуПоискаПолнотекстноЗагруженные" id="14">
 			<Title>
@@ -2354,6 +2379,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьГруппуПоискаПолнотекстноОбработанные" id="17">
 			<Title>
@@ -2376,6 +2402,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НайтиДанныеПолнотекстноЗагруженные" id="18">
 			<Title>
@@ -2396,6 +2423,7 @@
 			</Picture>
 			<Action>НайтиДанныеПолнотекстно</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НайтиДанныеПолнотекстноОбработанные" id="19">
 			<Title>
@@ -2416,6 +2444,7 @@
 			</Picture>
 			<Action>НайтиДанныеПолнотекстно</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьИзБуфераЗагруженные" id="20">
 			<Title>
@@ -2440,6 +2469,7 @@
 				<Item>FunctionalOption.нсиИспользоватьБуферДляТипаОбъектов</Item>
 			</FunctionalOptions>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьИзБуфераОбработанные" id="21">
 			<Title>
@@ -2464,6 +2494,7 @@
 				<Item>FunctionalOption.нсиИспользоватьБуферДляТипаОбъектов</Item>
 			</FunctionalOptions>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НазначитьКласс" id="22">
 			<Title>
@@ -2483,6 +2514,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>НазначитьКласс</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УбратьКлассификацию" id="23">
 			<Title>
@@ -2502,6 +2534,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>УбратьКлассификацию</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<AutoTitle>false</AutoTitle>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
@@ -64,6 +64,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокДополнительныхРеквизитов</DataPath>
 							<RowPictureDataPath>СписокДополнительныхРеквизитов.НомерКартинки</RowPictureDataPath>
 							<RowsPicture>
@@ -155,6 +156,7 @@
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ЗначенияДополнительныхРеквизитов</DataPath>
 									<RowPictureDataPath>ЗначенияДополнительныхРеквизитов.КодКартинки</RowPictureDataPath>
 									<RowsPicture>
@@ -800,6 +802,7 @@
 															<InitialTreeView>ExpandTopLevel</InitialTreeView>
 															<EnableStartDrag>true</EnableStartDrag>
 															<EnableDrag>true</EnableDrag>
+															<FileDragMode>AsFile</FileDragMode>
 															<DataPath>Значения</DataPath>
 															<RowPictureDataPath>Значения.DefaultPicture</RowPictureDataPath>
 															<CommandSet>
@@ -988,6 +991,7 @@
 															<InitialTreeView>ExpandTopLevel</InitialTreeView>
 															<EnableStartDrag>true</EnableStartDrag>
 															<EnableDrag>true</EnableDrag>
+															<FileDragMode>AsFile</FileDragMode>
 															<DataPath>ЗначенияДополнительныхРеквизитов</DataPath>
 															<RowPictureDataPath>ЗначенияДополнительныхРеквизитов.КодКартинки</RowPictureDataPath>
 															<RowsPicture>
@@ -1609,6 +1613,7 @@
 			</ToolTip>
 			<Action>РедактироватьФорматЗначения</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УточнениеСпискаЗначенийИзменить" id="2">
 			<Title>
@@ -1624,6 +1629,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УточнениеСпискаЗначенийИзменить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УточнениеНаборовИзменить" id="3">
 			<Title>
@@ -1639,6 +1645,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УточнениеНаборовИзменить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КомандаДалее" id="4">
 			<Title>
@@ -1654,6 +1661,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаДалее</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КомандаНазад" id="5">
 			<Title>
@@ -1669,6 +1677,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаНазад</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗакрытьФорму" id="6">
 			<Title>
@@ -1684,6 +1693,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗакрытьФорму</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоискИУдалениеДублей" id="7">
 			<Title>
@@ -1699,6 +1709,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПоискИУдалениеДублей</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -103,6 +103,7 @@
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="Декорация3КонтекстноеМеню" id="2449"/>
 									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="2450"/>
 								</PictureDecoration>
@@ -240,7 +241,7 @@
 									</ChildItems>
 								</UsualGroup>
 								<LabelDecoration name="ОписаниеМастерИзФайла" id="2512">
-									<TextColor>style:ПоясняющийТекст</TextColor>
+									<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -433,6 +434,7 @@
 												<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация9КонтекстноеМеню" id="2457"/>
 											<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="2458"/>
 										</PictureDecoration>
@@ -801,7 +803,7 @@
 											<ChildItems>
 												<LabelDecoration name="ПояснениеОНаличииНесопоставленныхОбъектов1" id="1717">
 													<SkipOnInput>false</SkipOnInput>
-													<TextColor>style:ПоясняющийТекст</TextColor>
+													<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -824,6 +826,7 @@
 													<RowSelectionMode>Row</RowSelectionMode>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<InitialTreeView>ExpandAllLevels</InitialTreeView>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>ДеревоИнформацииСтатистики</DataPath>
 													<CommandSet>
 														<ExcludedCommand>Add</ExcludedCommand>
@@ -899,6 +902,7 @@
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
 																	<VerticalStretch>false</VerticalStretch>
+																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ДеревоИнформацииСтатистикиКартинкаКонтекстноеМеню" id="1659"/>
 																	<ExtendedTooltip name="ДеревоИнформацииСтатистикиКартинкаExtendedTooltip" id="2000"/>
 																</PictureField>
@@ -972,6 +976,7 @@
 																<xr:Ref>CommonPicture.Информация32</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="Декорация35КонтекстноеМеню" id="1746"/>
 															<ExtendedTooltip name="Декорация35ExtendedTooltip" id="2005"/>
 														</PictureDecoration>
@@ -1047,6 +1052,7 @@
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаЧасыКонтекстноеМеню" id="1687"/>
 									<ExtendedTooltip name="КартинкаЧасыExtendedTooltip" id="2011"/>
 								</PictureDecoration>
@@ -1194,7 +1200,7 @@
 																					<TitleLocation>None</TitleLocation>
 																					<Height>2</Height>
 																					<VerticalStretch>false</VerticalStretch>
-																					<TextColor>style:ПоясняющийТекст</TextColor>
+																					<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 																					<ContextMenu name="ПредставлениеПользовательскогоОписанияКонтекстноеМеню" id="1702"/>
 																					<ExtendedTooltip name="ПредставлениеПользовательскогоОписанияExtendedTooltip" id="2021"/>
 																				</LabelField>
@@ -1404,6 +1410,7 @@
 														<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="Декорация99КонтекстноеМеню" id="1642"/>
 													<ExtendedTooltip name="Декорация99ExtendedTooltip" id="2037"/>
 												</PictureDecoration>
@@ -1468,6 +1475,7 @@
 														<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="Декорация98КонтекстноеМеню" id="1629"/>
 													<ExtendedTooltip name="Декорация98ExtendedTooltip" id="2045"/>
 												</PictureDecoration>
@@ -1781,7 +1789,7 @@
 											<ExtendedTooltip name="СтраницаПараметровТранспортаCOMExtendedTooltip" id="2066"/>
 											<ChildItems>
 												<LabelDecoration name="Декорация59" id="1904">
-													<TextColor>style:ПоясняющийТекст</TextColor>
+													<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2105,7 +2113,7 @@
 											<ExtendedTooltip name="СтраницаПараметровТранспортаWSExtendedTooltip" id="2092"/>
 											<ChildItems>
 												<LabelDecoration name="Декорация60" id="1908">
-													<TextColor>style:ПоясняющийТекст</TextColor>
+													<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2266,7 +2274,7 @@
 											<ExtendedTooltip name="СтраницаПараметровТранспортаExtendedTooltip" id="2109"/>
 											<ChildItems>
 												<LabelDecoration name="Декорация61" id="1910">
-													<TextColor>style:ПоясняющийТекст</TextColor>
+													<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2359,7 +2367,7 @@
 									<ExtendedTooltip name="НастройкиТранспортаFILEExtendedTooltip" id="2115"/>
 									<ChildItems>
 										<LabelDecoration name="ПояснениеВыбораКаталогаОбменаИнформациейНаСервере" id="755">
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2496,7 +2504,7 @@
 									<ExtendedTooltip name="НастройкиТранспортаFTPExtendedTooltip" id="2128"/>
 									<ChildItems>
 										<LabelDecoration name="Декорация54" id="1858">
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -3762,11 +3770,12 @@
 												<xr:Ref>CommonPicture.Информация</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДекорацияИнформацияКонтекстноеМеню" id="727"/>
 											<ExtendedTooltip name="ДекорацияИнформацияExtendedTooltip" id="2242"/>
 										</PictureDecoration>
 										<LabelDecoration name="НадписьИнформацияОбОткрытииПомощникаСопоставления" id="723">
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -3871,6 +3880,7 @@
 																		<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
 																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="Декорация111КонтекстноеМеню" id="341"/>
 																	<ExtendedTooltip name="Декорация111ExtendedTooltip" id="2248"/>
 																</PictureDecoration>
@@ -3936,6 +3946,7 @@
 																<xr:Ref>CommonPicture.СинхронизацияДанныхПодсистема</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="Декорация181КонтекстноеМеню" id="445"/>
 															<ExtendedTooltip name="Декорация181ExtendedTooltip" id="2257"/>
 														</PictureDecoration>
@@ -3962,7 +3973,7 @@
 																</CheckBoxField>
 																<LabelDecoration name="ПоясняющаяНадписьКФлагуСопоставления" id="596">
 																	<SkipOnInput>false</SkipOnInput>
-																	<TextColor>style:ПоясняющийТекст</TextColor>
+																	<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 																	<Title formatted="false">
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -4070,7 +4081,7 @@
 														</CheckBoxField>
 														<LabelDecoration name="ПоясняющаяНадписьКФлагуСозданияНачальногоОбраза" id="598">
 															<SkipOnInput>false</SkipOnInput>
-															<TextColor>style:ПоясняющийТекст</TextColor>
+															<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -4146,6 +4157,7 @@
 										<xr:Ref>CommonPicture.СинхронизацияДанныхПодсистема</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="Декорация183КонтекстноеМеню" id="883"/>
 									<ExtendedTooltip name="Декорация183ExtendedTooltip" id="2274"/>
 								</PictureDecoration>
@@ -4184,7 +4196,7 @@
 										<LabelDecoration name="ПоясняющаяНадписьКФлагуСопоставления1" id="887">
 											<Height>5</Height>
 											<SkipOnInput>false</SkipOnInput>
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -4270,6 +4282,7 @@
 												<xr:Ref>CommonPicture.Информация32</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация16КонтекстноеМеню" id="1366"/>
 											<ExtendedTooltip name="Декорация16ExtendedTooltip" id="2287"/>
 										</PictureDecoration>
@@ -4367,6 +4380,7 @@
 												<xr:Ref>CommonPicture.СинхронизацияДанныхАнализДанных48</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация26КонтекстноеМеню" id="1386"/>
 											<ExtendedTooltip name="Декорация26ExtendedTooltip" id="2294"/>
 										</PictureDecoration>
@@ -4464,6 +4478,7 @@
 												<xr:Ref>CommonPicture.СинхронизацияДанныхАнализДанных48</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация25КонтекстноеМеню" id="1379"/>
 											<ExtendedTooltip name="Декорация25ExtendedTooltip" id="2301"/>
 										</PictureDecoration>
@@ -4561,6 +4576,7 @@
 												<xr:Ref>CommonPicture.СинхронизацияДанныхАнализДанных48</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация75КонтекстноеМеню" id="1534"/>
 											<ExtendedTooltip name="Декорация75ExtendedTooltip" id="2308"/>
 										</PictureDecoration>
@@ -4658,6 +4674,7 @@
 												<xr:Ref>CommonPicture.СинхронизацияДанныхДлительнаяОперация48</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация63КонтекстноеМеню" id="1492"/>
 											<ExtendedTooltip name="Декорация63ExtendedTooltip" id="2315"/>
 										</PictureDecoration>
@@ -4749,6 +4766,7 @@
 												<xr:Ref>CommonPicture.СинхронизацияДанныхДлительнаяОперация48</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация29КонтекстноеМеню" id="1327"/>
 											<ExtendedTooltip name="Декорация29ExtendedTooltip" id="2322"/>
 										</PictureDecoration>
@@ -4840,6 +4858,7 @@
 												<xr:Ref>CommonPicture.Информация32</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация31КонтекстноеМеню" id="1739"/>
 											<ExtendedTooltip name="Декорация31ExtendedTooltip" id="2329"/>
 										</PictureDecoration>
@@ -4937,6 +4956,7 @@
 												<xr:Ref>CommonPicture.Информация32</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация13КонтекстноеМеню" id="861"/>
 											<ExtendedTooltip name="Декорация13ExtendedTooltip" id="2336"/>
 										</PictureDecoration>
@@ -6708,6 +6728,7 @@
 				</v8:item>
 			</Title>
 			<Action>КомандаДалее</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КомандаНазад" id="2">
 			<Title>
@@ -6717,6 +6738,7 @@
 				</v8:item>
 			</Title>
 			<Action>КомандаНазад</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КомандаОтмена" id="3">
 			<Title>
@@ -6726,6 +6748,7 @@
 				</v8:item>
 			</Title>
 			<Action>КомандаОтмена</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаОграниченийРегистрацииДанных" id="8">
 			<Title>
@@ -6742,6 +6765,7 @@
 			</ToolTip>
 			<Action>НастройкаОграниченийРегистрацииДанных</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КомандаСправка" id="10">
 			<Title>
@@ -6756,6 +6780,7 @@
 			</Picture>
 			<Action>КомандаСправка</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьФайлНастроекОбменаДанными" id="13">
 			<Title>
@@ -6776,6 +6801,7 @@
 			</Picture>
 			<Action>СохранитьФайлНастроекОбменаДанными</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаЗначенийПоУмолчанию" id="16">
 			<Title>
@@ -6792,6 +6818,7 @@
 			</ToolTip>
 			<Action>НастройкаЗначенийПоУмолчанию</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроверитьПодключениеFILE" id="7">
 			<Title>
@@ -6812,6 +6839,7 @@
 			</Picture>
 			<Action>ПроверитьПодключениеFILE</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроверитьПодключениеFTP" id="9">
 			<Title>
@@ -6832,6 +6860,7 @@
 			</Picture>
 			<Action>ПроверитьПодключениеFTP</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроверитьПодключениеEMAIL" id="5">
 			<Title>
@@ -6852,6 +6881,7 @@
 			</Picture>
 			<Action>ПроверитьПодключениеEMAIL</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроверитьПодключениеCOM" id="4">
 			<Title>
@@ -6872,6 +6902,7 @@
 			</Picture>
 			<Action>ПроверитьПодключениеCOM</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаОграниченийРегистрацииДанныхБазыКорреспондентаЧерезВнешнееСоединение" id="12">
 			<Title>
@@ -6882,6 +6913,7 @@
 			</Title>
 			<Action>НастройкаОграниченийРегистрацииДанныхБазыКорреспондентаЧерезВнешнееСоединение</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаЗначенийПоУмолчаниюБазыКорреспондентаЧерезВнешнееСоединение" id="17">
 			<Title>
@@ -6892,6 +6924,7 @@
 			</Title>
 			<Action>НастройкаЗначенийПоУмолчаниюБазыКорреспондентаЧерезВнешнееСоединение</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроверитьПодключениеWS" id="23">
 			<Title>
@@ -6906,6 +6939,7 @@
 			</Picture>
 			<Action>ПроверитьПодключениеWS</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаЗначенийПоУмолчаниюБазыКорреспондентаЧерезВебСервис" id="26">
 			<Title>
@@ -6922,6 +6956,7 @@
 			</ToolTip>
 			<Action>НастройкаЗначенийПоУмолчаниюБазыКорреспондентаЧерезВебСервис</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкаОграниченийРегистрацииДанныхБазыКорреспондентаЧерезВебСервис" id="27">
 			<Title>
@@ -6942,6 +6977,7 @@
 			</Picture>
 			<Action>НастройкаОграниченийРегистрацииДанныхБазыКорреспондентаЧерезВебСервис</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КомандаГотово" id="25">
 			<Title>
@@ -6957,6 +6993,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаГотово</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьНастройкуВыгрузкиДанных" id="11">
 			<Title>
@@ -6973,6 +7010,7 @@
 			</ToolTip>
 			<Action>ВыполнитьНастройкуВыгрузкиДанных</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьСопоставлениеДанных" id="14">
 			<Title>
@@ -6993,6 +7031,7 @@
 			</Picture>
 			<Action>ВыполнитьСопоставлениеДанных</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменитьПользовательскоеРасписание" id="28">
 			<Title>
@@ -7002,6 +7041,7 @@
 				</v8:item>
 			</Title>
 			<Action>ИзменитьПользовательскоеРасписание</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодробноеОписание" id="29">
 			<Title>
@@ -7015,6 +7055,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПодробноеОписание</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПараметрыДоступаВИнтернет" id="20">
 			<Title>
@@ -7030,6 +7071,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПараметрыДоступаВИнтернет</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Width>87</Width>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
@@ -43,6 +43,7 @@
 							<Representation>List</Representation>
 							<SkipOnInput>false</SkipOnInput>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ТаблицаРегламентныеЗадания</DataPath>
 							<CommandSet>
 								<ExcludedCommand>EndEdit</ExcludedCommand>
@@ -611,6 +612,7 @@
 											<SkipOnInput>false</SkipOnInput>
 											<SelectionMode>SingleRow</SelectionMode>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ТаблицаФоновыеЗадания</DataPath>
 											<CommandSet>
 												<ExcludedCommand>Add</ExcludedCommand>
@@ -755,6 +757,7 @@
 												<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="271"/>
 											<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="272">
 												<Height>3</Height>
@@ -1452,6 +1455,7 @@
 			</Picture>
 			<Action>ОткрытьФоновоеЗаданиеНаКлиенте</Action>
 			<Representation>Text</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтменитьФоновоеЗадание" id="3">
 			<Title>
@@ -1468,6 +1472,7 @@
 			</ToolTip>
 			<Action>ОтменитьФоновоеЗадание</Action>
 			<Representation>Text</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастроитьРасписание" id="4">
 			<Title>
@@ -1488,6 +1493,7 @@
 			</Picture>
 			<Action>НастроитьРасписание</Action>
 			<Representation>Text</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьРегламентноеЗаданиеВручную" id="5">
 			<Title>
@@ -1509,6 +1515,7 @@
 			</Picture>
 			<Action>ВыполнитьРегламентноеЗаданиеВручную</Action>
 			<Representation>Text</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВключитьРегламентноеЗадание" id="6">
 			<Title>
@@ -1524,6 +1531,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьРегламентноеЗадание</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыключитьРегламентноеЗадание" id="7">
 			<Title>
@@ -1539,6 +1547,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыключитьРегламентноеЗадание</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОбновитьРегламентныеЗадания" id="8">
 			<Title>
@@ -1559,6 +1568,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОбновитьРегламентныеЗадания</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьВсеЗадания" id="9">
 			<Title>
@@ -1574,6 +1584,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьВсеЗадания</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьНеВФоне" id="10">
 			<Title>
@@ -1589,6 +1600,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьНеВФоне</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<CommandInterface>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<CommandBarLocation>None</CommandBarLocation>
@@ -12,6 +12,7 @@
 	<ReportFormType>Main</ReportFormType>
 	<VariantAppearance>ОтчетНаименованиеТекущегоВарианта</VariantAppearance>
 	<AutoShowState>Auto</AutoShowState>
+	<ReportResultViewMode>Auto</ReportResultViewMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -1050,6 +1051,7 @@
 			</Picture>
 			<Action>ВсеНастройки</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменитьВариантОтчета" id="3">
 			<Title>
@@ -1065,6 +1067,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВариантОтчета</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастройкиПоУмолчанию" id="7">
 			<Title>
@@ -1080,6 +1083,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>НастройкиПоУмолчанию</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьПоЭлектроннойПочте" id="4">
 			<Title>
@@ -1099,6 +1103,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>ОтправитьПоЭлектроннойПочте</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтчетСкомпоноватьРезультат" id="5">
 			<Title>
@@ -1120,6 +1125,7 @@
 			</Picture>
 			<Action>ОтчетСкомпоноватьРезультат</Action>
 			<Representation>Text</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВычислитьСумму" id="6">
 			<Title>
@@ -1140,6 +1146,7 @@
 			</Picture>
 			<Action>ВычислитьСумму</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ФормироватьСразу" id="2">
 			<Title>
@@ -1155,6 +1162,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ФормироватьСразу</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДругиеОтчеты" id="8">
 			<Title>
@@ -1174,6 +1182,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДругиеОтчеты</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменитьВидСравнения" id="9">
 			<Title>
@@ -1188,6 +1197,7 @@
 					<v8:content>Изменить вид сравнения</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыбратьПериод" id="10">
 			<Title>
@@ -1206,6 +1216,7 @@
 				<xr:Ref>StdPicture.Select</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменитьУсловияОтборов" id="11">
 			<Title>
@@ -1225,6 +1236,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ИзменитьУсловияОтборов</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>

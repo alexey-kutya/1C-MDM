@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -80,11 +80,12 @@
 										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="РеквизитПредупреждениеКартинкаКонтекстноеМеню" id="49"/>
 									<ExtendedTooltip name="РеквизитПредупреждениеКартинкаExtendedTooltip" id="64"/>
 								</PictureDecoration>
 								<LabelDecoration name="РеквизитПредупреждениеКомментарий" id="50">
-									<TextColor>style:ПоясняющийТекст</TextColor>
+									<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -127,7 +128,7 @@
 							</Events>
 						</RadioButtonField>
 						<LabelDecoration name="ОтдельныеЗначенияРеквизитаКомментарий" id="14">
-							<TextColor>style:ПоясняющийТекст</TextColor>
+							<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -188,7 +189,7 @@
 											</Events>
 										</RadioButtonField>
 										<LabelDecoration name="ОбщиеЗначенияРеквизитовКомментарий" id="12">
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -243,7 +244,7 @@
 											</Events>
 										</RadioButtonField>
 										<LabelDecoration name="ОбщийРеквизитКомментарий" id="10">
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -308,11 +309,12 @@
 										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="СведениеПредупреждениеКартинкаКонтекстноеМеню" id="57"/>
 									<ExtendedTooltip name="СведениеПредупреждениеКартинкаExtendedTooltip" id="77"/>
 								</PictureDecoration>
 								<LabelDecoration name="СведениеПредупреждениеКомментарий" id="58">
-									<TextColor>style:ПоясняющийТекст</TextColor>
+									<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -355,7 +357,7 @@
 							</Events>
 						</RadioButtonField>
 						<LabelDecoration name="ОтдельныеЗначенияСведенияКомментарий" id="28">
-							<TextColor>style:ПоясняющийТекст</TextColor>
+							<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -422,7 +424,7 @@
 											</Events>
 										</RadioButtonField>
 										<LabelDecoration name="ОбщиеЗначенияСведенийКомментарий" id="24">
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -477,7 +479,7 @@
 											</Events>
 										</RadioButtonField>
 										<LabelDecoration name="ОбщееСведениеКомментарий" id="20">
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -610,6 +612,7 @@
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -651,7 +651,7 @@
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
 							<CommandName>Form.Command.GetGlobalID</CommandName>
-							<BackColor>style:ДобавленныйРеквизитФон</BackColor>
+							<BackColor>0:42544966-445d-41b8-b6a0-a52c64758232</BackColor>
 							<ExtendedTooltip name="КнопкаGetIDРасширеннаяПодсказка" id="115"/>
 						</Button>
 					</ChildItems>
@@ -678,7 +678,7 @@
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
 							<CommandName>Form.Command.GetGlobalName</CommandName>
-							<BackColor>style:ДобавленныйРеквизитФон</BackColor>
+							<BackColor>0:42544966-445d-41b8-b6a0-a52c64758232</BackColor>
 							<ExtendedTooltip name="КнопкаGetNameРасширеннаяПодсказка" id="198"/>
 						</Button>
 					</ChildItems>
@@ -944,6 +944,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>GetGlobalID</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьСтрокуBrand" id="2">
 			<Title>
@@ -967,6 +968,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьСтроку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьЭлементBrand" id="3">
 			<Title>
@@ -990,6 +992,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьЭлемент</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьНаСогласование" id="4">
 			<Title>
@@ -1009,6 +1012,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтправитьНаСогласование</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьСтрокуLocalName" id="5">
 			<Title>
@@ -1036,6 +1040,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьСтроку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьЭлементLocalName" id="6">
 			<Title>
@@ -1063,6 +1068,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьЭлемент</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьСтрокуVolume" id="7">
 			<Title>
@@ -1086,6 +1092,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьСтроку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьЭлементVolume" id="8">
 			<Title>
@@ -1109,6 +1116,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьЭлемент</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьСтрокуFactory" id="9">
 			<Title>
@@ -1132,6 +1140,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьСтроку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьСтрокуAlcoholContent" id="10">
 			<Title>
@@ -1155,6 +1164,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьСтроку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьСтрокуAmount" id="11">
 			<Title>
@@ -1178,6 +1188,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьСтроку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьЭлементFactory" id="12">
 			<Title>
@@ -1201,6 +1212,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьЭлемент</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьЭлементAlcoholContent" id="13">
 			<Title>
@@ -1224,6 +1236,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьЭлемент</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьЭлементAmount" id="14">
 			<Title>
@@ -1247,6 +1260,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьЭлемент</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="GetGlobalName" id="15">
 			<Title>
@@ -1266,6 +1280,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>GetGlobalName</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьЧерновик" id="17">
 			<Title>
@@ -1285,6 +1300,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьЧерновик</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Отмена" id="16">
 			<Title>
@@ -1300,6 +1316,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

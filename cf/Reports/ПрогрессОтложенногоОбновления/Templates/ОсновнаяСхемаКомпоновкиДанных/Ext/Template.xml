@@ -294,7 +294,7 @@
 								<dcsset:appearance>
 									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 										<dcscor:parameter>ЦветТекста</dcscor:parameter>
-										<dcscor:value xsi:type="v8ui:Color">style:ГруппаВариантовОтчетовЦвет</dcscor:value>
+										<dcscor:value xsi:type="v8ui:Color">0:950f8fd5-fefa-4bfb-97a0-38d77ae830dc</dcscor:value>
 									</dcscor:item>
 								</dcsset:appearance>
 							</dcsset:item>
@@ -346,7 +346,7 @@
 									<dcsset:appearance>
 										<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 											<dcscor:parameter>ЦветТекста</dcscor:parameter>
-											<dcscor:value xsi:type="v8ui:Color">style:ГруппаВариантовОтчетовЦвет</dcscor:value>
+											<dcscor:value xsi:type="v8ui:Color">0:950f8fd5-fefa-4bfb-97a0-38d77ae830dc</dcscor:value>
 										</dcscor:item>
 									</dcsset:appearance>
 								</dcsset:item>
@@ -428,7 +428,7 @@
 										<dcsset:appearance>
 											<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 												<dcscor:parameter>ЦветТекста</dcscor:parameter>
-												<dcscor:value xsi:type="v8ui:Color">style:ГруппаВариантовОтчетовЦвет</dcscor:value>
+												<dcscor:value xsi:type="v8ui:Color">0:950f8fd5-fefa-4bfb-97a0-38d77ae830dc</dcscor:value>
 											</dcscor:item>
 										</dcsset:appearance>
 									</dcsset:item>

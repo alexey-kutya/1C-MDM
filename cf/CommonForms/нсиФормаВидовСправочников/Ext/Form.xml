@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -81,6 +81,7 @@
 								<PictureDecoration name="Декорация1" id="17">
 									<Enabled>false</Enabled>
 									<Width>1</Width>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="Декорация1КонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="19"/>
 								</PictureDecoration>
@@ -103,6 +104,7 @@
 										<PictureDecoration name="Декорация2" id="26">
 											<Enabled>false</Enabled>
 											<Width>1</Width>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация2КонтекстноеМеню" id="27"/>
 											<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="28"/>
 										</PictureDecoration>
@@ -166,6 +168,7 @@
 								<PictureDecoration name="Декорация3" id="31">
 									<Enabled>false</Enabled>
 									<Width>1</Width>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="Декорация3КонтекстноеМеню" id="32"/>
 									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="33"/>
 								</PictureDecoration>
@@ -206,6 +209,7 @@
 													<Enabled>false</Enabled>
 													<Width>1</Width>
 													<Height>1</Height>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="Декорация4КонтекстноеМеню" id="37"/>
 													<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="38"/>
 												</PictureDecoration>
@@ -239,6 +243,7 @@
 		<PictureDecoration name="Декорация6" id="46">
 			<Enabled>false</Enabled>
 			<Height>1</Height>
+			<FileDragMode>AsFile</FileDragMode>
 			<ContextMenu name="Декорация6КонтекстноеМеню" id="47"/>
 			<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="48"/>
 		</PictureDecoration>
@@ -259,6 +264,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОбновить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>

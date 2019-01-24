@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Width>70</Width>
 	<CommandBarLocation>None</CommandBarLocation>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -153,6 +153,7 @@
 							<HorizontalLines>false</HorizontalLines>
 							<VerticalLines>false</VerticalLines>
 							<VerticalStretch>false</VerticalStretch>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Важность</DataPath>
 							<BorderColor>style:BorderColor</BorderColor>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -433,6 +434,7 @@
 							<HorizontalLines>false</HorizontalLines>
 							<VerticalLines>false</VerticalLines>
 							<VerticalStretch>false</VerticalStretch>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СтатусТранзакции</DataPath>
 							<BorderColor>style:BorderColor</BorderColor>
 							<Title>
@@ -1054,6 +1056,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьОтборИЗакрытьФорму</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УстановитьФлажкиВажности" id="2">
 			<Title>
@@ -1074,6 +1077,7 @@
 			</Picture>
 			<Action>УстановитьФлажкиВажности</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СнятьФлажкиВажности" id="3">
 			<Title>
@@ -1094,6 +1098,7 @@
 			</Picture>
 			<Action>СнятьФлажкиВажности</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УстановитьСтатусыТранзакции" id="4">
 			<Title>
@@ -1113,6 +1118,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>УстановитьСтатусыТранзакции</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СнятьСтатусыТранзакции" id="5">
 			<Title>
@@ -1132,6 +1138,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СнятьСтатусыТранзакции</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

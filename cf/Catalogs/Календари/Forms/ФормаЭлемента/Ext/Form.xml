@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -144,7 +144,7 @@
 							<DataPath>ТекстРучногоИзменения</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<TextColor>style:ПоясняющийТекст</TextColor>
+							<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 							<ContextMenu name="ТекстРучногоИзмененияКонтекстноеМеню" id="154"/>
 							<ExtendedTooltip name="ТекстРучногоИзмененияРасширеннаяПодсказка" id="200"/>
 						</LabelField>
@@ -152,7 +152,7 @@
 							<DataPath>СпособРедактированияПоясняющийТекст</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<TextColor>style:ПоясняющийТекст</TextColor>
+							<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 							<ContextMenu name="СпособРедактированияПоясняющийТекстКонтекстноеМеню" id="157"/>
 							<ExtendedTooltip name="СпособРедактированияПоясняющийТекстРасширеннаяПодсказка" id="201"/>
 						</LabelField>
@@ -178,6 +178,7 @@
 							<Width>25</Width>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.ПериодыДействияГрафика</DataPath>
 							<CommandSet>
 								<ExcludedCommand>Copy</ExcludedCommand>
@@ -253,6 +254,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.ПериодыГрафика</DataPath>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
@@ -479,6 +481,7 @@
 			<FunctionalOptions>
 				<Item/>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьПоКалендарю" id="3">
 			<Title>
@@ -496,6 +499,7 @@
 			<Action>ЗаполнитьПоКалендарю</Action>
 			<Representation>TextPicture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьВремя" id="1">
 			<Title>
@@ -511,6 +515,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаполнитьВремя</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

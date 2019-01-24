@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Width>85</Width>
 	<AutoTitle>false</AutoTitle>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -159,6 +159,7 @@
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Классификатор</DataPath>
 							<RowPictureDataPath>Классификатор.DefaultPicture</RowPictureDataPath>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -273,6 +274,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокЗагруженных</DataPath>
 							<RowPictureDataPath>СписокЗагруженных.DefaultPicture</RowPictureDataPath>
 							<Title>
@@ -367,6 +369,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокБуфера</DataPath>
 							<RowPictureDataPath>СписокБуфера.DefaultPicture</RowPictureDataPath>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -485,6 +488,7 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокОбработанных</DataPath>
 							<RowPictureDataPath>СписокОбработанных.DefaultPicture</RowPictureDataPath>
 							<Title>
@@ -731,7 +735,7 @@
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>ЦветТекста</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">style:СозданаЗаявка</dcscor:value>
+									<dcscor:value xsi:type="v8ui:Color">0:a0c37c26-c10a-47b4-9100-b6a74c56046b</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
 							<dcsset:presentation xsi:type="xs:string">Создана заявка</dcsset:presentation>
@@ -748,7 +752,7 @@
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>ЦветТекста</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">style:ОбработкаНачата</dcscor:value>
+									<dcscor:value xsi:type="v8ui:Color">0:c119d318-2a5b-49f6-b558-cdd07eeebfd8</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
 							<dcsset:presentation xsi:type="xs:string">В обработке</dcsset:presentation>
@@ -765,7 +769,7 @@
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>ЦветТекста</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">style:ОбрабатываетсяПользователем</dcscor:value>
+									<dcscor:value xsi:type="v8ui:Color">0:c8c8de02-a4a2-4a70-b51e-6fc27903fc37</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
 							<dcsset:presentation xsi:type="xs:string">Пользователь</dcsset:presentation>
@@ -1339,6 +1343,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыбратьЭталонной</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЭталон" id="12">
 			<Title>
@@ -1358,6 +1363,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьЭталон</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПривязатьДубль" id="13">
 			<Title>
@@ -1377,6 +1383,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПодтвердитьЭталон</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьГруппуПоискаПоКлассу" id="15">
 			<Title>
@@ -1401,6 +1408,7 @@
 				<Item>FunctionalOption.нсиУчитыватьВРазрезеКлассификатораПродукции</Item>
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьИзБуфераЗагруженные" id="20">
 			<Title>
@@ -1425,6 +1433,7 @@
 				<Item>FunctionalOption.нсиИспользоватьБуферДляТипаОбъектов</Item>
 			</FunctionalOptions>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьИзБуфераОбработанные" id="21">
 			<Title>
@@ -1449,6 +1458,7 @@
 				<Item>FunctionalOption.нсиИспользоватьБуферДляТипаОбъектов</Item>
 			</FunctionalOptions>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НазначитьКласс" id="22">
 			<Title>
@@ -1468,6 +1478,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>НазначитьКласс</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УбратьКлассификацию" id="23">
 			<Title>
@@ -1487,6 +1498,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>УбратьКлассификацию</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

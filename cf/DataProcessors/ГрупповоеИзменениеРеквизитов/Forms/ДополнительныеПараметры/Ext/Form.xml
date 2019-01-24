@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -62,7 +62,7 @@
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИзменятьВТранзакцииКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="ИзменятьВТранзакцииExtendedTooltip" id="54">
-						<TextColor>style:ПоясняющийТекст</TextColor>
+						<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 						<Title formatted="false">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -76,7 +76,7 @@
 				</CheckBoxField>
 				<LabelDecoration name="ПояснениеИзменятьВТранзакции" id="7">
 					<Visible>false</Visible>
-					<TextColor>style:ПоясняющийТекст</TextColor>
+					<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -113,7 +113,7 @@
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПрерыватьПриОшибкеКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="ПрерыватьПриОшибкеExtendedTooltip" id="57">
-						<TextColor>style:ПоясняющийТекст</TextColor>
+						<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 						<Title formatted="false">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -124,7 +124,7 @@
 				</CheckBoxField>
 				<LabelDecoration name="ПояснениеПрерыватьПриОшибке" id="40">
 					<Visible>false</Visible>
-					<TextColor>style:ПоясняющийТекст</TextColor>
+					<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -161,7 +161,7 @@
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОбрабатыватьГруппыРекурсивноКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="ОбрабатыватьГруппыРекурсивноExtendedTooltip" id="60">
-						<TextColor>style:ПоясняющийТекст</TextColor>
+						<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 						<Title formatted="false">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -172,7 +172,7 @@
 				</CheckBoxField>
 				<LabelDecoration name="ПояснениеОбрабатыватьГруппыРекурсивно" id="9">
 					<Visible>false</Visible>
-					<TextColor>style:ПоясняющийТекст</TextColor>
+					<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -228,7 +228,7 @@
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПоказыватьСлужебныеРеквизитыКонтекстноеМеню" id="81"/>
 							<ExtendedTooltip name="ПоказыватьСлужебныеРеквизитыРасширеннаяПодсказка" id="82">
-								<TextColor>style:ПоясняющийТекст</TextColor>
+								<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -239,7 +239,7 @@
 						</CheckBoxField>
 						<LabelDecoration name="ПояснениеПоказыватьСлужебныеРеквизиты" id="83">
 							<Visible>false</Visible>
-							<TextColor>style:ПоясняющийТекст</TextColor>
+							<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -282,7 +282,7 @@
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РежимРазработчикаКонтекстноеМеню" id="89"/>
 							<ExtendedTooltip name="РежимРазработчикаРасширеннаяПодсказка" id="90">
-								<TextColor>style:ПоясняющийТекст</TextColor>
+								<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -318,7 +318,7 @@
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтключитьСвязиПараметровВыбораКонтекстноеМеню" id="94"/>
 							<ExtendedTooltip name="ОтключитьСвязиПараметровВыбораРасширеннаяПодсказка" id="95">
-								<TextColor>style:ПоясняющийТекст</TextColor>
+								<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -478,6 +478,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОК</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>

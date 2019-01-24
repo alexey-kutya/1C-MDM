@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -26,6 +26,7 @@
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Объект.Реквизиты</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="РеквизитыКонтекстноеМеню" id="8"/>
@@ -70,11 +71,11 @@
 					<ContextMenu name="РеквизитыНомерСтрокиКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="РеквизитыНомерСтрокиРасширеннаяПодсказка" id="22"/>
 				</LabelField>
-				<InputField name="РеквизитыВидПоля" id="34">
-					<DataPath>Объект.Реквизиты.ВидПоля</DataPath>
+				<InputField name="РеквизитыРеквизит" id="46">
+					<DataPath>Объект.Реквизиты.Реквизит</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="РеквизитыВидПоляКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="РеквизитыВидПоляРасширеннаяПодсказка" id="36"/>
+					<ContextMenu name="РеквизитыРеквизитКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="РеквизитыРеквизитРасширеннаяПодсказка" id="48"/>
 				</InputField>
 				<InputField name="РеквизитыПоле" id="23">
 					<DataPath>Объект.Реквизиты.Поле</DataPath>
@@ -82,14 +83,14 @@
 					<ContextMenu name="РеквизитыПолеКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="РеквизитыПолеРасширеннаяПодсказка" id="25"/>
 				</InputField>
-				<InputField name="РеквизитыПолеПредставление" id="26">
-					<DataPath>Объект.Реквизиты.ПолеПредставление</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="РеквизитыПолеПредставлениеКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="РеквизитыПолеПредставлениеРасширеннаяПодсказка" id="28"/>
-				</InputField>
 				<CheckBoxField name="РеквизитыБлокировкаОсновная" id="40">
 					<DataPath>Объект.Реквизиты.БлокировкаОсновная</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Осн</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РеквизитыБлокировкаОсновнаяКонтекстноеМеню" id="41"/>
@@ -97,11 +98,36 @@
 				</CheckBoxField>
 				<CheckBoxField name="РеквизитыБлокировкаПриПолнойСинхронизации" id="43">
 					<DataPath>Объект.Реквизиты.БлокировкаПриПолнойСинхронизации</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полн</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РеквизитыБлокировкаПриПолнойСинхронизацииКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="РеквизитыБлокировкаПриПолнойСинхронизацииРасширеннаяПодсказка" id="45"/>
 				</CheckBoxField>
+				<CheckBoxField name="РеквизитыИспользоватьДляГруппы" id="49">
+					<DataPath>Объект.Реквизиты.ИспользоватьДляГруппы</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РеквизитыИспользоватьДляГруппыКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="РеквизитыИспользоватьДляГруппыРасширеннаяПодсказка" id="51"/>
+				</CheckBoxField>
+				<InputField name="РеквизитыВидПоля" id="34">
+					<DataPath>Объект.Реквизиты.ВидПоля</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РеквизитыВидПоляКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="РеквизитыВидПоляРасширеннаяПодсказка" id="36"/>
+				</InputField>
+				<InputField name="РеквизитыПолеПредставление" id="26">
+					<DataPath>Объект.Реквизиты.ПолеПредставление</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РеквизитыПолеПредставлениеКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="РеквизитыПолеПредставлениеРасширеннаяПодсказка" id="28"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -135,6 +161,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаполнитьПоля</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>

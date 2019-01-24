@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>Top</CommandBarLocation>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
@@ -102,7 +102,7 @@
 											</xr:Value>
 										</xr:Item>
 									</ChoiceList>
-									<BackColor>style:ФонУправляющегоПоля</BackColor>
+									<BackColor>0:5abc496c-5745-4220-9fdc-bac092717871</BackColor>
 									<ContextMenu name="УчастникиГруппыКонтекстноеМеню" id="148"/>
 									<ExtendedTooltip name="УчастникиГруппыExtendedTooltip" id="157"/>
 									<Events>
@@ -158,6 +158,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Состав</DataPath>
 							<BorderColor>style:BorderColor</BorderColor>
 							<Title>
@@ -412,6 +413,7 @@
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Роли</DataPath>
 									<RowPictureDataPath>Роли.НомерКартинки</RowPictureDataPath>
 									<RowsPicture>
@@ -800,6 +802,7 @@
 			</ToolTip>
 			<Action>ПодобратьВнешнихПользователей</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьТолькоВыбранныеРоли" id="2">
 			<Title>
@@ -820,6 +823,7 @@
 			</Picture>
 			<Action>ПоказатьТолькоВыбранныеРоли</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИсключитьРоли" id="3">
 			<Title>
@@ -840,6 +844,7 @@
 			</Picture>
 			<Action>ИсключитьРоли</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВключитьРоли" id="4">
 			<Title>
@@ -860,6 +865,7 @@
 			</Picture>
 			<Action>ВключитьРоли</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ГруппировкаРолейПоПодсистемам" id="5">
 			<Title>
@@ -880,6 +886,7 @@
 			</Picture>
 			<Action>ГруппировкаРолейПоПодсистемам</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьНедействительныхПользователей" id="6">
 			<Title>
@@ -895,6 +902,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьНедействительныхПользователей</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СортироватьПоВозрастанию" id="7">
 			<Title>
@@ -916,6 +924,7 @@
 			<Action>СортироватьПоВозрастанию</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СортироватьПоУбыванию" id="8">
 			<Title>
@@ -937,6 +946,7 @@
 			<Action>СортироватьПоУбыванию</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПереместитьВниз" id="9">
 			<Title>
@@ -952,6 +962,7 @@
 			<Action>ПереместитьВниз</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПереместитьВверх" id="10">
 			<Title>
@@ -967,6 +978,7 @@
 			<Action>ПереместитьВверх</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыбратьНазначение" id="11">
 			<Title>
@@ -983,6 +995,7 @@
 			</ToolTip>
 			<Action>ВыбратьНазначение</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>

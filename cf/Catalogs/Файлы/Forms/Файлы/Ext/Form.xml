@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -530,6 +530,7 @@
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Папки</DataPath>
 							<RowPictureDataPath>Папки.ИндексКартинки</RowPictureDataPath>
 							<RowsPicture>
@@ -777,6 +778,7 @@
 												<xr:Ref>CommonPicture.ПапкаОблачногоСервиса</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДекорацияКартинкаОблачногоСервисаКонтекстноеМеню" id="409"/>
 											<ExtendedTooltip name="ДекорацияКартинкаОблачногоСервисаРасширеннаяПодсказка" id="410"/>
 										</PictureDecoration>
@@ -804,6 +806,7 @@
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Список</DataPath>
 									<BorderColor>style:BorderColor</BorderColor>
 									<CommandSet>
@@ -1126,6 +1129,7 @@
 												<xr:Ref>CommonPicture.ПодписанЗашифрованСостояния</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="СписокНомерКартинкиПодписанЗашифрованКонтекстноеМеню" id="118"/>
 											<ExtendedTooltip name="СписокНомерКартинкиПодписанЗашифрованРасширеннаяПодсказка" id="209"/>
 										</PictureField>
@@ -1161,6 +1165,7 @@
 													<Border width="1">
 														<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
 													</Border>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="СписокИндексКартинкиКонтекстноеМеню" id="5"/>
 													<ExtendedTooltip name="СписокИндексКартинкиРасширеннаяПодсказка" id="212"/>
 												</PictureField>
@@ -1376,6 +1381,7 @@
 									<v8:content>Выберите файл для предварительного просмотра</v8:content>
 								</v8:item>
 							</NonselectedPictureText>
+							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="АдресДанныхФайлаКонтекстноеМеню" id="386"/>
 							<ExtendedTooltip name="АдресДанныхФайлаРасширеннаяПодсказка" id="387"/>
 						</PictureField>
@@ -1744,6 +1750,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИмпортФайловВыполнить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЭкспортПапки" id="7">
 			<Title>
@@ -1763,6 +1770,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЭкспортПапкиВыполнить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Найти" id="2">
 			<Title>
@@ -1779,6 +1787,7 @@
 			</ToolTip>
 			<Action>НайтиВыполнить</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьФайл" id="3">
 			<Title>
@@ -1794,6 +1803,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьФайлВыполнить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьПапку" id="4">
 			<Title>
@@ -1813,6 +1823,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СоздатьПапкуВыполнить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗакончитьРедактирование" id="5">
 			<Title>
@@ -1833,6 +1844,7 @@
 			</Picture>
 			<Action>ЗакончитьРедактирование</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Занять" id="6">
 			<Title>
@@ -1853,6 +1865,7 @@
 			</Picture>
 			<Action>Занять</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Освободить" id="8">
 			<Title>
@@ -1873,6 +1886,7 @@
 			</Picture>
 			<Action>Освободить</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьКаталогФайла" id="9">
 			<Title>
@@ -1889,6 +1903,7 @@
 			</ToolTip>
 			<Action>ОткрытьКаталогФайла</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьФайл" id="10">
 			<Title>
@@ -1909,6 +1924,7 @@
 			</Picture>
 			<Action>ОткрытьФайлВыполнить</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Редактировать" id="11">
 			<Title>
@@ -1930,6 +1946,7 @@
 			</Picture>
 			<Action>Редактировать</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьИзменения" id="12">
 			<Title>
@@ -1950,6 +1967,7 @@
 			</Picture>
 			<Action>СохранитьИзменения</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьКак" id="13">
 			<Title>
@@ -1970,6 +1988,7 @@
 			</Picture>
 			<Action>СохранитьКак</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИмпортПапки" id="14">
 			<Title>
@@ -1985,6 +2004,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИмпортПапки</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПеренестиВПапку" id="15">
 			<Title>
@@ -2000,6 +2020,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПеренестиВПапку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОбновитьИзФайлаНаДиске" id="16">
 			<Title>
@@ -2020,6 +2041,7 @@
 			</Picture>
 			<Action>ОбновитьИзФайлаНаДиске</Action>
 			<Representation>Text</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИспользоватьИерархию" id="17">
 			<Title>
@@ -2035,6 +2057,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИспользоватьИерархию</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Подписать" id="18">
 			<Title>
@@ -2050,6 +2073,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Подписать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Зашифровать" id="19">
 			<Title>
@@ -2069,6 +2093,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>Зашифровать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Расшифровать" id="20">
 			<Title>
@@ -2084,6 +2109,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Расшифровать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьПодписьИзФайла" id="22">
 			<Title>
@@ -2099,6 +2125,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьПодписьИзФайла</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьВместеСПодписью" id="23">
 			<Title>
@@ -2114,6 +2141,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьВместеСПодписью</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Обновить" id="21">
 			<Title>
@@ -2134,6 +2162,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>Обновить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьФайлИзШаблона" id="24">
 			<Title>
@@ -2149,6 +2178,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьФайлИзШаблонаВыполнить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьФайлСоСканера" id="25">
 			<Title>
@@ -2164,6 +2194,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьФайлСоСканераВыполнить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Отправить" id="26">
 			<Title>
@@ -2179,6 +2210,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Отправить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Печать" id="27">
 			<Title>
@@ -2194,6 +2226,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Печать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Предпросмотр" id="28">
 			<Title>
@@ -2209,6 +2242,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Предпросмотр</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастроитьСинхронизацию" id="29">
 			<Title>
@@ -2227,6 +2261,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьСинхронизациюФайлов</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<CommandInterface>
