@@ -24,6 +24,18 @@
 		<Description>Комплектация заказов только с акцизной маркой старого образца</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="39019d89-de85-45f9-a0c0-ab4e1499d75b">
+		<Name>ОднаПартияБезПерепродажФакторинг</Name>
+		<Code>000000008</Code>
+		<Description>Комплектация товара одной партии, самой большой по количеству в рамках заказа, с партиями, по которым не было перепродаж (признак факторинга)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="801811df-a08c-4b2d-92dc-e220c6edece0">
+		<Name>ПартииБезПерепродажФакторинг</Name>
+		<Code>000000009</Code>
+		<Description>Комплектация товара с партиями, по которым не было перепродаж (признак факторинга)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="9fb2a153-89c9-4029-adc2-3bb332065e56">
 		<Name>ОднаПартия</Name>
 		<Code>000000002</Code>

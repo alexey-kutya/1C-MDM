@@ -29,13 +29,13 @@
 			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="Production" id="10">
-			<DataPath>Объект.Production</DataPath>
+			<DataPath>1/0:bcaf7c1d-53e6-49b6-afed-048c76c4ff41</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ProductionКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ProductionРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="NameDetailed" id="13">
-			<DataPath>Объект.NameDetailed</DataPath>
+			<DataPath>1/0:45aa1d36-f033-4023-927d-85b6fbff6dfe</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="NameDetailedКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="NameDetailedРасширеннаяПодсказка" id="15"/>
@@ -47,13 +47,13 @@
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="31"/>
 			<ChildItems>
 				<InputField name="MainBrand" id="16">
-					<DataPath>Объект.MainBrand</DataPath>
+					<DataPath>1/0:9d621d39-c565-4d15-9a84-671c2687aef9</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="MainBrandКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="MainBrandРасширеннаяПодсказка" id="18"/>
 				</InputField>
 				<LabelField name="MainBrandID" id="32">
-					<DataPath>Объект.MainBrand.Code</DataPath>
+					<DataPath>1/0:9d621d39-c565-4d15-9a84-671c2687aef9/-2</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
 					<TextColor>web:CornFlowerBlue</TextColor>
@@ -63,7 +63,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<InputField name="NonProduct" id="19">
-			<DataPath>Объект.NonProduct</DataPath>
+			<DataPath>1/0:9a1cc5ef-630d-406b-a394-59d20912b0e5</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="NonProductКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="NonProductРасширеннаяПодсказка" id="21"/>
@@ -75,13 +75,13 @@
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="29"/>
 			<ChildItems>
 				<InputField name="ParentBrand" id="22">
-					<DataPath>Объект.ParentBrand</DataPath>
+					<DataPath>1/0:e100fb66-4c2e-4b91-a634-cbd5d00d51c1</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ParentBrandКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ParentBrandРасширеннаяПодсказка" id="24"/>
 				</InputField>
 				<LabelField name="ParentBrandID" id="35">
-					<DataPath>Объект.ParentBrand.Code</DataPath>
+					<DataPath>1/0:e100fb66-4c2e-4b91-a634-cbd5d00d51c1/-2</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
 					<TextColor>web:CornFlowerBlue</TextColor>
@@ -91,13 +91,13 @@
 			</ChildItems>
 		</UsualGroup>
 		<InputField name="Remarks" id="25">
-			<DataPath>Объект.Remarks</DataPath>
+			<DataPath>1/0:b8a7ac6a-902c-4200-9215-c3bf5f5b66f9</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="RemarksКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="RemarksРасширеннаяПодсказка" id="27"/>
 		</InputField>
 		<InputField name="AdditionalInformation" id="38">
-			<DataPath>Объект.AdditionalInformation</DataPath>
+			<DataPath>1/0:7da1efa6-93c0-43b9-81fd-bec6ee0c9742</DataPath>
 			<ContextMenu name="AdditionalInformationКонтекстноеМеню" id="39"/>
 			<ExtendedTooltip name="AdditionalInformationРасширеннаяПодсказка" id="40"/>
 		</InputField>

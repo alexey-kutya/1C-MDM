@@ -87,6 +87,26 @@
 					<ContextMenu name="КодКонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="26"/>
 				</LabelField>
+				<LabelField name="БазоваяЕдиница" id="28">
+					<DataPath>Список.БазоваяЕдиница</DataPath>
+					<ContextMenu name="БазоваяЕдиницаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="БазоваяЕдиницаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="Коэффициент" id="31">
+					<DataPath>Список.Коэффициент</DataPath>
+					<ContextMenu name="КоэффициентКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="КоэффициентРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="Характеристика" id="34">
+					<DataPath>Список.Характеристика</DataPath>
+					<ContextMenu name="ХарактеристикаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ХарактеристикаРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="ЕдиницаИзмеренияХарактеристики" id="37">
+					<DataPath>Список.ЕдиницаИзмеренияХарактеристики</DataPath>
+					<ContextMenu name="ЕдиницаИзмеренияХарактеристикиКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ЕдиницаИзмеренияХарактеристикиРасширеннаяПодсказка" id="39"/>
+				</LabelField>
 				<LabelField name="МеждународноеСокращение" id="11">
 					<DataPath>Список.МеждународноеСокращение</DataPath>
 					<ContextMenu name="МеждународноеСокращениеКонтекстноеМеню" id="12"/>

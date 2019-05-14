@@ -272,7 +272,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиКлассификаторПродукции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиДополнительныеКлассификаторы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.нсиБанки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalSKU</xr:Item>
 			</BasedOn>
 			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
 			<Task>Task.ЗадачаИсполнителя</Task>

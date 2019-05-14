@@ -91,6 +91,11 @@
 					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 				</LabelField>
+				<LabelField name="EntityID" id="42">
+					<DataPath>~Список.EntityID</DataPath>
+					<ContextMenu name="EntityIDКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="EntityIDРасширеннаяПодсказка" id="44"/>
+				</LabelField>
 				<LabelField name="ИНН" id="25">
 					<DataPath>Список.ИНН</DataPath>
 					<ContextMenu name="ИННКонтекстноеМеню" id="26"/>

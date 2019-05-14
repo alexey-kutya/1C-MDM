@@ -80,22 +80,22 @@
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="Production" id="22">
-					<DataPath>Список.Production</DataPath>
+					<DataPath>~Список.Production</DataPath>
 					<ContextMenu name="ProductionКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ProductionРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="NameDetailed" id="25">
-					<DataPath>Список.NameDetailed</DataPath>
+					<DataPath>~Список.NameDetailed</DataPath>
 					<ContextMenu name="NameDetailedКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="NameDetailedРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="MainBrand" id="28">
-					<DataPath>Список.MainBrand</DataPath>
+					<DataPath>~Список.MainBrand</DataPath>
 					<ContextMenu name="MainBrandКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="MainBrandРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<InputField name="MainBrandID" id="37">
-					<DataPath>Список.MainBrand.Code</DataPath>
+					<DataPath>~Список.MainBrand.Code</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -110,17 +110,17 @@
 					<ExtendedTooltip name="MainBrandIDРасширеннаяПодсказка" id="39"/>
 				</InputField>
 				<LabelField name="NonProduct" id="31">
-					<DataPath>Список.NonProduct</DataPath>
+					<DataPath>~Список.NonProduct</DataPath>
 					<ContextMenu name="NonProductКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="NonProductРасширеннаяПодсказка" id="33"/>
 				</LabelField>
 				<LabelField name="ParentBrand" id="34">
-					<DataPath>Список.ParentBrand</DataPath>
+					<DataPath>~Список.ParentBrand</DataPath>
 					<ContextMenu name="ParentBrandКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ParentBrandРасширеннаяПодсказка" id="36"/>
 				</LabelField>
 				<InputField name="ParentBrandID" id="40">
-					<DataPath>Список.ParentBrand.Code</DataPath>
+					<DataPath>~Список.ParentBrand.Code</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -135,12 +135,12 @@
 					<ExtendedTooltip name="ParentBrandIDРасширеннаяПодсказка" id="42"/>
 				</InputField>
 				<LabelField name="Remarks" id="43">
-					<DataPath>Список.Remarks</DataPath>
+					<DataPath>~Список.Remarks</DataPath>
 					<ContextMenu name="RemarksКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="RemarksРасширеннаяПодсказка" id="45"/>
 				</LabelField>
 				<LabelField name="AdditionalInformation" id="46">
-					<DataPath>Список.AdditionalInformation</DataPath>
+					<DataPath>~Список.AdditionalInformation</DataPath>
 					<ContextMenu name="AdditionalInformationКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="AdditionalInformationРасширеннаяПодсказка" id="48"/>
 				</LabelField>

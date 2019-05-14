@@ -162,7 +162,6 @@
 								</InputField>
 								<InputField name="РеквизитыОрганизацийОсновнойСклад" id="173">
 									<DataPath>Объект.РеквизитыОрганизаций.ОсновнойСклад</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="РеквизитыОрганизацийОсновнойСкладКонтекстноеМеню" id="174"/>
 									<ExtendedTooltip name="РеквизитыОрганизацийОсновнойСкладРасширеннаяПодсказка" id="175"/>
@@ -213,6 +212,7 @@
 										</InputField>
 										<InputField name="ОсновнойСклад" id="22">
 											<DataPath>Объект.ОсновнойСклад</DataPath>
+											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ОсновнойСкладКонтекстноеМеню" id="23"/>
 											<ExtendedTooltip name="ОсновнойСкладРасширеннаяПодсказка" id="24"/>

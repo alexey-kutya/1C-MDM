@@ -454,7 +454,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы</name>
+		<name>Catalog.РегионыРоссии</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -511,6 +511,17 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonAttribute.CollisionMessage</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Склады.Attribute.Завод</name>
 		<right>
 			<name>View</name>
@@ -519,6 +530,45 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.GlobalEntity</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -652,6 +702,37 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.GlobalPartners</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.нсиБанковскиеСчета.Command.КомплекснаяРаботаСЗаписями</name>
 		<right>
 			<name>View</name>
@@ -763,6 +844,17 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.State</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1329,28 +1421,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonAttribute.СтранаОрганизацииРазделительДанных</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonAttribute.СтранаОрганизации</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Организации</name>
 		<right>
 			<name>Read</name>
@@ -1453,6 +1523,17 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonAttribute.Comment</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.нсиКонтрагенты.Command.ДублирующиеПозицииЗаписи</name>
 		<right>
 			<name>View</name>
@@ -1479,6 +1560,17 @@
 	</object>
 	<object>
 		<name>CommonAttribute.СтатусДопСправочниковSKU</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.TimeStamp</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1863,6 +1955,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.Status</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

@@ -6,7 +6,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Номенклатура (Global)</v8:content>
+					<v8:content>Products and materials</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -25,26 +25,22 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalSKU</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalMaterialType</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalBrand</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalProducer</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalFactory</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalEntityCountry</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalPacking</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalAmount</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalVolume</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalProduction</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalAlcoholContent</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalLabel</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalStatus</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalMaterialGroup</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalCountries</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыНазначенийБизнесПроцессов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.MappingGlobalAndLocalSKU</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтраныМира</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.итГруппыУправленияНСИ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.итНастройкиГруппУправленияНСИ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхИзФайла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеБрэндовИРазновидностейВкусов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеТипыМатериалов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеПроизводителиИмпортеры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеМатериалыИФормыТары</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеКрепости</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеТипУпаковки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеОбъемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеРегионыСбыта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеМодификацииВерсии</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

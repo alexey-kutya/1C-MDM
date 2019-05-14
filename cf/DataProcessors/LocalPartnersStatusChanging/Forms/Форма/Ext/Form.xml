@@ -86,7 +86,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:EnumRef.GlobalPartnersStatuses</v8:Type>
+				<v8:Type>cfg:EnumRef.PartnersStatuses</v8:Type>
 			</Type>
 			<FillCheck>ShowError</FillCheck>
 		</Attribute>
@@ -98,7 +98,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:EnumRef.GlobalPartnersStatuses</v8:Type>
+				<v8:Type>cfg:EnumRef.PartnersStatuses</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="Comments" id="5">

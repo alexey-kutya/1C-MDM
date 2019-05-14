@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Соответствие Материалы и формы тары</v8:content>
+					<v8:content>Mapping Packing - Материал и форма тары</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -170,11 +170,11 @@
 		<ChildObjects>
 			<Dimension uuid="58f1b7c6-c68f-436c-a60d-a910eb722bd7">
 				<Properties>
-					<Name>Local</Name>
+					<Name>LocalPacking</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Local</v8:content>
+							<v8:content>Local packing</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -212,11 +212,11 @@
 			</Dimension>
 			<Dimension uuid="6b28b0e8-f0e9-41b3-ab43-767fccf5fcda">
 				<Properties>
-					<Name>Global</Name>
+					<Name>Packing</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Global</v8:content>
+							<v8:content>Packing</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

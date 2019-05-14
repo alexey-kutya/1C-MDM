@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Соответствие Объемы</v8:content>
+					<v8:content>Mapping Volume - Объем</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -170,11 +170,11 @@
 		<ChildObjects>
 			<Dimension uuid="9fb662b4-10fb-489d-aed0-5de82f46675d">
 				<Properties>
-					<Name>Local</Name>
+					<Name>LocalVolume</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Local</v8:content>
+							<v8:content>Local volume</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -212,11 +212,11 @@
 			</Dimension>
 			<Dimension uuid="670eb4db-f3a8-42e0-9b2f-012c55c399a0">
 				<Properties>
-					<Name>Global</Name>
+					<Name>Volume</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Global</v8:content>
+							<v8:content>Volume</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

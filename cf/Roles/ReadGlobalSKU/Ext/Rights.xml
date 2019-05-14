@@ -4,33 +4,11 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.GlobalEntityCountry</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>BusinessProcess.нсиВводНовогоЭлементаСправочника.Attribute.Методолог</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.Dimension.LocalItem</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -64,13 +42,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.MaterialGroup</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -143,24 +114,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalCountries.Attribute.Реквизит1</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.ЭтоМакет</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.GlobalSKU.Subsystem.MainList</name>
 		<right>
 			<name>View</name>
@@ -216,21 +169,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -316,13 +254,6 @@
 	</object>
 	<object>
 		<name>Catalog.GlobalSKU.Attribute.MaterialType</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.DeleteStatus</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -458,13 +389,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.Status</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>BusinessProcess.нсиВводНовогоЭлементаСправочника.Attribute.НастройкаБП</name>
 		<right>
 			<name>View</name>
@@ -564,120 +488,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.ID</name>
+		<name>Catalog.GlobalSKU.Attribute.GlobalID</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.LocalName</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
+		<name>Catalog.GlobalSKU.Attribute.LocalEntity</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -696,28 +514,6 @@
 	</object>
 	<object>
 		<name>Catalog.GlobalLabel</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.BrandGroup</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -827,13 +623,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.Черновик</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.GlobalSKU.Attribute.Label</name>
 		<right>
 			<name>Edit</name>
@@ -842,45 +631,6 @@
 	</object>
 	<object>
 		<name>Catalog.GlobalSKU.Attribute.VersionDescription</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -931,25 +681,11 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.EntityCountry</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.нсиСтатусыОбработкиСправочников.Resource.ВременныйЭлемент</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.Dimension.GlobalItem</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1000,13 +736,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.ForDescription</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.GlobalBrand</name>
 		<right>
 			<name>Read</name>
@@ -1030,13 +759,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Command.ВводНовогоЭлементаСправочника</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1190,21 +912,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalProducer</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>BusinessProcess.нсиВводНовогоЭлементаСправочника.TabularSection.ПрохождениеЭтапов.Attribute.ОповещатьПриОжиданииЗа</name>
 		<right>
 			<name>View</name>
@@ -1228,13 +935,6 @@
 		<right>
 			<name>InputByString</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.LocalID</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>

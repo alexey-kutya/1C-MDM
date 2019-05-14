@@ -211,6 +211,8 @@
 					<ChildItems>
 						<Table name="ИсходныеКомплектующие" id="25">
 							<Representation>List</Representation>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HeightInTableRows>10</HeightInTableRows>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -461,7 +463,7 @@
 			</ChildItems>
 		</Pages>
 		<UsualGroup name="Группа1" id="182">
-			<Representation>StrongSeparation</Representation>
+			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="183"/>
 			<ChildItems>
@@ -485,11 +487,11 @@
 		<InputField name="Комментарий" id="173">
 			<DataPath>Объект.Комментарий</DataPath>
 			<AutoMaxWidth>false</AutoMaxWidth>
-			<MultiLine>true</MultiLine>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="174"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="175"/>
 		</InputField>
 		<UsualGroup name="ГруппаНСИ" id="114">
+			<Visible>false</Visible>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

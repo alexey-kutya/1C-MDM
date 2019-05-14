@@ -11,10 +11,17 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture/>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.States</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.State</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.Status</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.TimeStamp</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.Comment</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.CollisionMessage</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>GlobalSKU</Subsystem>

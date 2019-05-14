@@ -1,30 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>CancelSearch</ExcludedCommand>
+		<ExcludedCommand>Change</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>Create</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+		<ExcludedCommand>Find</ExcludedCommand>
+		<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>ListSettings</ExcludedCommand>
+		<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>OutputList</ExcludedCommand>
+		<ExcludedCommand>Refresh</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+		<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСинхронизация" id="80">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Синхронизация</CommandName>
+				<ExtendedTooltip name="ФормаСинхронизацияРасширеннаяПодсказка" id="81"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа пользовательских настроек</v8:content>
-				</v8:item>
-			</Title>
-			<VerticalStretch>false</VerticalStretch>
-			<Group>Vertical</Group>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
-		</UsualGroup>
-		<Table name="Список" id="3">
-			<Representation>List</Representation>
-			<CommandBarLocation>None</CommandBarLocation>
-			<DefaultItem>true</DefaultItem>
+		<Table name="Список" id="1">
 			<UseAlternationRowColor>true</UseAlternationRowColor>
-			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
-			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
@@ -40,110 +61,156 @@
 			<ShowRoot>true</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
-			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
-			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
-			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
-			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
-			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="5">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
-				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="7"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="8">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
-				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+			<SearchControlAddition name="СписокУправлениеПоиском" id="11">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
-				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Наименование" id="16">
-					<DataPath>~Список.Description</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+				<LabelField name="Status" id="65">
+					<DataPath>Список.Status</DataPath>
+					<TextColor>web:DarkGreen</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="StatusКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="StatusРасширеннаяПодсказка" id="67"/>
 				</LabelField>
-				<LabelField name="GlobalID" id="22">
-					<DataPath>~Список.ID</DataPath>
-					<ContextMenu name="GlobalIDКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="GlobalIDРасширеннаяПодсказка" id="24"/>
+				<LabelField name="State" id="68">
+					<DataPath>Список.State</DataPath>
+					<TextColor>web:DarkRed</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="StateКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="StateРасширеннаяПодсказка" id="70"/>
 				</LabelField>
-				<LabelField name="Type" id="25">
-					<DataPath>~Список.Type</DataPath>
-					<ContextMenu name="TypeКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="TypeРасширеннаяПодсказка" id="27"/>
+				<LabelField name="TimeStamp" id="71">
+					<DataPath>Список.TimeStamp</DataPath>
+					<TextColor>web:DarkBlue</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="TimeStampКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="TimeStampРасширеннаяПодсказка" id="73"/>
 				</LabelField>
-				<LabelField name="ShortName" id="28">
-					<DataPath>~Список.ShortName</DataPath>
-					<ContextMenu name="ShortNameКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="ShortNameРасширеннаяПодсказка" id="30"/>
+				<LabelField name="Comment" id="74">
+					<DataPath>Список.Comment</DataPath>
+					<ContextMenu name="CommentКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="CommentРасширеннаяПодсказка" id="76"/>
 				</LabelField>
-				<LabelField name="Entity" id="31">
-					<DataPath>~Список.Entity</DataPath>
-					<ContextMenu name="EntityКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="EntityРасширеннаяПодсказка" id="33"/>
+				<LabelField name="CollisionMessage" id="77">
+					<DataPath>Список.CollisionMessage</DataPath>
+					<ContextMenu name="CollisionMessageКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="CollisionMessageРасширеннаяПодсказка" id="79"/>
 				</LabelField>
-				<CheckBoxField name="IsSupplier" id="34">
-					<DataPath>~Список.IsSupplier</DataPath>
+				<LabelField name="Наименование" id="14">
+					<DataPath>Список.Description</DataPath>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<LabelField name="Код" id="17">
+					<DataPath>Список.Code</DataPath>
+					<Visible>false</Visible>
+					<ContextMenu name="КодКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<LabelField name="GlobalID" id="20">
+					<DataPath>Список.GlobalID</DataPath>
+					<ContextMenu name="GlobalIDКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="GlobalIDРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<LabelField name="LocalEntity" id="23">
+					<DataPath>Список.LocalEntity</DataPath>
+					<ContextMenu name="LocalEntityКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="LocalEntityРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<LabelField name="Entity" id="26">
+					<DataPath>Список.Entity</DataPath>
+					<ContextMenu name="EntityКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="EntityРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<LabelField name="Type" id="29">
+					<DataPath>Список.Type</DataPath>
+					<ContextMenu name="TypeКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="TypeРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<LabelField name="DetailedType" id="32">
+					<DataPath>Список.DetailedType</DataPath>
+					<ContextMenu name="DetailedTypeКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="DetailedTypeРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+				<LabelField name="FullName" id="35">
+					<DataPath>~Список.FullName</DataPath>
+					<ContextMenu name="FullNameКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="FullNameРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+				<LabelField name="ExistingLocalID" id="38">
+					<DataPath>Список.ExistingLocalID</DataPath>
+					<ContextMenu name="ExistingLocalIDКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ExistingLocalIDРасширеннаяПодсказка" id="40"/>
+				</LabelField>
+				<CheckBoxField name="IsSupplier" id="41">
+					<DataPath>Список.IsSupplier</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="IsSupplierКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="IsSupplierРасширеннаяПодсказка" id="36"/>
+					<ContextMenu name="IsSupplierКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="IsSupplierРасширеннаяПодсказка" id="43"/>
 				</CheckBoxField>
-				<CheckBoxField name="IsCustomer" id="37">
-					<DataPath>~Список.IsCustomer</DataPath>
+				<CheckBoxField name="IsCustomer" id="44">
+					<DataPath>Список.IsCustomer</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="IsCustomerКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="IsCustomerРасширеннаяПодсказка" id="39"/>
+					<ContextMenu name="IsCustomerКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="IsCustomerРасширеннаяПодсказка" id="46"/>
 				</CheckBoxField>
-				<CheckBoxField name="IsNonTrade" id="40">
-					<DataPath>~Список.IsNonTrade</DataPath>
+				<CheckBoxField name="IsNonTrade" id="47">
+					<DataPath>Список.IsNonTrade</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="IsNonTradeКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="IsNonTradeРасширеннаяПодсказка" id="42"/>
+					<ContextMenu name="IsNonTradeКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="IsNonTradeРасширеннаяПодсказка" id="49"/>
 				</CheckBoxField>
-				<LabelField name="Market" id="43">
-					<DataPath>~Список.Market</DataPath>
-					<ContextMenu name="MarketКонтекстноеМеню" id="44"/>
-					<ExtendedTooltip name="MarketРасширеннаяПодсказка" id="45"/>
+				<CheckBoxField name="IsInstitution" id="50">
+					<DataPath>Список.IsInstitution</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="IsInstitutionКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="IsInstitutionРасширеннаяПодсказка" id="52"/>
+				</CheckBoxField>
+				<LabelField name="Market" id="53">
+					<DataPath>Список.Market</DataPath>
+					<ContextMenu name="MarketКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="MarketРасширеннаяПодсказка" id="55"/>
 				</LabelField>
-				<LabelField name="DeliveryAddress" id="46">
-					<DataPath>~Список.DeliveryAddress</DataPath>
-					<ContextMenu name="DeliveryAddressКонтекстноеМеню" id="47"/>
-					<ExtendedTooltip name="DeliveryAddressРасширеннаяПодсказка" id="48"/>
+				<LabelField name="Incoterms" id="56">
+					<DataPath>Список.Incoterms</DataPath>
+					<ContextMenu name="IncotermsКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="IncotermsРасширеннаяПодсказка" id="58"/>
 				</LabelField>
-				<LabelField name="Currency" id="49">
-					<DataPath>~Список.Currency</DataPath>
-					<ContextMenu name="CurrencyКонтекстноеМеню" id="50"/>
-					<ExtendedTooltip name="CurrencyРасширеннаяПодсказка" id="51"/>
+				<LabelField name="DeliveryAddress" id="59">
+					<DataPath>Список.DeliveryAddress</DataPath>
+					<ContextMenu name="DeliveryAddressКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="DeliveryAddressРасширеннаяПодсказка" id="61"/>
 				</LabelField>
-				<LabelField name="Status" id="52">
-					<DataPath>~Список.Status</DataPath>
-					<ContextMenu name="StatusКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="StatusРасширеннаяПодсказка" id="54"/>
-				</LabelField>
-				<LabelField name="Incoterms" id="55">
-					<DataPath>~Список.Incoterms</DataPath>
-					<ContextMenu name="IncotermsКонтекстноеМеню" id="56"/>
-					<ExtendedTooltip name="IncotermsРасширеннаяПодсказка" id="57"/>
-				</LabelField>
-				<LabelField name="СтранаОрганизации" id="58">
-					<DataPath>~Список.СтранаОрганизации</DataPath>
-					<ContextMenu name="СтранаОрганизацииКонтекстноеМеню" id="59"/>
-					<ExtendedTooltip name="СтранаОрганизацииРасширеннаяПодсказка" id="60"/>
+				<LabelField name="Currency" id="62">
+					<DataPath>Список.Currency</DataPath>
+					<ContextMenu name="CurrencyКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="CurrencyРасширеннаяПодсказка" id="64"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -155,57 +222,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>true</ManualQuery>
+				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
-	СправочникНСИ.Ссылка,
-	СправочникНСИ.ПометкаУдаления,
-	СправочникНСИ.Предопределенный,
-	СправочникНСИ.Код,
-	СправочникНСИ.Наименование,
-	СправочникНСИ.ЭтоМакет,
-	СтатусыОбработки.Пользователь КАК Пользователь,
-	СтатусыОбработки.ВременныйЭлемент КАК ВременныйЭлемент,
-	СтатусыОбработки.СозданаЗаявка КАК СозданаЗаявка,
-	СтатусыОбработки.ОбработкаНачата КАК ОбработкаНачата,
-	СтатусыОбработки.Обработано КАК Обработано,
-	СтатусыОбработки.Обработавший КАК Обработавший,
-	СправочникНСИ.LocalID,
-	СправочникНСИ.ID,
-	СправочникНСИ.Type,
-	СправочникНСИ.ShortName,
-	СправочникНСИ.Entity,
-	СправочникНСИ.Intercompany,
-	СправочникНСИ.IsSupplier,
-	СправочникНСИ.IsCustomer,
-	СправочникНСИ.IsNonTrade,
-	СправочникНСИ.Market,
-	СправочникНСИ.DeliveryAddress,
-	СправочникНСИ.Currency,
-	СправочникНСИ.Status,
-	СправочникНСИ.Incoterms,
-	СправочникНСИ.СтранаОрганизации
-ИЗ
-	Справочник.GlobalPartners КАК СправочникНСИ
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.нсиСтатусыОбработкиСправочников КАК СтатусыОбработки
-		ПО (СтатусыОбработки.Объект = СправочникНСИ.Ссылка)
-			И (ВЫБОР
-				КОГДА &amp;СсылкаНеОпределена
-					ТОГДА ИСТИНА
-				ИНАЧЕ СправочникНСИ.Ссылка В (&amp;Ссылка)
-			КОНЕЦ)
-			И (ВЫБОР
-				КОГДА &amp;СсылкаНеОпределена
-					ТОГДА ИСТИНА
-				ИНАЧЕ СтатусыОбработки.Объект В (&amp;Ссылка)
-			КОНЕЦ)
-			И (СтатусыОбработки.Пользователь = &amp;Пользователь
-					И СтатусыОбработки.ВременныйЭлемент
-				ИЛИ СтатусыОбработки.Пользователь В (&amp;ПользователиГруппыДоступа)
-					И СтатусыОбработки.ВременныйЭлемент
-				ИЛИ &amp;ЭтоИсполнительРоли
-					И СтатусыОбработки.ВременныйЭлемент
-				ИЛИ НЕ СтатусыОбработки.ВременныйЭлемент)</QueryText>
 				<MainTable>Catalog.GlobalPartners</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -225,20 +243,27 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="ИмяСправочника" id="2">
+	</Attributes>
+	<Commands>
+		<Command name="Синхронизация" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Имя справочника</v8:content>
+					<v8:content>Синхронизация</v8:content>
 				</v8:item>
 			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
-	</Attributes>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.СинхронизацияДанных</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Синхронизация</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
 </Form>

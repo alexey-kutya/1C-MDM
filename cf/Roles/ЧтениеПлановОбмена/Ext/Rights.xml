@@ -88,17 +88,6 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.СтранаОрганизацииРазделительДанныхЗначение</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Set</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.СтандартныеПодсистемы</name>
 		<right>
 			<name>View</name>
@@ -107,17 +96,6 @@
 	</object>
 	<object>
 		<name>Catalog.УсловияОтгрузки</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -990,17 +968,6 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ГруппаУправленияНСИ</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Set</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОценкаПроизводительности</name>
 		<right>
 			<name>Use</name>
@@ -1259,17 +1226,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalIntercompany</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.СопоставлениеОбъектовИнформационныхБаз</name>
 		<right>
 			<name>Use</name>
@@ -1418,17 +1374,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalStatus</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.НастройкиТранспортаОбмена</name>
 		<right>
 			<name>Use</name>
@@ -1447,7 +1392,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP</name>
+		<name>Catalog.УсловияТранспортирования</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1480,29 +1425,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьГлобальныеСправочники</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonCommand.СинхронизироватьСДополнительнымиПараметрами</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.Выгрузка_in_JSON</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1611,20 +1534,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы</name>
+		<name>Catalog.РегионыРоссии</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.Обмен_MDM_AX</name>
-		<right>
-			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2175,17 +2087,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalCurrency</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ПраваРолей</name>
 		<right>
 			<name>Read</name>
@@ -2271,17 +2172,6 @@
 	</object>
 	<object>
 		<name>CommonForm.Вопрос</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2559,17 +2449,6 @@
 		<name>Report.нсиСписокТрансферныхДоговоров</name>
 		<right>
 			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2875,29 +2754,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalProduction</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.Органайзер.Subsystem.РаботаСПочтовымиСообщениями</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -3347,17 +3204,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ГруппаЦенМатериаловSAP</name>
 		<right>
 			<name>Read</name>
@@ -3642,17 +3488,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.АдресныйКлассификатор</name>
 		<right>
 			<name>Read</name>
@@ -3682,17 +3517,6 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.СтранаОрганизацииРазделительДанныхИспользование</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Set</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonCommand.ЗадачиПоПредмету</name>
 		<right>
 			<name>View</name>
@@ -3718,7 +3542,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP</name>
+		<name>Catalog.НалоговыйТриггерSAP</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -3805,17 +3629,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.ВыборДаты</name>
 		<right>
 			<name>View</name>
@@ -3853,17 +3666,6 @@
 	</object>
 	<object>
 		<name>Catalog.КонтактныеЛицаКонтрагентов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -3973,17 +3775,6 @@
 	</object>
 	<object>
 		<name>Constant.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -4877,7 +4668,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP</name>
+		<name>Catalog.ВидЗаготовкиSAP</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -4997,13 +4788,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonAttribute.СтранаОрганизацииРазделительДанных</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonCommand.КартаМаршрутаБизнесПроцесса</name>
 		<right>
 			<name>View</name>
@@ -5049,13 +4833,6 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonAttribute.СтранаОрганизации</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -5110,17 +4887,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.РезультатыОбменаДанными</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -5258,17 +5024,6 @@
 	</object>
 	<object>
 		<name>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ВыгрузкаИзМДМ_УПП</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -6067,17 +5822,6 @@
 	</object>
 	<object>
 		<name>Catalog.LocalMaterialType</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

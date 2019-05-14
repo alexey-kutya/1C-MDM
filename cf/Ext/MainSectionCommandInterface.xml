@@ -11,13 +11,13 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.GlobalSKU.Command.ВводНовогоЭлементаСправочника">
+		<Command name="0:a83a335b-508f-4bcb-907f-224a439640a1">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 				<xr:Value name="Role.WriteLocalSKU">true</xr:Value>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.GlobalPartners.Command.ВводНовогоЭлементаСправочника">
+		<Command name="0:8a4db45d-3c06-4b2b-9d4d-e611ce1d6f31">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 				<xr:Value name="Role.WriteLocalPartners">true</xr:Value>
@@ -57,7 +57,7 @@
 				<xr:Value name="Role.нсиДобавлениеИзменениеКонтрагентов">true</xr:Value>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.MappingGlobalAndLocalPartners.StandardCommand.OpenList">
+		<Command name="0:902daefe-f9dd-4eeb-888f-7c95f9be6d10">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -106,11 +106,11 @@
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="Catalog.GlobalSKU.Command.ВводНовогоЭлементаСправочника">
+		<Command name="0:a83a335b-508f-4bcb-907f-224a439640a1">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="Catalog.GlobalPartners.Command.ВводНовогоЭлементаСправочника">
+		<Command name="0:8a4db45d-3c06-4b2b-9d4d-e611ce1d6f31">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
@@ -138,7 +138,7 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="InformationRegister.MappingGlobalAndLocalPartners.StandardCommand.OpenList">
+		<Command name="0:902daefe-f9dd-4eeb-888f-7c95f9be6d10">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
@@ -174,10 +174,10 @@
 		<Command name="Catalog.нсиУслуги.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.GlobalSKU.Command.ВводНовогоЭлементаСправочника">
+		<Command name="0:a83a335b-508f-4bcb-907f-224a439640a1">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.GlobalPartners.Command.ВводНовогоЭлементаСправочника">
+		<Command name="0:8a4db45d-3c06-4b2b-9d4d-e611ce1d6f31">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
 		<Command name="Task.ЗадачаИсполнителя.Command.ВсеЗадачи">
@@ -198,7 +198,7 @@
 		<Command name="Catalog.нсиКонтрагенты.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.MappingGlobalAndLocalPartners.StandardCommand.OpenList">
+		<Command name="0:902daefe-f9dd-4eeb-888f-7c95f9be6d10">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Catalog.НастройкиБлокировкиРеквизитов.StandardCommand.OpenList">

@@ -24,9 +24,9 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalPartners</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.GlobalPartnersTypes</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.GlobalPartnersStatuses</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.GlobalBusinessTypes</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.MappingGlobalAndLocalPartners</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.PartnersStatuses</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">79bf4d23-fcbe-439f-8277-1bb5dccac0ca</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">902daefe-f9dd-4eeb-888f-7c95f9be6d10</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.LocalPartnersStatusChanging</xr:Item>
 			</Content>
 		</Properties>

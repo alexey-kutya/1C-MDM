@@ -77,17 +77,17 @@
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="LocalID" id="19">
-					<DataPath>Список.LocalID</DataPath>
+					<DataPath>~Список.LocalID</DataPath>
 					<ContextMenu name="LocalIDКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="LocalIDРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="GlobalID" id="22">
-					<DataPath>~Список.GlobalID</DataPath>
+					<DataPath>Список.GlobalID</DataPath>
 					<ContextMenu name="GlobalIDКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="GlobalIDРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="ShortName" id="25">
-					<DataPath>Список.ShortName</DataPath>
+					<DataPath>~Список.ShortName</DataPath>
 					<ContextMenu name="ShortNameКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ShortNameРасширеннаяПодсказка" id="27"/>
 				</LabelField>

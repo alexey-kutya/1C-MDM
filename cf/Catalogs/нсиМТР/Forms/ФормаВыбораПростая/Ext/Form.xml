@@ -89,7 +89,7 @@
 					<ExtendedTooltip name="LocalIDРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="EntityCountry" id="25">
-					<DataPath>Список.EntityCountry</DataPath>
+					<DataPath>~Список.EntityCountry</DataPath>
 					<ContextMenu name="EntityCountryКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="EntityCountryРасширеннаяПодсказка" id="27"/>
 				</LabelField>

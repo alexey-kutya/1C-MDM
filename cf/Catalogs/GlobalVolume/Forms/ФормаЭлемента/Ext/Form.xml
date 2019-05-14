@@ -14,7 +14,7 @@
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="SizeNumber" id="4">
-			<DataPath>Объект.SizeNumber</DataPath>
+			<DataPath>Объект.Value</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="SizeNumberКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="SizeNumberРасширеннаяПодсказка" id="6"/>

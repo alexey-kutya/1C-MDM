@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Соответствие брэндов и разновидностей / вкусов</v8:content>
+					<v8:content>Mapping Brand - Бренд, разновидность/вкус</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -64,11 +64,11 @@
 		<ChildObjects>
 			<Dimension uuid="70476122-3bb7-4724-88b3-281e0eb8c180">
 				<Properties>
-					<Name>Бренд</Name>
+					<Name>LocalBrand</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Бренд</v8:content>
+							<v8:content>Local brand</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -148,11 +148,11 @@
 			</Dimension>
 			<Dimension uuid="18362c63-2123-4b1d-8f30-b03099a154d3">
 				<Properties>
-					<Name>GlobalBrand</Name>
+					<Name>Brand</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Global brand</v8:content>
+							<v8:content>Brand</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -169,7 +169,7 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -180,7 +180,7 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
+					<Master>true</Master>
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>

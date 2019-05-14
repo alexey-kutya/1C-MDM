@@ -27,12 +27,12 @@
 			<Name>GlobalAlcoholContent</Name>
 			<Synonym>
 				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Содержание алкоголя (глобальный)</v8:content>
-				</v8:item>
-				<v8:item>
 					<v8:lang>en</v8:lang>
 					<v8:content>Alcohol content</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Alcohol content (Крепость)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -344,7 +344,7 @@
 		<ChildObjects>
 			<Attribute uuid="9b014aab-e300-4f0d-8cbf-0f6391d4d710">
 				<Properties>
-					<Name>AlcoholContentNumber</Name>
+					<Name>Value</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

@@ -16,7 +16,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КаналыСбыта</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Регионы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РегионыРоссии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ПроблемнаяЗадолженность</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КонтактныеЛица</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КонтактныеЛицаКонтрагентов</xr:Item>

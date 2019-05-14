@@ -19,14 +19,14 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЖурналОбменаMDM</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обмен_MDM_AX</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Выгрузка_in_JSON</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузкаИзМДМ_УПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3ece0394-8bbc-4c95-a492-8b287fee78eb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">39d38ff1-ce5a-40d7-933f-692432527ff5</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c1de8c81-9141-42a9-8837-48ba148e61fd</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РегистрацияИзмененийДляОбменаДаннымиUserVersion</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.БуферОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Обмены</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОбменДаннымиЗагрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЖурналОбменаAX</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

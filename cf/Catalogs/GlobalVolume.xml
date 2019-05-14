@@ -28,7 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Объем (глобальный)</v8:content>
+					<v8:content>Volume (Объемы)</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -344,7 +344,7 @@
 		<ChildObjects>
 			<Attribute uuid="122ef110-a6be-4004-912b-421bd289a5a8">
 				<Properties>
-					<Name>SizeNumber</Name>
+					<Name>Value</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -352,7 +352,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Size number</v8:content>
+							<v8:content>Value</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

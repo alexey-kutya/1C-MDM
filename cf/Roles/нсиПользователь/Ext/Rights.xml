@@ -25,6 +25,17 @@
 		</right>
 	</object>
 	<object>
+		<name>ExchangePlan.Обмен_МДМ_УПП</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВидыКонтактнойИнформации.Attribute.АдресТолькоРоссийский</name>
 		<right>
 			<name>View</name>
@@ -176,6 +187,17 @@
 		<name>SessionParameter.ТаблицыСОтдельнымиНастройкамиПрав</name>
 		<right>
 			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УчастникиОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

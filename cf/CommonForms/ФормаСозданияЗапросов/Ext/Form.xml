@@ -17,7 +17,7 @@
 	<ChildItems>
 		<Button name="ЗапросНаВводНовогоSKU" id="4">
 			<Type>Hyperlink</Type>
-			<CommandName>Catalog.GlobalSKU.Command.ВводНовогоЭлементаСправочника</CommandName>
+			<CommandName>0:a83a335b-508f-4bcb-907f-224a439640a1</CommandName>
 			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<Title>
 				<v8:item>
@@ -33,7 +33,7 @@
 		</Button>
 		<Button name="ЗапросНаВводНовогоGlobalPatrner" id="6">
 			<Type>Hyperlink</Type>
-			<CommandName>Catalog.GlobalPartners.Command.ВводНовогоЭлементаСправочника</CommandName>
+			<CommandName>0:8a4db45d-3c06-4b2b-9d4d-e611ce1d6f31</CommandName>
 			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<Title>
 				<v8:item>
@@ -78,7 +78,7 @@
 				</Button>
 				<Button name="Patrner" id="12">
 					<Type>Hyperlink</Type>
-					<CommandName>InformationRegister.MappingGlobalAndLocalPartners.StandardCommand.OpenList</CommandName>
+					<CommandName>0:902daefe-f9dd-4eeb-888f-7c95f9be6d10</CommandName>
 					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 					<Title>
 						<v8:item>

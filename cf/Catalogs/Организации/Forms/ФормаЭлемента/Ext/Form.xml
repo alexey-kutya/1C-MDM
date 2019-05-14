@@ -875,6 +875,16 @@
 														<CommandName>Form.Command.ЛицензияСделатьОсновной</CommandName>
 														<ExtendedTooltip name="ЛицензииЛицензияСделатьОсновнойРасширеннаяПодсказка" id="343"/>
 													</Button>
+													<Button name="СписокКнопка2" id="352">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке</CommandName>
+														<Picture>
+															<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</Picture>
+														<ExtendedTooltip name="СписокКнопка2РасширеннаяПодсказка" id="353"/>
+													</Button>
 												</ChildItems>
 											</AutoCommandBar>
 											<ExtendedTooltip name="ЛицензииРасширеннаяПодсказка" id="79"/>
@@ -986,6 +996,16 @@
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ПунктРазгрузкиСделатьОсновным</CommandName>
 														<ExtendedTooltip name="ПунктыРазгрузкиПунктРазгрузкиСделатьОсновнымРасширеннаяПодсказка" id="345"/>
+													</Button>
+													<Button name="СписокКнопка3" id="354">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>ExchangePlan.Обмен_МДМ_УПП.Command.РегистрацияВСписке</CommandName>
+														<Picture>
+															<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</Picture>
+														<ExtendedTooltip name="СписокКнопка3РасширеннаяПодсказка" id="355"/>
 													</Button>
 												</ChildItems>
 											</AutoCommandBar>
@@ -1138,6 +1158,11 @@
 							<ContextMenu name="BaseIDКонтекстноеМеню" id="157"/>
 							<ExtendedTooltip name="BaseIDРасширеннаяПодсказка" id="158"/>
 						</InputField>
+						<InputField name="EntityID" id="349">
+							<DataPath>Объект.Entity</DataPath>
+							<ContextMenu name="EntityIDКонтекстноеМеню" id="350"/>
+							<ExtendedTooltip name="EntityIDРасширеннаяПодсказка" id="351"/>
+						</InputField>
 						<InputField name="КодSAP" id="244">
 							<DataPath>Объект.КодSAP</DataPath>
 							<ContextMenu name="КодSAPКонтекстноеМеню" id="245"/>
@@ -1262,6 +1287,12 @@
 					<ContextMenu name="GUID_MDMКонтекстноеМеню" id="335"/>
 					<ExtendedTooltip name="GUID_MDMРасширеннаяПодсказка" id="336"/>
 				</InputField>
+				<CheckBoxField name="ВыгрузкаAX" id="346">
+					<DataPath>Объект.ВыгрузкаAX</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВыгрузкаAXКонтекстноеМеню" id="347"/>
+					<ExtendedTooltip name="ВыгрузкаAXРасширеннаяПодсказка" id="348"/>
+				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

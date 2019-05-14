@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Соответствие Крепости</v8:content>
+					<v8:content>Mapping AlcoholContent - Крепость</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -170,11 +170,11 @@
 		<ChildObjects>
 			<Dimension uuid="6c196910-423d-4925-8927-1bbf736bbc0c">
 				<Properties>
-					<Name>Local</Name>
+					<Name>LocalAlcoholContent</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Local</v8:content>
+							<v8:content>Local alcohol content</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -212,11 +212,11 @@
 			</Dimension>
 			<Dimension uuid="9d911475-b08f-415f-864f-7d8f5d01721d">
 				<Properties>
-					<Name>Global</Name>
+					<Name>AlcoholContent</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Global</v8:content>
+							<v8:content>Alcohol content</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

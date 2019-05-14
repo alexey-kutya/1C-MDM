@@ -528,9 +528,6 @@
 			<SessionParameter>ТипыВладельцевНастроекПрав</SessionParameter>
 			<SessionParameter>ТипыЗначенийДоступаСГруппами</SessionParameter>
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
-			<SessionParameter>ГруппаУправленияНСИ</SessionParameter>
-			<SessionParameter>СтранаОрганизацииРазделительДанныхЗначение</SessionParameter>
-			<SessionParameter>СтранаОрганизацииРазделительДанныхИспользование</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
 			<Role>Администрирование</Role>
 			<Role>БазовыеПрава</Role>
@@ -918,15 +915,22 @@
 			<CommonModule>ЗагрузкаДанныхИзФайлаКлиентСервер</CommonModule>
 			<CommonModule>ЗагрузкаДанныхИзФайлаПереопределяемый</CommonModule>
 			<CommonModule>GlobalMDM</CommonModule>
+			<CommonModule>UPPEx</CommonModule>
+			<CommonModule>GlobEx</CommonModule>
+			<CommonModule>AxapEx</CommonModule>
+			<CommonModule>SAPEx</CommonModule>
 			<CommonModule>MDMСервер</CommonModule>
 			<CommonModule>MDMКлиент</CommonModule>
-			<CommonAttribute>СтранаОрганизацииРазделительДанных</CommonAttribute>
-			<CommonAttribute>СтранаОрганизации</CommonAttribute>
 			<CommonAttribute>СтатусДопСправочниковSKU</CommonAttribute>
 			<CommonAttribute>НаименованиеEN</CommonAttribute>
 			<CommonAttribute>НаименованиеПолное</CommonAttribute>
 			<CommonAttribute>Комментарии</CommonAttribute>
 			<CommonAttribute>ПолнаяСинхронизацияMDM</CommonAttribute>
+			<CommonAttribute>Status</CommonAttribute>
+			<CommonAttribute>State</CommonAttribute>
+			<CommonAttribute>TimeStamp</CommonAttribute>
+			<CommonAttribute>Comment</CommonAttribute>
+			<CommonAttribute>CollisionMessage</CommonAttribute>
 			<ExchangePlan>ОбменСправочнойИнформацией</ExchangePlan>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<ExchangePlan>Обмен_МДМ_УПП</ExchangePlan>
@@ -1009,9 +1013,6 @@
 			<EventSubscription>УстановитьПометкуУдаленияПрисоединенныхФайлов</EventSubscription>
 			<EventSubscription>УстановитьПометкуУдаленияФайлов</EventSubscription>
 			<EventSubscription>ОбработкаПолученияФормы</EventSubscription>
-			<EventSubscription>РегистрацияДляВыгрузкиУПП</EventSubscription>
-			<EventSubscription>ПриЗаписиОбъектовОбменаAX</EventSubscription>
-			<EventSubscription>РегистрацияКонтактнойИинформации</EventSubscription>
 			<ScheduledJob>ЗагрузкаКлассификатораБанковРФССайтаРБК</ScheduledJob>
 			<ScheduledJob>ЗагрузкаКурсовВалют</ScheduledJob>
 			<ScheduledJob>ЗаполнениеДанныхДляОграниченияДоступа</ScheduledJob>
@@ -1034,7 +1035,10 @@
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
 			<ScheduledJob>УстановкаПериодаРассчитанныхИтогов</ScheduledJob>
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
-			<ScheduledJob>Exchange_MDM_to_1C</ScheduledJob>
+			<ScheduledJob>Exchange_MDM_1CUPP</ScheduledJob>
+			<ScheduledJob>Exchange_MDM_Axapta</ScheduledJob>
+			<ScheduledJob>Exchange_MDM_Global</ScheduledJob>
+			<ScheduledJob>Exchange_MDM_SAP</ScheduledJob>
 			<SettingsStorage>нсиХранилищеНастроекПанелиСправочников</SettingsStorage>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<SettingsStorage>ХранилищеНастроекЗагрузки</SettingsStorage>
@@ -1089,7 +1093,6 @@
 			<FunctionalOption>СтандартныеПодсистемыВЛокальномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВМоделиСервиса</FunctionalOption>
 			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
-			<FunctionalOption>ГлобальныеСправочники</FunctionalOption>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиОбъектНазначения</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиТипФормы</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>Организация</FunctionalOptionsParameter>
@@ -1126,6 +1129,8 @@
 			<DefinedType>ФизическоеЛицо</DefinedType>
 			<DefinedType>нсиСправочникиВедущиесяПоЗаявкам</DefinedType>
 			<DefinedType>нсиСправочникиСНормализацией</DefinedType>
+			<DefinedType>IDGlobalSKU</DefinedType>
+			<DefinedType>Comment</DefinedType>
 			<CommonCommand>ДополнительныеОбработкиАдминистрирование</CommonCommand>
 			<CommonCommand>ДополнительныеОтчетыАдминистрирование</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
@@ -1276,7 +1281,6 @@
 			<Constant>СтатусОбновленияКонфигурации</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
-			<Constant>ИспользоватьГлобальныеСправочники</Constant>
 			<Constant>ВалютаРегламентированногоУчета</Constant>
 			<Constant>ОбменДаннымиЗагрузка</Constant>
 			<CommonForm>АвторизацияНаСайтеПоддержкиПользователей</CommonForm>
@@ -1346,26 +1350,19 @@
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ФормаСозданияЗапросов</CommonForm>
 			<CommonForm>ФормаУправленияРежимами</CommonForm>
+			<Catalog>GlobalSKU</Catalog>
 			<Catalog>GlobalAlcoholContent</Catalog>
 			<Catalog>GlobalAmount</Catalog>
 			<Catalog>GlobalBrand</Catalog>
-			<Catalog>GlobalCountries</Catalog>
-			<Catalog>GlobalCurrency</Catalog>
-			<Catalog>GlobalEntity</Catalog>
-			<Catalog>GlobalEntityCountry</Catalog>
 			<Catalog>GlobalFactory</Catalog>
-			<Catalog>GlobalIntercompany</Catalog>
-			<Catalog>GlobalLabel</Catalog>
-			<Catalog>GlobalMarkets</Catalog>
 			<Catalog>GlobalMaterialGroup</Catalog>
 			<Catalog>GlobalMaterialType</Catalog>
+			<Catalog>GlobalLabel</Catalog>
 			<Catalog>GlobalPacking</Catalog>
-			<Catalog>GlobalPartners</Catalog>
-			<Catalog>GlobalProducer</Catalog>
-			<Catalog>GlobalProduction</Catalog>
-			<Catalog>GlobalSKU</Catalog>
-			<Catalog>GlobalStatus</Catalog>
 			<Catalog>GlobalVolume</Catalog>
+			<Catalog>GlobalPartners</Catalog>
+			<Catalog>GlobalEntity</Catalog>
+			<Catalog>GlobalMarkets</Catalog>
 			<Catalog>Incoterms</Catalog>
 			<Catalog>IncotermsМесто</Catalog>
 			<Catalog>LocalAlcoholContent</Catalog>
@@ -1455,7 +1452,7 @@
 			<Catalog>ПрофилиГруппДоступа</Catalog>
 			<Catalog>РазновидностиВкусы</Catalog>
 			<Catalog>РассылкиОтчетов</Catalog>
-			<Catalog>Регионы</Catalog>
+			<Catalog>РегионыРоссии</Catalog>
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>СпецификацииНоменклатуры</Catalog>
@@ -1477,19 +1474,14 @@
 			<Catalog>ГруппаСчетовSAP</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
 			<Catalog>СекторSAP</Catalog>
-			<Catalog>ПартияSAP</Catalog>
-			<Catalog>КлассSAP</Catalog>
+			<Catalog>УсловияТранспортирования</Catalog>
+			<Catalog>ВидЗаготовкиSAP</Catalog>
 			<Catalog>НалоговаяКлассификацияSAP</Catalog>
-			<Catalog>СтатистическаяГруппаSAP</Catalog>
+			<Catalog>НалоговыйТриггерSAP</Catalog>
 			<Catalog>ГруппаЦенМатериаловSAP</Catalog>
 			<Catalog>ГруппаКонтировкиМатериалаSAP</Catalog>
 			<Catalog>ПроверкаДоступностиSAP</Catalog>
-			<Catalog>ГруппаТранспортировкиSAP</Catalog>
-			<Catalog>ГруппаПогрузкиSAP</Catalog>
-			<Catalog>ТипПланированияПотребностиМатериаловSAP</Catalog>
 			<Catalog>ПлановикSAP</Catalog>
-			<Catalog>РазмерПартииВРамкахППМSAP</Catalog>
-			<Catalog>КодГоризонтаРезервногоВремениSAP</Catalog>
 			<Catalog>КлассОценкиSAP</Catalog>
 			<Catalog>КаналСбытаSAP</Catalog>
 			<Catalog>МестоположениеSAP</Catalog>
@@ -1504,6 +1496,7 @@
 			<Catalog>ПоставщикиТМЦ</Catalog>
 			<Catalog>Обмены</Catalog>
 			<Catalog>СтатьиОборотовПоБюджетам</Catalog>
+			<Catalog>ГруппыМатериаловSAP</Catalog>
 			<Enum>ВариантыSMTPАутентификации</Enum>
 			<Enum>ВариантыВажностиЗадачи</Enum>
 			<Enum>ВариантыВерсионированияОбъектов</Enum>
@@ -1585,9 +1578,8 @@
 			<Enum>итВидыПрочихДоходовИРасходов</Enum>
 			<Enum>ВидыНазначенийБизнесПроцессов</Enum>
 			<Enum>GlobalPartnersTypes</Enum>
-			<Enum>GlobalPartnersStatuses</Enum>
+			<Enum>PartnersStatuses</Enum>
 			<Enum>SKUStatuses</Enum>
-			<Enum>GlobalBusinessTypes</Enum>
 			<Enum>СтатусыДопСправочниковSKU</Enum>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>алкВидыЭлементовТМЦ</Enum>
@@ -1622,6 +1614,10 @@
 			<Enum>ГруппыОборачиваемости</Enum>
 			<Enum>ТипСети</Enum>
 			<Enum>СтатусСЭД</Enum>
+			<Enum>States</Enum>
+			<Enum>PartnersDetailedTypes</Enum>
+			<Enum>ХарактеристикиЕдиницИзмерения</Enum>
+			<Enum>ВидыАгентскихДоговоров</Enum>
 			<Report>АнализВерсийОбъектов</Report>
 			<Report>АнализЖурналаРегистрации</Report>
 			<Report>БизнесПроцессы</Report>
@@ -1691,11 +1687,8 @@
 			<DataProcessor>ЗагрузкаДанныхИзТабличногоДокумента</DataProcessor>
 			<DataProcessor>ЗагрузкаДанныхИзФайла</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
-			<DataProcessor>ВыгрузкаИзМДМ_УПП</DataProcessor>
 			<DataProcessor>НастройкиТранспортаОбмена</DataProcessor>
 			<DataProcessor>ЗагрузитьПравила_МДМ_УПП</DataProcessor>
-			<DataProcessor>Выгрузка_in_JSON</DataProcessor>
-			<DataProcessor>Обмен_MDM_AX</DataProcessor>
 			<DataProcessor>РегистрацияИзмененийДляОбменаДаннымиUserVersion</DataProcessor>
 			<DataProcessor>ПроверкаПравописанияЯндексСпеллера</DataProcessor>
 			<DataProcessor>ПролонгацияДоговоров</DataProcessor>
@@ -1794,9 +1787,6 @@
 			<InformationRegister>УровниСокращенийАдресныхСведений</InformationRegister>
 			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
 			<InformationRegister>ХранимыеФайлыВерсий</InformationRegister>
-			<InformationRegister>MappingGlobalAndLocalSKU</InformationRegister>
-			<InformationRegister>итНастройкиГруппУправленияНСИ</InformationRegister>
-			<InformationRegister>MappingGlobalAndLocalPartners</InformationRegister>
 			<InformationRegister>Штрихкоды</InformationRegister>
 			<InformationRegister>КонтактнаяИнформация</InformationRegister>
 			<InformationRegister>СоответствиеБрэндовИРазновидностейВкусов</InformationRegister>
@@ -1816,7 +1806,7 @@
 			<InformationRegister>УчастникиОбмена</InformationRegister>
 			<InformationRegister>АдресныйКлассификатор</InformationRegister>
 			<InformationRegister>ЖурналОбменаMDM</InformationRegister>
-			<InformationRegister>БуферОбмена</InformationRegister>
+			<InformationRegister>ЖурналОбменаAX</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>нсиНаименованияХарактеристикМТР</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>нсиНаименованияХарактеристикУниверсальногоСправочника</ChartOfCharacteristicTypes>

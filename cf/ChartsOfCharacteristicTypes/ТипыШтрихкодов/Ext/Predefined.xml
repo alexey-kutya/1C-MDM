@@ -65,4 +65,30 @@
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="396d1a65-ee5c-4e85-96ee-f540dffcf26c">
+		<Name>ITF14</Name>
+		<Code>00000000006</Code>
+		<Description>ITF-14</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>14</v8:Length>
+				<v8:AllowedLength>Fixed</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c9189d14-81ee-421d-9fe7-7016a6d97040">
+		<Name>UPC</Name>
+		<Code>00000000005</Code>
+		<Description>UPC</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>12</v8:Length>
+				<v8:AllowedLength>Fixed</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

@@ -19,7 +19,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.MappingGlobalAndLocalSKU</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">94e976a8-8930-4ea0-a033-cf301cf78f1e</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

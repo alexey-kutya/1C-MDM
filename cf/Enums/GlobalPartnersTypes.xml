@@ -48,7 +48,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ВНУТРЕННИЙ</v8:content>
+							<v8:content>DOMESTIC</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -64,7 +64,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>МЕЖДУНАРОДНЫЙ</v8:content>
+							<v8:content>INTERNATIONAL</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>

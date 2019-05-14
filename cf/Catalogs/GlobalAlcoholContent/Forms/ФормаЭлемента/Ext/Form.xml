@@ -15,7 +15,7 @@
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="AlcoholContentNumber" id="4">
-			<DataPath>Объект.AlcoholContentNumber</DataPath>
+			<DataPath>Объект.Value</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="AlcoholContentNumberКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="AlcoholContentNumberРасширеннаяПодсказка" id="6"/>

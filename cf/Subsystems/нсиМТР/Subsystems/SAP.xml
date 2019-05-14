@@ -17,20 +17,21 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидМатериалаSAP</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СекторSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПартияSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлассSAP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УсловияТранспортирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидЗаготовкиSAP</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НалоговаяКлассификацияSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатистическаяГруппаSAP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НалоговыйТриггерSAP</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппаЦенМатериаловSAP</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппаКонтировкиМатериалаSAP</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПроверкаДоступностиSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппаТранспортировкиSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппаПогрузкиSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипПланированияПотребностиМатериаловSAP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9211b977-c195-4b05-b15b-0d1099fd81a3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">57666c69-9aa0-4113-bebc-6a3abe84c40b</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">baf1bf89-f85d-4938-9016-d8f2cd8f407a</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПлановикSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РазмерПартииВРамкахППМSAP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КодГоризонтаРезервногоВремениSAP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">88ad6d80-a2eb-43e2-aeb7-934b1abf5c6e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6c7afb57-36cc-4757-9c2c-6771d9fbbe94</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлассОценкиSAP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыМатериаловSAP</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

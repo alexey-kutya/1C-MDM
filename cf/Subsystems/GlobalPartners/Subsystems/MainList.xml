@@ -19,7 +19,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.MappingGlobalAndLocalPartners</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">902daefe-f9dd-4eeb-888f-7c95f9be6d10</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

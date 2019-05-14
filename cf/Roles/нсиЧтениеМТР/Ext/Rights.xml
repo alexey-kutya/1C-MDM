@@ -67,6 +67,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.GlobalPacking</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СоответствиеМатериалыИФормыТары</name>
 		<right>
 			<name>Read</name>
@@ -118,6 +133,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.GlobalMaterialType</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonAttribute.НаименованиеПолное</name>
 		<right>
 			<name>View</name>
@@ -147,7 +177,22 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP</name>
+		<name>Catalog.УсловияТранспортирования</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.GlobalFactory</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -206,6 +251,32 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonAttribute.CollisionMessage</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.GlobalAlcoholContent</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonAttribute.ПолнаяСинхронизацияMDM</name>
 		<right>
 			<name>View</name>
@@ -246,7 +317,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ГруппаПогрузкиSAP</name>
+		<name>Catalog.GlobalSKU</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -298,7 +369,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP</name>
+		<name>Catalog.GlobalLabel</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -309,6 +380,17 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.State</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -336,6 +418,21 @@
 	</object>
 	<object>
 		<name>Catalog.ВидМатериалаSAP</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.GlobalVolume</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -514,22 +611,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СтатистическаяГруппаSAP</name>
+		<name>Catalog.НалоговыйТриггерSAP</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -589,7 +671,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP</name>
+		<name>Catalog.ГруппыМатериаловSAP</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -704,6 +786,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.GlobalBrand</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.LocalVolume</name>
 		<right>
 			<name>Read</name>
@@ -733,7 +830,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP</name>
+		<name>Catalog.ВидЗаготовкиSAP</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -803,24 +900,20 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
+		<name>Subsystem.нсиМТР</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.нсиМТР</name>
+		<name>CommonAttribute.Comment</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -843,6 +936,17 @@
 		<name>CommonAttribute.СтатусДопСправочниковSKU</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.TimeStamp</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -953,7 +1057,37 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.GlobalAmount</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.LocalMaterialType</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.GlobalMaterialGroup</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -990,6 +1124,17 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.Status</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>

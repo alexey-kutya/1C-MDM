@@ -92,6 +92,17 @@
 					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 				</LabelField>
+				<LabelField name="КодСпецификацииВУчетнойСистеме" id="48">
+					<DataPath>Список.КодСпецификацииВУчетнойСистеме</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код УС</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="КодСпецификацииВУчетнойСистемеКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="КодСпецификацииВУчетнойСистемеРасширеннаяПодсказка" id="50"/>
+				</LabelField>
 				<LabelField name="Состояние" id="22">
 					<DataPath>Список.Состояние</DataPath>
 					<ContextMenu name="СостояниеКонтекстноеМеню" id="23"/>

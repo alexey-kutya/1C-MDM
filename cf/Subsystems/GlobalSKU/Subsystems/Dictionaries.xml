@@ -22,14 +22,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalMaterialGroup</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalMaterialType</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalBrand</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalProducer</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e6aebb90-1ff1-4edf-b7c1-79da76fac70f</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalFactory</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalEntityCountry</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">055ee983-53c5-430d-83cf-54b3e0960f11</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalPacking</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalAlcoholContent</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalAmount</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalVolume</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalProduction</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6bb91dda-a702-42c3-b251-fea9dfd2090b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalLabel</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтраныМира</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>

@@ -22,7 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтраныМира</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalEntity</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalIntercompany</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">30a3adf5-61fd-4e2c-8681-f939ab9e1263</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.GlobalMarkets</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Incoterms</xr:Item>
 			</Content>

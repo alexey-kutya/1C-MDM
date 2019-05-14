@@ -59,7 +59,6 @@
 							<ExtendedTooltip name="LocalIDРасширеннаяПодсказка" id="256"/>
 						</InputField>
 						<InputField name="СтранаОрганизации" id="417">
-							<DataPath>1/0:b7c1dcf0-9582-4719-bba5-bc3d71c72060</DataPath>
 							<ContextMenu name="СтранаОрганизацииКонтекстноеМеню" id="418"/>
 							<ExtendedTooltip name="СтранаОрганизацииРасширеннаяПодсказка" id="419"/>
 							<Events>
@@ -67,7 +66,6 @@
 							</Events>
 						</InputField>
 						<LabelField name="СтранаОрганизацииРазделительДанных" id="420">
-							<DataPath>1/0:b6de4dbf-6a15-4dee-ba40-59e7320462a9</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<ContextMenu name="СтранаОрганизацииРазделительДанныхКонтекстноеМеню" id="421"/>
 							<ExtendedTooltip name="СтранаОрганизацииРазделительДанныхРасширеннаяПодсказка" id="422"/>
@@ -162,11 +160,6 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="441"/>
 					<ChildItems>
-						<InputField name="GlobalID" id="434">
-							<DataPath>Объект.GlobalID</DataPath>
-							<ContextMenu name="GlobalIDКонтекстноеМеню" id="435"/>
-							<ExtendedTooltip name="GlobalIDРасширеннаяПодсказка" id="436"/>
-						</InputField>
 						<UsualGroup name="Группа15" id="664">
 							<Group>Horizontal</Group>
 							<ShowTitle>false</ShowTitle>
@@ -2540,12 +2533,10 @@
 															<ExtendedTooltip name="КонтрольныйСчетКредиторРасширеннаяПодсказка" id="575"/>
 														</InputField>
 														<InputField name="СтранаКред" id="601">
-															<DataPath>1/0:197ebf85-4dc8-415c-a265-ec4a00375244</DataPath>
 															<ContextMenu name="СтранаКредКонтекстноеМеню" id="602"/>
 															<ExtendedTooltip name="СтранаКредРасширеннаяПодсказка" id="603"/>
 														</InputField>
 														<InputField name="ЯзыкКред" id="604">
-															<DataPath>1/0:fd167bb9-39b5-4efe-b774-edafee9554af</DataPath>
 															<ContextMenu name="ЯзыкКредКонтекстноеМеню" id="605"/>
 															<ExtendedTooltip name="ЯзыкКредРасширеннаяПодсказка" id="606"/>
 														</InputField>
@@ -2727,6 +2718,267 @@
 										</Page>
 									</ChildItems>
 								</Pages>
+							</ChildItems>
+						</Page>
+						<Page name="Группа31" id="1024">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Global ID</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="Группа31РасширеннаяПодсказка" id="1025"/>
+							<ChildItems>
+								<Table name="GlobalID" id="1026">
+									<ReadOnly>true</ReadOnly>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.GlobalID</DataPath>
+									<CommandSet>
+										<ExcludedCommand>Add</ExcludedCommand>
+										<ExcludedCommand>CancelSearch</ExcludedCommand>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
+										<ExcludedCommand>Find</ExcludedCommand>
+										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>OutputList</ExcludedCommand>
+										<ExcludedCommand>SelectAll</ExcludedCommand>
+										<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+										<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
+									</CommandSet>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="GlobalIDКонтекстноеМеню" id="1027"/>
+									<AutoCommandBar name="GlobalIDКоманднаяПанель" id="1028">
+										<Autofill>false</Autofill>
+										<ChildItems>
+											<Button name="GlobalIDЗапросGlobalID" id="1048">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ЗапросGlobalID</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Запрос Global ID</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="GlobalIDЗапросGlobalIDРасширеннаяПодсказка" id="1049"/>
+											</Button>
+											<Popup name="GlobalIDГруппа2" id="1062">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Действия Global</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="GlobalIDГруппа2РасширеннаяПодсказка" id="1063"/>
+												<ChildItems>
+													<Button name="GlobalIDИзменитьСтатусGlobal" id="1064">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ИзменитьСтатусGlobal</CommandName>
+														<ExtendedTooltip name="GlobalIDИзменитьСтатусGlobalРасширеннаяПодсказка" id="1065"/>
+													</Button>
+													<Button name="GlobalIDОтозватьЗапросGlobalID" id="1066">
+														<Type>CommandBarButton</Type>
+														<OnlyInAllActions>true</OnlyInAllActions>
+														<CommandName>Form.Command.ОтозватьЗапросGlobalID</CommandName>
+														<ExtendedTooltip name="GlobalIDОтозватьЗапросGlobalIDРасширеннаяПодсказка" id="1067"/>
+													</Button>
+													<Button name="GlobalIDДеактивацияGlobal" id="1068">
+														<Type>CommandBarButton</Type>
+														<OnlyInAllActions>true</OnlyInAllActions>
+														<CommandName>Form.Command.ДеактивацияGlobal</CommandName>
+														<ExtendedTooltip name="GlobalIDДеактивацияGlobalРасширеннаяПодсказка" id="1069"/>
+													</Button>
+												</ChildItems>
+											</Popup>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="GlobalIDРасширеннаяПодсказка" id="1029"/>
+									<SearchStringAddition name="GlobalIDСтрокаПоиска" id="1030">
+										<AdditionSource>
+											<Item>GlobalID</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="GlobalIDСтрокаПоискаКонтекстноеМеню" id="1031"/>
+										<ExtendedTooltip name="GlobalIDСтрокаПоискаРасширеннаяПодсказка" id="1032"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="GlobalIDСостояниеПросмотра" id="1033">
+										<AdditionSource>
+											<Item>GlobalID</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="GlobalIDСостояниеПросмотраКонтекстноеМеню" id="1034"/>
+										<ExtendedTooltip name="GlobalIDСостояниеПросмотраРасширеннаяПодсказка" id="1035"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="GlobalIDУправлениеПоиском" id="1036">
+										<AdditionSource>
+											<Item>GlobalID</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="GlobalIDУправлениеПоискомКонтекстноеМеню" id="1037"/>
+										<ExtendedTooltip name="GlobalIDУправлениеПоискомРасширеннаяПодсказка" id="1038"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="GlobalIDGlobalPartner" id="1042">
+											<DataPath>Объект.GlobalID.GlobalPartners</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="GlobalIDGlobalPartnerКонтекстноеМеню" id="1043"/>
+											<ExtendedTooltip name="GlobalIDGlobalPartnerРасширеннаяПодсказка" id="1044"/>
+										</InputField>
+										<LabelField name="GlobalIDGlobalPartnerGlobalID" id="1059">
+											<DataPath>Объект.GlobalID.GlobalPartners.GlobalID</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="GlobalIDGlobalPartnerGlobalIDКонтекстноеМеню" id="1060"/>
+											<ExtendedTooltip name="GlobalIDGlobalPartnerGlobalIDРасширеннаяПодсказка" id="1061"/>
+										</LabelField>
+										<LabelField name="GlobalIDGlobalPartnerStatus" id="1050">
+											<DataPath>Объект.GlobalID.GlobalPartners.Status</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<TextColor>web:DarkGreen</TextColor>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="GlobalIDGlobalPartnerStatusКонтекстноеМеню" id="1051"/>
+											<ExtendedTooltip name="GlobalIDGlobalPartnerStatusРасширеннаяПодсказка" id="1052"/>
+										</LabelField>
+										<LabelField name="GlobalIDGlobalPartnerState" id="1053">
+											<DataPath>Объект.GlobalID.GlobalPartners.State</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<TextColor>web:DarkRed</TextColor>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="GlobalIDGlobalPartnerStateКонтекстноеМеню" id="1054"/>
+											<ExtendedTooltip name="GlobalIDGlobalPartnerStateРасширеннаяПодсказка" id="1055"/>
+										</LabelField>
+										<LabelField name="GlobalIDGlobalPartnerTimeStamp" id="1056">
+											<DataPath>Объект.GlobalID.GlobalPartners.TimeStamp</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<TextColor>web:DarkBlue</TextColor>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="GlobalIDGlobalPartnerTimeStampКонтекстноеМеню" id="1057"/>
+											<ExtendedTooltip name="GlobalIDGlobalPartnerTimeStampРасширеннаяПодсказка" id="1058"/>
+										</LabelField>
+										<InputField name="GlobalIDОрганизация" id="1045">
+											<DataPath>Объект.GlobalID.Организация</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="GlobalIDОрганизацияКонтекстноеМеню" id="1046"/>
+											<ExtendedTooltip name="GlobalIDОрганизацияРасширеннаяПодсказка" id="1047"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа32" id="1092">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Deactivated Global ID</v8:content>
+										</v8:item>
+									</Title>
+									<Behavior>Collapsible</Behavior>
+									<Collapsed>true</Collapsed>
+									<ExtendedTooltip name="Группа32РасширеннаяПодсказка" id="1093"/>
+									<ChildItems>
+										<Table name="GlobalID_Deactivated" id="1070">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.GlobalID_Deactivated</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>CancelSearch</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
+												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>SelectAll</ExcludedCommand>
+												<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="GlobalID_DeactivatedКонтекстноеМеню" id="1071"/>
+											<AutoCommandBar name="GlobalID_DeactivatedКоманднаяПанель" id="1072"/>
+											<ExtendedTooltip name="GlobalID_DeactivatedРасширеннаяПодсказка" id="1073"/>
+											<SearchStringAddition name="GlobalID_DeactivatedСтрокаПоиска" id="1074">
+												<AdditionSource>
+													<Item>GlobalID_Deactivated</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="GlobalID_DeactivatedСтрокаПоискаКонтекстноеМеню" id="1075"/>
+												<ExtendedTooltip name="GlobalID_DeactivatedСтрокаПоискаРасширеннаяПодсказка" id="1076"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="GlobalID_DeactivatedСостояниеПросмотра" id="1077">
+												<AdditionSource>
+													<Item>GlobalID_Deactivated</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="GlobalID_DeactivatedСостояниеПросмотраКонтекстноеМеню" id="1078"/>
+												<ExtendedTooltip name="GlobalID_DeactivatedСостояниеПросмотраРасширеннаяПодсказка" id="1079"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="GlobalID_DeactivatedУправлениеПоиском" id="1080">
+												<AdditionSource>
+													<Item>GlobalID_Deactivated</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="GlobalID_DeactivatedУправлениеПоискомКонтекстноеМеню" id="1081"/>
+												<ExtendedTooltip name="GlobalID_DeactivatedУправлениеПоискомРасширеннаяПодсказка" id="1082"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="GlobalID_DeactivatedGlobalPartner" id="1086">
+													<DataPath>Объект.GlobalID_Deactivated.GlobalPartners</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="GlobalID_DeactivatedGlobalPartnerКонтекстноеМеню" id="1087"/>
+													<ExtendedTooltip name="GlobalID_DeactivatedGlobalPartnerРасширеннаяПодсказка" id="1088"/>
+												</InputField>
+												<LabelField name="GlobalID_DeactivatedGlobalPartnerGlobalID" id="1094">
+													<DataPath>Объект.GlobalID_Deactivated.GlobalPartners.GlobalID</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="GlobalID_DeactivatedGlobalPartnerGlobalIDКонтекстноеМеню" id="1095"/>
+													<ExtendedTooltip name="GlobalID_DeactivatedGlobalPartnerGlobalIDРасширеннаяПодсказка" id="1096"/>
+												</LabelField>
+												<LabelField name="GlobalID_DeactivatedGlobalPartnerStatus" id="1097">
+													<DataPath>Объект.GlobalID_Deactivated.GlobalPartners.Status</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="GlobalID_DeactivatedGlobalPartnerStatusКонтекстноеМеню" id="1098"/>
+													<ExtendedTooltip name="GlobalID_DeactivatedGlobalPartnerStatusРасширеннаяПодсказка" id="1099"/>
+												</LabelField>
+												<LabelField name="GlobalID_DeactivatedGlobalPartnerState" id="1100">
+													<DataPath>Объект.GlobalID_Deactivated.GlobalPartners.State</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="GlobalID_DeactivatedGlobalPartnerStateКонтекстноеМеню" id="1101"/>
+													<ExtendedTooltip name="GlobalID_DeactivatedGlobalPartnerStateРасширеннаяПодсказка" id="1102"/>
+												</LabelField>
+												<LabelField name="GlobalID_DeactivatedGlobalPartnerTimeStamp" id="1103">
+													<DataPath>Объект.GlobalID_Deactivated.GlobalPartners.TimeStamp</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="GlobalID_DeactivatedGlobalPartnerTimeStampКонтекстноеМеню" id="1104"/>
+													<ExtendedTooltip name="GlobalID_DeactivatedGlobalPartnerTimeStampРасширеннаяПодсказка" id="1105"/>
+												</LabelField>
+												<InputField name="GlobalID_DeactivatedОрганизация" id="1089">
+													<DataPath>Объект.GlobalID_Deactivated.Организация</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="GlobalID_DeactivatedОрганизацияКонтекстноеМеню" id="1090"/>
+													<ExtendedTooltip name="GlobalID_DeactivatedОрганизацияРасширеннаяПодсказка" id="1091"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+										<InputField name="GlobalIDs" id="1106">
+											<DataPath>Объект.GlobalIDs</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="GlobalIDsКонтекстноеМеню" id="1107"/>
+											<ExtendedTooltip name="GlobalIDsРасширеннаяПодсказка" id="1108"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</Page>
 						<Page name="ГруппаУчастникиОбмена" id="915">
@@ -3295,6 +3547,66 @@
 			</ToolTip>
 			<Action>ПунктРазгрузкиСделатьОсновным</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗапросGlobalID" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запрос global ID</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запрос global ID</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапросGlobalID</Action>
+		</Command>
+		<Command name="ИзменитьСтатусGlobal" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить статус Global</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить статус global</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьСтатусGlobal</Action>
+		</Command>
+		<Command name="ОтозватьЗапросGlobalID" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отозвать запрос Global ID</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отозвать запрос global ID</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтозватьЗапросGlobalID</Action>
+		</Command>
+		<Command name="ДеактивацияGlobal" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Деактивация Global</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Деактивация global</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДеактивацияGlobal</Action>
 		</Command>
 	</Commands>
 	<Parameters>

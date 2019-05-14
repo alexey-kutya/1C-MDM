@@ -113,7 +113,7 @@
 					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="57"/>
 					<ChildItems>
 						<InputField name="EntityCountry" id="10">
-							<DataPath>Объект.EntityCountry</DataPath>
+							<DataPath>1/0:d45fb669-7407-4221-b0ff-17c92ebddde1</DataPath>
 							<Visible>false</Visible>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="EntityCountryКонтекстноеМеню" id="11"/>

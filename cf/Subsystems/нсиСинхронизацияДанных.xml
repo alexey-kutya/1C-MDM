@@ -33,7 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменСправочнойИнформациейЗарегистрироватьУдаление</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.нсиНеРегистрироватьКОбменуПриЗаписи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УниверсальныйОбменДаннымиXML</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузкаИзМДМ_УПП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c1de8c81-9141-42a9-8837-48ba148e61fd</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.НастройкиТранспортаОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузитьПравила_МДМ_УПП</xr:Item>
@@ -41,8 +41,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчастникиОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РегистрацияИзмененийДляОбменаДанными</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Обмен_MDM_AX</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Выгрузка_in_JSON</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обмен_MDM_AX</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">39d38ff1-ce5a-40d7-933f-692432527ff5</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3ece0394-8bbc-4c95-a492-8b287fee78eb</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

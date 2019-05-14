@@ -583,6 +583,44 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="Группа24" id="230">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>НДС в качестве налогового агента</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="Группа24РасширеннаяПодсказка" id="231"/>
+							<ChildItems>
+								<CheckBoxField name="УчетАгентскогоНДС" id="221">
+									<DataPath>Объект.УчетАгентскогоНДС</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Организация выступает в качестве налогового агента по уплате НДС</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="УчетАгентскогоНДСКонтекстноеМеню" id="222"/>
+									<ExtendedTooltip name="УчетАгентскогоНДСРасширеннаяПодсказка" id="223"/>
+									<Events>
+										<Event name="OnChange">УчетАгентскогоНДСПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<InputField name="ВидАгентскогоДоговора" id="224">
+									<DataPath>Объект.ВидАгентскогоДоговора</DataPath>
+									<ContextMenu name="ВидАгентскогоДоговораКонтекстноеМеню" id="225"/>
+									<ExtendedTooltip name="ВидАгентскогоДоговораРасширеннаяПодсказка" id="226"/>
+								</InputField>
+								<InputField name="НалоговыйАгентПоОплате" id="227">
+									<DataPath>Объект.НалоговыйАгентПоОплате</DataPath>
+									<Width>40</Width>
+									<ContextMenu name="НалоговыйАгентПоОплатеКонтекстноеМеню" id="228"/>
+									<ExtendedTooltip name="НалоговыйАгентПоОплатеРасширеннаяПодсказка" id="229"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаУчастникиОбмена" id="173">

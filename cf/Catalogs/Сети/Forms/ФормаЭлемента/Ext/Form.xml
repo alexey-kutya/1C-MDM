@@ -25,12 +25,12 @@
 			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<LabelField name="ТипСети" id="10">
+		<InputField name="ТипСети" id="10">
 			<DataPath>Объект.ТипСети</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ТипСетиКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ТипСетиРасширеннаяПодсказка" id="12"/>
-		</LabelField>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

@@ -741,105 +741,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntityCountry.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.КонтактнаяИнформация.Resource.Поле4</name>
 		<right>
 			<name>View</name>
@@ -1006,17 +907,6 @@
 	</object>
 	<object>
 		<name>ChartOfCharacteristicTypes.нсиХарактеристикиУниверсальногоСправочника.Attribute.Описание</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.Dimension.LocalItem</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1387,17 +1277,6 @@
 	</object>
 	<object>
 		<name>Catalog.НаборыДополнительныхРеквизитовИСведений.Attribute.Используется</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalFactory.Attribute.Comments</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2313,29 +2192,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalEntity.Attribute.Currency</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ПомощникСозданияОбменаДанными.TabularSection.ИнформацияСтатистики.Attribute.ТипИсточникаСтрокой</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.Dimension.EntityCountry</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2865,17 +2722,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.MaterialGroup</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов.Resource.БезопасныйРежим</name>
 		<right>
 			<name>View</name>
@@ -3147,7 +2993,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalVolume.Attribute.SizeNumber</name>
+		<name>Catalog.GlobalVolume.Attribute.Value</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4256,17 +4102,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalMaterialType.Attribute.DescriptionType</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -4421,7 +4256,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеБрэндовИРазновидностейВкусов.Dimension.GlobalBrand</name>
+		<name>InformationRegister.СоответствиеБрэндовИРазновидностейВкусов.Dimension.Brand</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4543,17 +4378,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ИсполнителиЗадач.Dimension.ОсновнойОбъектАдресации</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalPartners.Attribute.Status</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5999,17 +5823,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalCountries.Attribute.Реквизит1</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>BusinessProcess.нсиИзменениеЭлементаСправочника.Attribute.Предмет</name>
 		<right>
 			<name>View</name>
@@ -6938,7 +6751,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеМодификацииВерсии.Dimension.Global</name>
+		<name>InformationRegister.СоответствиеМодификацииВерсии.Dimension.Version</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -7049,17 +6862,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбработчикиСобытийСинхронизацииДанных.Dimension.Событие</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntity.Attribute.BusinessType</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -8227,17 +8029,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.Dimension.EntityCountry</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.УдалитьГруппыЗначенийДоступа.Dimension.ГруппаОбновляемыхДанных</name>
 		<right>
 			<name>View</name>
@@ -8433,105 +8224,6 @@
 	</object>
 	<object>
 		<name>Catalog.нсиБанковскиеСчета.Attribute.ЭтоМакет</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -8817,7 +8509,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеПроизводителиИмпортеры.Dimension.Local</name>
+		<name>InformationRegister.СоответствиеПроизводителиИмпортеры.Dimension.LocalFactory</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9766,105 +9458,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalStatus.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НаличиеПрисоединенныхФайлов.Resource.ЕстьФайлы</name>
 		<right>
 			<name>View</name>
@@ -9876,7 +9469,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9887,7 +9480,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.Predefined</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9898,7 +9491,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.Ref</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9909,7 +9502,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.DeletionMark</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9920,7 +9513,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.IsFolder</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9931,7 +9524,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.Owner</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9942,7 +9535,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.Parent</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9953,7 +9546,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.Description</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9964,7 +9557,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПартияSAP.StandardAttribute.Code</name>
+		<name>Catalog.УсловияТранспортирования.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -10111,17 +9704,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.Выгрузка_in_JSON</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -10755,17 +10337,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ.Dimension.Страна</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.нсиУдалениеПомеченныхОбъектовХранилища.TabularSection.ВидыКОповещению</name>
 		<right>
 			<name>View</name>
@@ -11048,7 +10619,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11059,7 +10630,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.Predefined</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11070,7 +10641,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.Ref</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11081,7 +10652,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.DeletionMark</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11092,7 +10663,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.IsFolder</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11103,7 +10674,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.Owner</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11114,7 +10685,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.Parent</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11125,7 +10696,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.Description</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11136,7 +10707,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.StandardAttribute.Code</name>
+		<name>Catalog.РегионыРоссии.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11144,17 +10715,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.Обмен_MDM_AX</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -11192,39 +10752,6 @@
 	</object>
 	<object>
 		<name>BusinessProcess.Задание.Attribute.ДополнительныйОбъектАдресации</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalPartners.Attribute.ShortName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.Dimension.Status</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Регионы.Attribute.КодРегиона</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -12096,17 +11623,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.Dimension.GlobalItem</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ВнешниеПользователи.Attribute.ИдентификаторПользователяИБ</name>
 		<right>
 			<name>View</name>
@@ -12423,17 +11939,6 @@
 	</object>
 	<object>
 		<name>BusinessProcess.нсиПакетныйВводЭлементовСправочника.TabularSection.ПрохождениеЭтапов.Attribute.СпособРаспределения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalBrand.Attribute.NameDetailed</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -13332,17 +12837,6 @@
 	</object>
 	<object>
 		<name>Catalog.ФизическиеЛица.TabularSection.Профессии</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.DeleteStatus</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -14545,17 +14039,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalIntercompany.Attribute.IncorporationCountry</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.нсиХранилищеСтрока.Attribute.УдалитьЭтоГруппа</name>
 		<right>
 			<name>View</name>
@@ -14612,105 +14095,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.ТранспортСообщенийОбменаFTP.Attribute.ШаблонИмениФайлаСообщения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCurrency.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15200,7 +14584,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеПроизводителиИмпортеры.Dimension.Global</name>
+		<name>InformationRegister.СоответствиеПроизводителиИмпортеры.Dimension.Factory</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15263,17 +14647,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.УдалитьАдресныйКлассификатор.Resource.АльтернативныеНазвания</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.Status</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15533,105 +14906,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.СопоставлениеОбъектовИнформационныхБаз.TabularSection.ТаблицаСортировки.Attribute.Использование</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаПогрузкиSAP.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16034,7 +15308,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеМатериалыИФормыТары.Dimension.Local</name>
+		<name>InformationRegister.СоответствиеМатериалыИФормыТары.Dimension.LocalPacking</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17422,7 +16696,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.ID</name>
+		<name>Catalog.GlobalSKU.Attribute.GlobalID</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17477,7 +16751,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.LocalName</name>
+		<name>Catalog.GlobalSKU.Attribute.LocalEntity</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17544,105 +16818,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.КонтактнаяИнформация.Resource.Поле3</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalCountries.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17796,7 +16971,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеТипУпаковки.Dimension.Local</name>
+		<name>InformationRegister.СоответствиеТипУпаковки.Dimension.LocalAmount</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18173,17 +17348,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalLabel.Attribute.Country</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ВерсииПодсистем.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -18396,21 +17560,6 @@
 		<name>Constant.ИзвлекатьТекстыФайловНаСервере</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.БуферОбмена</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -18803,17 +17952,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalEntity.Attribute.Intercompany</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОценкаПроизводительности.Attribute.Шаг</name>
 		<right>
 			<name>View</name>
@@ -18836,7 +17974,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеОбъемы.Dimension.Global</name>
+		<name>InformationRegister.СоответствиеОбъемы.Dimension.Volume</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -19187,17 +18325,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.BrandGroup</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.РассылкиОтчетов.Attribute.ТекстПисьмаВФорматеHTML</name>
 		<right>
 			<name>View</name>
@@ -19393,17 +18520,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.Dimension.LocalID</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>BusinessProcess.нсиУдалениеЭлементаСправочника.Attribute.ИмяСправочника</name>
 		<right>
 			<name>View</name>
@@ -19536,7 +18652,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеМатериалыИФормыТары.Dimension.Global</name>
+		<name>InformationRegister.СоответствиеМатериалыИФормыТары.Dimension.Packing</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -19704,105 +18820,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProduction.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.КаналыСбыта.Attribute.БазовойТипЦен</name>
 		<right>
 			<name>View</name>
@@ -19825,7 +18842,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеКрепости.Dimension.Local</name>
+		<name>InformationRegister.СоответствиеКрепости.Dimension.LocalAlcoholContent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -19892,105 +18909,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.КонвертацияОбъектовИнформационныхБаз.Attribute.РежимОтладки</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.КодГоризонтаРезервногоВремениSAP.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -20668,7 +19586,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеБрэндовИРазновидностейВкусов.Dimension.Бренд</name>
+		<name>InformationRegister.СоответствиеБрэндовИРазновидностейВкусов.Dimension.LocalBrand</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -23127,50 +22045,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ГруппаЦенМатериаловSAP.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
@@ -23553,17 +22427,6 @@
 	</object>
 	<object>
 		<name>Catalog.нсиУниверсальныйФункциональныйСправочник.TabularSection.ДополнительнаяКлассификация</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalBrand.Attribute.AdditionalInformation</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -24889,17 +23752,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВидМатериалаSAP.Attribute.ВидМатериала</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.УдалитьВерсииПодсистем.Attribute.ПланОбновления</name>
 		<right>
 			<name>View</name>
@@ -25479,105 +24331,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.РазмерПартииВРамкахППМSAP.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.РежимыПодключенияВнешнихМодулей.Attribute.ПредставлениеПрограммногоМодуля</name>
 		<right>
 			<name>View</name>
@@ -25623,17 +24376,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.ОценкаПроизводительности.Attribute.ВариантФильтраКомментарий</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.Dimension.LocalID</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -25959,17 +24701,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.Dimension.LocalItem</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ПоискИУстановкаОбновлений.TabularSection.ДоступныеОбновления.Attribute.ПутьКЛокальномуФайлуОбновления</name>
 		<right>
 			<name>View</name>
@@ -25992,7 +24723,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26003,7 +24734,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.Predefined</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26014,7 +24745,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.Ref</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26025,7 +24756,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.DeletionMark</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26036,7 +24767,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.IsFolder</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26047,7 +24778,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.Owner</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26058,7 +24789,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.Parent</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26069,7 +24800,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.Description</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26080,7 +24811,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатистическаяГруппаSAP.StandardAttribute.Code</name>
+		<name>Catalog.НалоговыйТриггерSAP.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26549,17 +25280,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Регионы.Attribute.КодАдресногоЭлемента</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.КонвертацияОбъектовИнформационныхБаз.Attribute.ИмяФайлаВнешнейОбработкиОтладкиЗагрузки</name>
 		<right>
 			<name>View</name>
@@ -26648,6 +25368,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ЖурналОбменаAX</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ДополнительныеОтчетыИОбработки.Attribute.РежимСовместимостиРазрешений</name>
 		<right>
 			<name>View</name>
@@ -26725,17 +25456,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalFactory.Attribute.Producer</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.УниверсальныйОбменДаннымиXML.Attribute.Комментарий</name>
 		<right>
 			<name>Edit</name>
@@ -26755,50 +25475,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.КонвертацияОбъектовИнформационныхБаз.Attribute.ВыводВПротоколИнформационныхСообщений</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -27238,105 +25914,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиТранспортаОбмена.Resource.КоличествоЭлементовВТранзакцииЗагрузкиДанных</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ГруппаТранспортировкиSAP.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -27974,50 +26551,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -28970,17 +27503,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.EntityCountry</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.РабочиеКаталогиФайлов.Dimension.Пользователь</name>
 		<right>
 			<name>View</name>
@@ -28993,17 +27515,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.ПомощникСозданияОбменаДанными.Attribute.ВерсияФорматаФайлаНастроекОбменаДанными</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalBrand.Attribute.NonProduct</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -29186,7 +27697,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalAlcoholContent.Attribute.AlcoholContentNumber</name>
+		<name>Catalog.GlobalAlcoholContent.Attribute.Value</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -29442,17 +27953,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.MappingGlobalAndLocalSKU.Dimension.GlobalItem</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.СопоставлениеОбъектовИнформационныхБаз.Attribute.ПоляТаблицыПриемника</name>
 		<right>
 			<name>View</name>
@@ -29695,18 +28195,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalBrand.Attribute.MainBrand</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СоответствиеКрепости.Dimension.Global</name>
+		<name>InformationRegister.СоответствиеКрепости.Dimension.AlcoholContent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -29834,7 +28323,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеРегионыСбыта.Dimension.Global</name>
+		<name>InformationRegister.СоответствиеРегионыСбыта.Dimension.Label</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -30120,17 +28609,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.MappingGlobalAndLocalPartners.Dimension.Status</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Обмены</name>
 		<right>
 			<name>Read</name>
@@ -30146,7 +28624,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеОбъемы.Dimension.Local</name>
+		<name>InformationRegister.СоответствиеОбъемы.Dimension.LocalVolume</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -30647,17 +29125,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ.Resource.ИспользоватьРазделениеНСИ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ИдентификаторыОбъектовМетаданных.Attribute.НоваяСсылка</name>
 		<right>
 			<name>View</name>
@@ -30962,17 +29429,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalIntercompany.Attribute.BusinessType</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ.Dimension.Узел</name>
 		<right>
 			<name>View</name>
@@ -31263,17 +29719,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЗависимостиПравДоступа.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalSKU.Attribute.ForDescription</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -32762,7 +31207,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalPartners.Attribute.LocalName</name>
+		<name>Catalog.GlobalPartners.Attribute.LocalEntity</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -32996,7 +31441,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеМодификацииВерсии.Dimension.Local</name>
+		<name>InformationRegister.СоответствиеМодификацииВерсии.Dimension.LocalVersion</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33539,7 +31984,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33550,7 +31995,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.Predefined</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33561,7 +32006,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.Ref</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33572,7 +32017,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.DeletionMark</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33583,7 +32028,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.IsFolder</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33594,7 +32039,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.Owner</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33605,7 +32050,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.Parent</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33616,7 +32061,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.Description</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33627,7 +32072,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассSAP.StandardAttribute.Code</name>
+		<name>Catalog.ВидЗаготовкиSAP.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33661,17 +32106,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиОчисткиФайлов.Resource.ПравилоОтбора</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalMaterialType.Attribute.ItIsAGroup</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -34711,18 +33145,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.итНастройкиГруппУправленияНСИ.Dimension.ГруппаУправленияНСИ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СоответствиеРегионыСбыта.Dimension.Local</name>
+		<name>InformationRegister.СоответствиеРегионыСбыта.Dimension.LocalLabel</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -34800,17 +33223,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.АдресныеОбъекты.Dimension.КодУлицы</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalBrand.Attribute.Remarks</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -35191,105 +33603,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТипПланированияПотребностиМатериаловSAP.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ГруппыВнешнихПользователей.TabularSection.Состав</name>
 		<right>
 			<name>View</name>
@@ -35357,17 +33670,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ПользовательскиеМакетыПечати.Resource.Макет</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalPartners.Attribute.ShortNameNumber</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -35672,17 +33974,6 @@
 	</object>
 	<object>
 		<name>Catalog.алкПунктыРазгрузки.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalBrand.Attribute.Production</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -36231,17 +34522,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ВыгрузкаИзМДМ_УПП</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений.Dimension.Вариант</name>
 		<right>
 			<name>View</name>
@@ -36276,17 +34556,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом.Resource.ЭтоФайл</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.Attribute.Entity</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -36407,17 +34676,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalPartners.Attribute.ЭтоМакет</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Task.ЗадачаИсполнителя.Attribute.ПредметСтрокой</name>
 		<right>
 			<name>View</name>
@@ -36430,17 +34688,6 @@
 	</object>
 	<object>
 		<name>Catalog.ПапкиФайлов.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ВыгрузкаИзМДМ_УПП.Attribute.Организация</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -36674,7 +34921,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalPartners.Attribute.LocalID</name>
+		<name>Catalog.GlobalPartners.Attribute.ExistingLocalID</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -37257,17 +35504,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ПараметрыРаботыВерсийРасширений.Dimension.ВерсияРасширений</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalIntercompany.Attribute.Currency</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -37945,17 +36181,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalEntity.Attribute.DomesticCountry</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.алкВидыАлкогольнойПродукции.Attribute.СтавкаАкцизаДляКомпенсации</name>
 		<right>
 			<name>View</name>
@@ -37967,18 +36192,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalPartners.Attribute.ID</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Регионы.Attribute.ЖДСтанцияНазначения</name>
+		<name>Catalog.GlobalPartners.Attribute.GlobalID</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -38001,17 +36215,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.СопоставлениеОбъектовИнформационныхБаз.TabularSection.ТаблицаАвтоматическиСопоставленныхОбъектов.Attribute.ИсточникПоле4</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalMaterialType.Attribute.MaterialTypeMain</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -38265,17 +36468,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента.Attribute.ПерваяСтрокаДанныхТабличногоДокумента</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalEntity.Attribute.IncorporationCountry</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -39414,17 +37606,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalLabel.Attribute.Production</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Пользователи.TabularSection.КонтактнаяИнформация</name>
 		<right>
 			<name>View</name>
@@ -39920,17 +38101,6 @@
 	</object>
 	<object>
 		<name>Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Разделы.Attribute.Раздел</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalPartners.Attribute.Intercompany</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -40985,17 +39155,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalBrand.Attribute.ParentBrand</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.нсиХранилищеСтрока.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -41659,105 +39818,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ПользовательскиеМакетыПечати.Dimension.ИмяМакета</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.GlobalProducer.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -43563,7 +41623,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СоответствиеТипУпаковки.Dimension.Global</name>
+		<name>InformationRegister.СоответствиеТипУпаковки.Dimension.Amount</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -44314,17 +42374,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.GlobalSKU.Attribute.LocalID</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.нсиУниверсальныйФункциональныйСправочник.TabularSection.ДополнительнаяКлассификация.Attribute.Класс</name>
 		<right>
 			<name>View</name>
@@ -44733,17 +42782,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.РезультатыОбменаДанными.Attribute.НомерДокумента</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Регионы.Attribute.Комментарий</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

@@ -34,3 +34,15 @@
 		Возврат ОписаниеОшибки();
 	КонецПопытки;
 КонецФункции
+
+Функция FindObject(DataType, GUID)
+	
+	Возврат MDMСервер.НайтиОбъектПоGUID(DataType, GUID);
+	
+КонецФункции
+
+Функция CreateObject(DataType, Description, IsFolder, OwnerGUID, OwnerDataType)
+	
+	Возврат MDMСервер.СоздатьОбъектMDM(DataType, Description, IsFolder, OwnerGUID, OwnerDataType);
+	
+КонецФункции

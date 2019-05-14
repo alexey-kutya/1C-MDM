@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Соответствие Тип упаковки</v8:content>
+					<v8:content>Mapping Amount - Тип упаковки</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -170,11 +170,11 @@
 		<ChildObjects>
 			<Dimension uuid="60f45797-4be7-4b3b-85fe-622550ae5e15">
 				<Properties>
-					<Name>Local</Name>
+					<Name>LocalAmount</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Local</v8:content>
+							<v8:content>Local amount</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -212,11 +212,11 @@
 			</Dimension>
 			<Dimension uuid="f0159c49-a0b7-4e11-acb3-f99dc82f0179">
 				<Properties>
-					<Name>Global</Name>
+					<Name>Amount</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Global</v8:content>
+							<v8:content>Amount</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

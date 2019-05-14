@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Соответствие Производители / Импортеры</v8:content>
+					<v8:content>Mapping Factory - Производитель/Импортер</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -170,11 +170,11 @@
 		<ChildObjects>
 			<Dimension uuid="33709d2b-3882-432f-add0-192a4d8adaee">
 				<Properties>
-					<Name>Local</Name>
+					<Name>LocalFactory</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Local</v8:content>
+							<v8:content>Local factory</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -212,11 +212,11 @@
 			</Dimension>
 			<Dimension uuid="538ed374-0129-41c1-a79f-4e20a034009f">
 				<Properties>
-					<Name>Global</Name>
+					<Name>Factory</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Global</v8:content>
+							<v8:content>Factory</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
